@@ -1,0 +1,13 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0616	MCTs37	4	2017-02-03	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	7:00 AM	27.3	-1.3	3	16	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0617	MCTs37	5	2017-02-04	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	7:30 AM	27.3	-1.3	3	6	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0618	MCTs37	6	2017-02-05	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	8:15 AM	27.3	-1.3	6	26	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0619	MCTs37	7	2017-02-06	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	4:45 AM	27.3	-1.3	3	12	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0620	MCTs37	8	2017-02-07	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	7	1	6:15 PM	27.3	-1.3	5	40	Sample	Transition	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0621	MCTs37	9	2017-02-08	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	6:45 PM	27.3	-1.3	5	10	Sample	Transition	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0622	MCTs37	10	2017-02-09	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	9:30 PM	27.3	-1.3	6	22	Sample	Transition	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0623	MCTs37	11	2017-02-10	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	6:40 PM	27.3	-1.3	1	12	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0624	MCTs37	12	2017-02-11	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	6:40 PM	27.3	-1.3	5	19	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0625	MCTs37	13	2017-02-12	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	8:00 PM	27.3	-1.3	2	94	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0627	MCTs37	15	2017-02-14	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	8:15 PM	27.3	-1.3	4	78	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0628	MCTs37	16	2017-02-15	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	7:30 PM	27.3	-1.3	2	74	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None

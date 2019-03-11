@@ -1,0 +1,17 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0427	MCTs26	2	2017-02-01	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	6:33 AM	26	-2.8	1	40	Sample	Pre	1.55	None	None
+MCT.f.0428	MCTs26	3	2017-02-02	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	11:00 AM	26	-2.8	4	18	Sample	Pre	1.55	None	None
+MCT.f.0429	MCTs26	4	2017-02-03	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	9:00 AM	26	-2.8	1	55	Sample	Pre	1.55	None	None
+MCT.f.0430	MCTs26	5	2017-02-04	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	12:00 PM	26	-2.8	5	35	Sample	Pre	1.55	None	None
+MCT.f.0431	MCTs26	6	2017-02-05	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	9:00 AM	26	-2.8	3	41	Sample	Pre	1.55	None	None
+MCT.f.0432	MCTs26	7	2017-02-06	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	6:45 AM	26	-2.8	4	38	Sample	Pre	1.55	None	None
+MCT.f.0433	MCTs26	8	2017-02-07	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	7	1	10:00 AM	26	-2.8	3	35	Sample	Transition	1.55	None	None
+MCT.f.0434	MCTs26	9	2017-02-08	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	5:30 PM	26	-2.8	5	71	Sample	Transition	1.55	None	None
+MCT.f.0435	MCTs26	10	2017-02-09	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	12:26 PM	26	-2.8	6	28	Sample	Transition	1.55	None	None
+MCT.f.0436	MCTs26	11	2017-02-10	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	11:00 AM	26	-2.8	2	90	Sample	Post	1.55	None	None
+MCT.f.0437	MCTs26	12	2017-02-11	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	8:45 AM	26	-2.8	4	41	Sample	Post	1.55	None	None
+MCT.f.0438	MCTs26	13	2017-02-12	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	8:30 AM	26	-2.8	4	71	Sample	Post	1.55	None	None
+MCT.f.0439	MCTs26	14	2017-02-13	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	9:15 AM	26	-2.8	6	34	Sample	Post	1.55	None	None
+MCT.f.0440	MCTs26	15	2017-02-14	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	1:15 PM	26	-2.8	5	42	Sample	Post	1.55	None	None
+MCT.f.0441	MCTs26	16	2017-02-15	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	7:15 AM	26	-2.8	4	8	Sample	Post	1.55	None	None
+MCT.f.0442	MCTs26	17	2017-02-16	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	5:45 PM	26	-2.8	5	66	Sample	Post	1.55	None	None

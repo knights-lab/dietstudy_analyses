@@ -1,0 +1,289 @@
+---
+title: "Combined day files for procrustes and other analyses"
+author: "Abby"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+always_allow_html: yes
+---
+
+Goal of this notebook is to generate generate files that sum 2, 3, 4, and 5 days of dietary records to be used in downstream analysis.
+Secondary goal is to create the same files, but offset by 2, 3, 4, and 5 days.
+
+Output will feed into QIIME or R.
+
+```{r setup, include=FALSE, message = FALSE}
+
+require(rmarkdown)
+require(knitr)
+require(tidyverse)
+require(stringr)
+require(dplyr)
+require(reshape2)
+require(zoo)
+require(RColorBrewer)
+
+
+opts_knit$set(root.dir = "/Users/abby/Documents/Projects/dietstudy/")
+opts_chunk$set(echo = TRUE, fig.path = "Figs/", dev = c("png", "pdf"), dpi = 300)
+
+```
+
+```{r load long map, echo = FALSE}
+map_sample <- read.table("data/maps/SampleID_map.txt", sep = "\t", header = T, comment = "")
+map_username <- read.table("data/maps/UserName_map.txt", sep = "\t", header = T, comment = "")
+
+map_sample$StudyDate <- as.Date.factor(map_sample$StudyDate, format = "%m/%d/%y")
+
+#load other maps
+food_map <- read.table("data/maps/food_map_no_soy.txt", sep = "\t", header = T, comment = "")
+tax_map <- read.table("data/maps/taxonomy_norm_map.txt", sep = "\t", header = T, comment = "")
+
+
+```
+
+```{r load microbiome and food data, echo=FALSE}
+tax <- read.delim("data/processed_tax/taxonomy_clr_s.txt", row = 1)
+
+food <- read.table("data/processed_food/dhydrt.txt", header = T, sep = "\t", comment = "", row = 1)
+food_taxa <- read.table("raw/diet.taxonomy.txt", header = T, sep = "\t", comment = "", row = 3)
+food_taxa <- food_taxa[,colnames(food_taxa) != "FoodID", drop=F]
+
+# drop samples from the food_map that are not in the food file and vice versa to drop soylents
+food_map <- food_map[food_map$X.SampleID %in% colnames(food),] # drop rows
+food <- food[,colnames(food) %in% food_map$X.SampleID]
+
+table(food_map$UserName) # almost all people have complete diet data (only 3 incomplete timelines)
+
+table(tax_map$UserName) # many more people are missing microbiome samples
+```
+
+```{r clean map and match food and tax,echo=F}
+
+# remove blanks
+map_sample <- map_sample %>% filter(Study.Status != "Blank")
+
+# remove dropouts
+map_sample <- map_sample %>% filter(Study.Status != "Dropped")
+
+# remove soylent
+map_sample <- map_sample %>% filter(UserName != "MCTs11", UserName != "MCTs12")
+
+
+### Previously I limited to summing diet for each stool sample, but first limited only to days when there were pairs of diet/stool
+# Now I think that was the wrong way to do this.
+
+# set map to only contain samples with corresponding taxa data
+#map_tax <- map_sample[map_sample$X.SampleID %in% colnames(tax),]
+
+# and food data
+#map_food <- map_sample[map_sample$X.SampleID %in% colnames(food),]
+
+# set taxa to only contain samples with corresponding map data
+#tax <- tax[, colnames(tax) %in% map_sample$X.SampleID]
+
+# same for food
+#food <- food[,colnames(food) %in% colnames(tax)]
+
+
+# final count is 443 matched samples (we need to match for individual tests below, but do we really need matched for smry level?)
+
+```
+
+
+```{r procrustes by individual with combined days, echo = F}
+# make a table for tax, map, and food for each individual
+#loop through and write each to a txt file
+
+# TODO work out issue wtih the two swapped samples naming makes this challenging...
+
+#make lists to fill
+foodsub <- list()
+taxsub <- list()
+mapsub <- list()
+
+days <- 1
+
+for (i in unique(map_sample$UserName)){
+  subgroup <- map_sample[map_sample$UserName == i,]
+  
+  # foods
+  foodsub[[i]] <- food[,colnames(food) %in% subgroup$X.SampleID] # subset to one username
+  foodsub[[i]] <- foodsub[[i]][,order(names(foodsub[[i]]))] # ensure order is sequential by day
+  
+  # if(length(foodsub[[i]]) <= days + 1) {
+  #   print(paste0("skipping"," ", i))
+  #   next
+  # }
+  # 
+      # apply rollapply
+  foodsub[[i]] <- t(foodsub[[i]])                                   # transpose for the rollapply function
+  foodsub[[i]] <- rollapply(foodsub[[i]], days, sum, by.column = TRUE) # apply rollapply function
+  foodsub[[i]] <- t(foodsub[[i]])                                   # transpose back
+  
+  # fix names on foodsub df
+  #rename the new summarized data starting with the first summarized day's name
+  newnames <- as.character(subgroup$X.SampleID[days:(dim(foodsub[[i]])[2]+(days-1))])
+  colnames(foodsub[[i]]) <- newnames 
+  
+  # pair tax and summarized food days
+  taxsub[[i]] <- tax[,colnames(tax) %in% colnames(foodsub[[i]]), drop = F]  # subset to match the foodsub ids
+  foodsub[[i]] <- foodsub[[i]][,colnames(foodsub[[i]]) %in% colnames(taxsub[[i]])] # do the same to match the taxsub ids
+  
+  # prep for export
+  taxsub[[i]] <- rownames_to_column(taxsub[[i]], var = "#taxonomy")
+  foodsub[[i]] <- merge(foodsub[[i]], food_taxa, by = 0)         # add taxonomy information back to each df
+  #rownames(foodsub[[i]]) <- foodsub[[i]][,"Row.names"]           # format for export
+  #foodsub[[i]] <- foodsub[[i]][,colnames(foodsub[[i]]) != "Row.names", drop = F]  # format for export
+  colnames(foodsub[[i]])[1] <- "#FoodID"                         # add name for export
+  
+  
+  # map
+  mapsub[[i]] <- subgroup[subgroup$X.SampleID %in% colnames(foodsub[[i]]),] # subset to match the foodsub ids
+  colnames(mapsub[[i]])[1] <- "#SampleID"
+
+  }
+
+
+for (df in names(mapsub)) {
+  #write foods to table
+  write.table(foodsub[[df]], file = paste0("figures/figure 4/procrustes/data_username/", df, "_food", ".txt"), sep = "\t", quote = F,  row.names = F, col.names = T)
+  
+  # write taxa to table
+  write.table(taxsub[[df]], file = paste0("figures/figure 4/procrustes/data_username/", df, "_tax", ".txt"), sep = "\t", quote = F,  row.names = F, col.names = T)
+  
+  # write map to table
+  write.table(mapsub[[df]], file = paste0("figures/figure 4/procrustes/data_username/", df, "_map", ".txt"), sep = "\t", quote = F,  row.names = F, col.names = T)
+  
+}
+
+
+```
+
+
+```{r procrustes by individual with offset days, echo = F}
+
+# Need to update this code:
+# make a table for tax, map, and food for each individual
+#loop through and write each to a txt file
+require(stringr)
+
+map <- read.table("data/maps/SampleID_map.txt", sep = "\t", header = T, comment = "")
+# remove blanks and dropouts
+map <- map[!(grepl("Blank", map$X.SampleID)),]
+map <- map[!map$Study.Status == "Dropped",]
+
+# drop subject 29 becuase she has too many missing dietary days
+# map <- map[!map$UserName == "MCTs29",]
+
+# drop soylent subjects becuase they wont be informative for this
+map <- map[!map$UserName == "MCTs11",]
+map <- map[!map$UserName == "MCTs12",]
+
+
+# reload the taxonomy and food data, becuase we don't need to have perfectly matching samples
+# matching takes place for each person, so best to start with the full data
+tax <- read.delim("data/processed_tax/taxonomy_clr_s.txt", row = 1)
+food <- read.table("data/processed_food/dhydrt.txt", header = T, sep = "\t", comment = "", row.names = 1)
+food <- food[,!colnames(food) == "taxonomy"]
+
+
+#make lists to fill
+foodsublist <- list()
+taxsublist <- list()
+mapsublist <- list()
+
+for (i in unique(map$UserName)){
+  # start with the total map of all samples
+  subgroup <- map[map$UserName == i,]
+  
+  # subgroup ids
+  ids <- as.character(subgroup$X.SampleID)
+
+  # set number of days removed
+  days = 5
+  
+  # ids for diet x days prior are the ids for diet 1 day -x days
+  id_num <- as.character(as.numeric(gsub("MCT.f.", "", ids)) - (days-1))
+  ids_diet_match <- paste0("MCT.f.", str_pad(id_num, 4, pad = "0"))
+  # limit to just the ids possible for this person
+  ids_diet_match <- ids_diet_match[ids_diet_match %in% ids]
+  # get ids for taxonomy that should match up
+  ids_tax_match <- ids[days:length(ids)]
+  
+  match_up <- cbind(ids_diet_match, ids_tax_match)
+  match_up <- as.data.frame(match_up)
+  match_up$new_id <- paste0("sample",seq.int(nrow(match_up)))
+  
+  # subset to make the first subgroup *try with 2 days prior
+  foodsub <- food[,colnames(food) %in% match_up$ids_diet_match]
+  foodsub <- foodsub[,order(names(foodsub))]
+  taxsub <- tax[,colnames(tax) %in% match_up$ids_tax_match]
+  taxsub <- taxsub[,order(names(taxsub))]
+  
+  # change names food file
+  foodsub <- as.data.frame(t(foodsub))
+  foodsub <- rownames_to_column(foodsub, var = "ids_diet_match")
+  foodsub <- merge(match_up, foodsub)
+  foodsub <- foodsub %>% select(-c(ids_diet_match, ids_tax_match))
+  foodsub <- column_to_rownames(foodsub, var = "new_id")
+  foodsub <- as.data.frame(t(foodsub))
+  
+  # change names tax file
+  taxsub <- as.data.frame(t(taxsub))
+  taxsub <- rownames_to_column(taxsub, var = "ids_tax_match")
+  taxsub <- merge(match_up, taxsub)
+  taxsub <- taxsub %>% select(-c(ids_diet_match, ids_tax_match))
+  taxsub <- column_to_rownames(taxsub, var = "new_id")
+  taxsub <- as.data.frame(t(taxsub))
+  
+  # subset to matching pairs and make corresponding map
+  taxsub <- taxsub[,colnames(taxsub) %in% colnames(foodsub)]
+  foodsub <- foodsub[, colnames(foodsub) %in% colnames(taxsub)]
+  mapsub <- inner_join(match_up, subgroup, by = c("ids_tax_match" = "X.SampleID"))
+  mapsub <- mapsub[mapsub$new_id %in% colnames(foodsub),]
+  mapsub <- mapsub %>% select(-c(ids_tax_match, ids_diet_match))
+  
+  # add food taxonomy back
+  foodsub <- merge(foodsub, food_taxa, by = 0)
+  colnames(foodsub)[1] <- "#FoodID"
+  
+  # label taxsub correctly
+  taxsub <- rownames_to_column(taxsub, var = "#taxonomy")
+  
+  # label mapsub correctly
+  colnames(mapsub)[1] <- "#SampleID"
+  
+  # put in lists
+  foodsublist[[i]] <- foodsub
+  taxsublist[[i]] <- taxsub
+  mapsublist[[i]] <- mapsub
+
+  }
+
+
+for (df in names(mapsublist)) {
+  #write foods to table
+  write.table(foodsublist[[df]], file = paste0("figures/figure 4/procrustes/data_username_offset/", df, "_food", ".txt"), sep = "\t", quote = F,  row.names = F, col.names = T)
+  
+  # write taxa to table
+  write.table(taxsublist[[df]], file = paste0("figures/figure 4/procrustes/data_username_offset/", df, "_tax", ".txt"), sep = "\t", quote = F,  row.names = F, col.names = T)
+  
+  # write map to table
+  write.table(mapsublist[[df]], file = paste0("figures/figure 4/procrustes/data_username_offset/", df, "_map", ".txt"), sep = "\t", quote = F,  row.names = F, col.names = T)
+  
+}
+
+
+```
+
+```{r run qiime scripts in terminal, echo = F}
+
+# scripts for qiime are in lib/procrustes.sh
+
+# or in lib/procrustes_offset.sh
+
+
+```
+
+
+

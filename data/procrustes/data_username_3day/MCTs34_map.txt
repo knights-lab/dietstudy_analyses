@@ -1,0 +1,12 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0564	MCTs34	3	2017-02-02	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	4	13	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0565	MCTs34	4	2017-02-03	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	1	52	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0566	MCTs34	5	2017-02-04	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	1	81	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0567	MCTs34	6	2017-02-05	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	1	86	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0568	MCTs34	7	2017-02-06	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	6	42	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0570	MCTs34	9	2017-02-08	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	4	34	Sample	Transition	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0573	MCTs34	12	2017-02-11	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	4	83	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0574	MCTs34	13	2017-02-12	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	2	38	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0575	MCTs34	14	2017-02-13	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	4	82	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0577	MCTs34	16	2017-02-15	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	3	84	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0578	MCTs34	17	2017-02-16	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	4	86	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil

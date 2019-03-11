@@ -1,0 +1,19 @@
+Food	Species	Correlation	Pvalue	fdr_pval	ID
+Darkgreen_vegetables	Bacteroides intestinalis	-0.83	< 0.001	0.18	32
+Darkgreen_vegetables	Bacteroides intestinalis	0.84	< 0.001	0.12	23
+Other_vegetables	Bacteroides sp. AR20	-0.9	< 0.001	0.12	35
+Other_vegetables	Bacteroides sp. AR20	0.84	< 0.001	0.12	23
+Grain_mixtures_frozen_plate_meals_soups	Blautia wexlerae	0.93	< 0.001	0.09	20
+Grain_mixtures_frozen_plate_meals_soups	Blautia wexlerae	-0.89	< 0.001	0.15	25
+Alcoholic_beverages	Collinsella aerofaciens	0.84	< 0.001	0.19	26
+Alcoholic_beverages	Collinsella aerofaciens	0.94	< 0.001	0.06	13
+Alcoholic_beverages	Collinsella sp. 4_8_47FAA	0.96	< 0.001	0.04	13
+Alcoholic_beverages	Collinsella sp. 4_8_47FAA	0.87	< 0.001	0.12	26
+Nuts_nut_butters_and_nut_mixtures	Coprococcus comes	-0.89	< 0.001	0.19	10
+Nuts_nut_butters_and_nut_mixtures	Coprococcus comes	-0.77	0.002	0.19	22
+Milks_and_milk_drinks	Lactobacillus rogosae	-0.88	< 0.001	0.17	32
+Milks_and_milk_drinks	Lactobacillus rogosae	0.81	< 0.001	0.19	33
+Nonalcoholic_beverages	Uncl. Genus Alistipes	0.8	0.002	0.19	32
+Nonalcoholic_beverages	Uncl. Genus Alistipes	0.91	< 0.001	0.11	35
+Organ_meats_sausages_and_lunchmeats	Uncl. Genus Haemophilus	0.8	0.001	0.18	22
+Organ_meats_sausages_and_lunchmeats	Uncl. Genus Haemophilus	0.83	< 0.001	0.18	32

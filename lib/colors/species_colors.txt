@@ -1,0 +1,35 @@
+k	p	c	o	f	g	s	color family	sort	color	Group membership
+k__Bacteria	p__Actinobacteria	c__Actinobacteria	o__Bifidobacteriales	f__Bifidobacteriaceae	g__Bifidobacterium	s__Bifidobacterium adolescentis	1	5	"#f4f4f4,"	g__Bifidobacterium
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides massiliensis	2	9	"#ff0000,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides plebeius	2	11	"#d20000,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides coprocola	2	12	"#ff5084,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides thetaiotaomicron	2	15	"#e242a8,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides fragilis	2	16	"#ffaae8,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides cellulosilyticus	2	17	"#df97ac,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides caccae	2	18	"#ffede7,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides ovatus	2	20	"#ffa787,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides vulgatus	2	26	"#dd6c43,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides dorei	2	27	"#c25945,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides stercoris	2	28	"#b6601e,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides uniformis	2	32	"#8f0000,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	NA	2	34	"#6f1253,"	g__Bacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Barnesiellaceae	g__Barnesiella	s__Barnesiella intestinihominis	3	8	"#ffaa00,"	g__Barnesiella
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Prevotellaceae	g__Paraprevotella	s__Paraprevotella clara	4	7	"#f4e909,"	f__Prevotellaceae
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Prevotellaceae	g__Prevotella	s__Prevotella copri	4	31	"#d7dd4c,"	f__Prevotellaceae
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	g__Alistipes	s__Alistipes sp. AL-1	5	1	"#afd35a,"	f__Rikenellaceae
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	NA	NA	5	3	"#3c3e00,"	f__Rikenellaceae
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	g__Alistipes	s__Alistipes onderdonkii	5	10	"#69ef7b,"	f__Rikenellaceae
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	g__Alistipes	s__Alistipes obesi	5	14	"#5bc07f,"	f__Rikenellaceae
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	g__Alistipes	NA	5	22	"#668e57,"	f__Rikenellaceae
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	g__Alistipes	s__Alistipes finegoldii	5	23	"#3d7600,"	f__Rikenellaceae
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	g__Alistipes	s__Alistipes shahii	5	25	"#12982d,"	f__Rikenellaceae
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	g__Alistipes	s__Alistipes putredinis	5	30	"#02531d,"	f__Rikenellaceae
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Tannerellaceae	g__Parabacteroides	s__Parabacteroides merdae	6	19	"#0024ff,"	g__Parabacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	f__Tannerellaceae	g__Parabacteroides	NA	6	24	"#1f72d4,"	g__Parabacteroides
+k__Bacteria	p__Bacteroidetes	c__Bacteroidia	o__Bacteroidales	NA	NA	NA	7	29	"#01ceff,"	o__Bacteroidales
+k__Bacteria	p__Firmicutes	c__Clostridia	o__Clostridiales	f__Lachnospiraceae	g__Fusicatenibacter	s__Fusicatenibacter saccharivorans	8	2	"#ec9bfa,"	f__Lachnospiraceae
+k__Bacteria	p__Firmicutes	c__Clostridia	o__Clostridiales	f__Lachnospiraceae	g__Roseburia	s__Roseburia faecis	8	6	"#a717d9,"	f__Lachnospiraceae
+k__Bacteria	p__Firmicutes	c__Clostridia	o__Clostridiales	f__Lachnospiraceae	g__	s__[Eubacterium] rectale	8	13	"#b04fbc,"	f__Lachnospiraceae
+k__Bacteria	p__Firmicutes	c__Clostridia	o__Clostridiales	f__Ruminococcaceae	g__Ruminiclostridium	s__[Eubacterium] siraeum	9	4	"#aaa4e1,"	o__Clostridiales
+k__Bacteria	p__Firmicutes	c__Clostridia	o__Clostridiales	NA	NA	NA	9	21	#71619c	o__Clostridiales
+k__Bacteria	p__Firmicutes	c__Clostridia	o__Clostridiales	f__Ruminococcaceae	g__Faecalibacterium	s__Faecalibacterium prausnitzii	9	33	"#4b03a9,"	o__Clostridiales

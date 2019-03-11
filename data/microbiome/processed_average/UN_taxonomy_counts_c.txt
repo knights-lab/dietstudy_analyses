@@ -1,0 +1,16 @@
+#taxonomy	MCTs01	MCTs03	MCTs04	MCTs05	MCTs06	MCTs07	MCTs08	MCTs09	MCTs10	MCTs11	MCTs12	MCTs13	MCTs14	MCTs15	MCTs16	MCTs18	MCTs19	MCTs20	MCTs21	MCTs22	MCTs23	MCTs24	MCTs25	MCTs26	MCTs27	MCTs28	MCTs29	MCTs31	MCTs32	MCTs33	MCTs34	MCTs35	MCTs36	MCTs37
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia	7292	7717	8318	7310	5301	7634	8982	8231	8285	8437	8443	8364	7502	8301	7575	8065	8431	8714	8245	8375	9036	8953	8394	7970	7123	6526	4118	8029	6834	8753	7691	6702	7338	9474
+k__Bacteria;p__Firmicutes;c__Clostridia	2219	1743	1364	2078	3526	2015	898	1555	1373	1095	1147	1355	1961	1297	1298	1562	1401	996	1657	1290	720	698	1342	1521	2475	2325	4027	1766	2663	826	1675	1495	1984	242
+k__Bacteria;p__Actinobacteria;c__Actinobacteria	226	117	41	268	513	98	7	0	39	1	3	1	4	232	571	191	1	82	0	29	31	189	40	350	0	740	710	12	23	159	128	992	30	87
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria	80	269	1	227	282	57	26	66	116	348	240	90	347	86	273	105	1	5	0	14	61	48	80	73	55	88	252	0	219	157	0	230	556	22
+k__Bacteria;p__Verrucomicrobia;c__Verrucomicrobiae	3	0	2	0	2	13	0	9	93	0	0	4	20	3	67	0	0	112	2	175	87	0	0	6	192	29	280	0	0	43	389	100	0	12
+k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria	78	61	51	54	108	18	24	61	15	33	101	30	22	10	18	0	11	10	32	31	6	35	43	41	85	74	187	6	113	18	0	53	26	36
+k__Bacteria;p__Firmicutes;NA	25	27	24	16	59	28	9	20	24	21	13	24	40	27	40	14	25	30	24	24	16	10	15	16	24	67	69	35	53	12	28	23	15	2
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria	5	8	41	19	28	103	3	6	26	25	25	85	1	5	15	2	55	2	5	6	25	22	1	1	15	41	145	23	1	0	11	35	10	95
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia	21	10	43	14	17	14	10	15	8	16	5	9	24	12	80	17	40	20	7	9	5	17	34	10	10	81	111	11	47	14	26	20	27	7
+k__Bacteria;p__Firmicutes;c__Bacilli	23	36	78	5	12	7	20	3	4	3	4	16	18	9	36	9	5	14	9	29	2	6	7	4	4	4	68	64	9	11	25	50	7	16
+k__Bacteria;p__Firmicutes;c__Negativicutes	11	1	0	0	130	0	14	24	2	9	0	7	34	0	15	20	7	0	5	6	0	0	37	0	0	0	5	17	1	0	10	251	0	0
+k__Bacteria;NA;NA	7	4	27	4	11	8	2	7	9	3	4	6	14	9	5	6	10	11	5	6	5	17	3	3	7	9	10	27	25	4	7	45	4	3
+k__Bacteria;p__Firmicutes;c__Erysipelotrichia	3	4	8	1	7	4	2	3	6	8	10	5	9	5	5	1	4	4	4	3	2	1	2	3	10	9	10	9	6	1	8	2	2	0
+k__Bacteria;p__Bacteroidetes;NA	1	3	1	4	1	2	1	1	1	2	2	1	2	1	1	2	2	2	1	1	3	2	1	1	1	2	5	1	2	1	1	2	1	2
+k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria	6	1	2	0	4	1	0	1	0	0	0	0	1	3	0	6	9	0	2	1	0	0	0	1	0	5	4	1	2	0	1	0	0	0

@@ -1,0 +1,15 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0106	MCTs07	4	2017-02-03	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	1	10:00 AM	27.4	-3.2	6	39	Sample	Pre	1.55	None	VitD
+MCT.f.0107	MCTs07	5	2017-02-04	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	1	10:45 PM	27.4	-3.2	5	80	Sample	Pre	1.55	None	VitD
+MCT.f.0108	MCTs07	6	2017-02-05	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	1	9:30 AM	27.4	-3.2	4	17	Sample	Pre	1.55	None	VitD
+MCT.f.0109	MCTs07	7	2017-02-06	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	1	7:45 AM	27.4	-3.2	1	26	Sample	Pre	1.55	None	VitD
+MCT.f.0110	MCTs07	8	2017-02-07	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	9	1	11:15 PM	27.4	-3.2	2	33	Sample	Transition	1.55	None	VitD
+MCT.f.0111	MCTs07	9	2017-02-08	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	No Time	27.4	-3.2	3	20	Sample	Transition	1.55	None	VitD
+MCT.f.0112	MCTs07	10	2017-02-09	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	9:30 AM	27.4	-3.2	4	67	Sample	Transition	1.55	None	VitD
+MCT.f.0113	MCTs07	11	2017-02-10	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	4:15 PM	27.4	-3.2	2	71	Sample	Post	1.55	None	VitD
+MCT.f.0114	MCTs07	12	2017-02-11	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	1:40 AM	27.4	-3.2	4	44	Sample	Post	1.55	None	VitD
+MCT.f.0115	MCTs07	13	2017-02-12	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	10:30 PM	27.4	-3.2	4	10	Sample	Post	1.55	None	VitD
+MCT.f.0116	MCTs07	14	2017-02-13	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	8:10 AM	27.4	-3.2	1	15	Sample	Post	1.55	None	VitD
+MCT.f.0117	MCTs07	15	2017-02-14	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	4:40 PM	27.4	-3.2	6	49	Sample	Post	1.55	None	VitD
+MCT.f.0118	MCTs07	16	2017-02-15	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	5:30 PM	27.4	-3.2	4	32	Sample	Post	1.55	None	VitD
+MCT.f.0119	MCTs07	17	2017-02-16	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	11:30 AM	27.4	-3.2	1	25	Sample	Post	1.55	None	VitD

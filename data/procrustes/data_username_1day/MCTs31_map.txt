@@ -1,0 +1,16 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0511	MCTs31	1	2017-01-31	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	12:45 PM	22.1	-0.3	6	55	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0512	MCTs31	2	2017-02-01	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	2:45 PM	22.1	-0.3	5	27	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0513	MCTs31	3	2017-02-02	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	9:15 AM	22.1	-0.3	3	17	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0514	MCTs31	4	2017-02-03	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	10:00 AM	22.1	-0.3	5	58	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0515	MCTs31	5	2017-02-04	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	10:50 AM	22.1	-0.3	5	28	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0516	MCTs31	6	2017-02-05	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	11:55 AM	22.1	-0.3	2	49	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0517	MCTs31	7	2017-02-06	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	10:20 AM	22.1	-0.3	3	53	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0519	MCTs31	9	2017-02-08	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	9:10 AM	22.1	-0.3	5	59	Sample	Transition	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0520	MCTs31	10	2017-02-09	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	8:45 PM	22.1	-0.3	4	15	Sample	Transition	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0522	MCTs31	12	2017-02-11	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	8:30 AM	22.1	-0.3	2	75	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0523	MCTs31	13	2017-02-12	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	9:30 AM	22.1	-0.3	2	32	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0524	MCTs31	14	2017-02-13	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	10:45 AM	22.1	-0.3	6	23	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0525	MCTs31	15	2017-02-14	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	10:00 AM	22.1	-0.3	4	47	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0526	MCTs31	16	2017-02-15	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	11:15 AM	22.1	-0.3	2	21	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0527	MCTs31	17	2017-02-16	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	12:10 PM	22.1	-0.3	6	3	Sample	Post	1.55	None	Multivitamin;VitD;fish oil

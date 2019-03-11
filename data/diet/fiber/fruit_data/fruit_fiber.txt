@@ -1,0 +1,73 @@
+#FoodID	MCTs01	MCTs03	MCTs04	MCTs06	MCTs07	MCTs08	MCTs09	MCTs10	MCTs13	MCTs14	MCTs15	MCTs16	MCTs18	MCTs19	MCTs20	MCTs21	MCTs22	MCTs23	MCTs24	MCTs25	MCTs26	MCTs27	MCTs28	MCTs29	MCTs31	MCTs32	MCTs33	MCTs34	MCTs35	MCTs36	MCTs37	taxonomy
+Lemon juice freshly squeezed	3	3	3	0	0	0	0	0	3	2	4	0	0	2	5	4	0	0	0	0	0	3	0	0	2	0	0	3	0	0	0	L1_Fruits;L2_Citrus_fruits_juices;L3_Citrus_fruit_juices;L4_;L5_;Lemon_juice_freshly_squeezed
+Lime juice freshly squeezed	4	0	0	0	3	0	3	3	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Citrus_fruits_juices;L3_Citrus_fruit_juices;L4_;L5_;Lime_juice_freshly_squeezed
+Orange juice canned bottled or in a carton	0	0	0	0	0	8	5	0	0	0	0	0	0	0	0	0	4	4	0	0	0	4	0	5	0	0	0	5	6	5	0	L1_Fruits;L2_Citrus_fruits_juices;L3_Citrus_fruit_juices;L4_;L5_;Orange_juice_canned_bottled_or_in_a_carton
+Orange juice freshly squeezed	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	3	0	0	0	L1_Fruits;L2_Citrus_fruits_juices;L3_Citrus_fruit_juices;L4_;L5_;Orange_juice_freshly_squeezed
+Orange juice with calcium added canned bottled or in a carton	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Citrus_fruits_juices;L3_Citrus_fruit_juices;L4_;L5_;Orange_juice_with_calcium_added_canned_bottled_or_in_a_carton
+Grapefruit raw	0	0	6	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Citrus_fruits_juices;L3_Citrus_fruits;L4_;L5_;Grapefruit_raw
+Lemon raw	0	0	5	0	0	4	0	0	3	0	0	0	0	5	0	3	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	L1_Fruits;L2_Citrus_fruits_juices;L3_Citrus_fruits;L4_;L5_;Lemon_raw
+Lime raw	0	0	0	0	3	4	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	5	0	0	0	0	4	0	L1_Fruits;L2_Citrus_fruits_juices;L3_Citrus_fruits;L4_;L5_;Lime_raw
+Orange raw	0	0	5	0	8	0	6	8	0	0	9	11	0	8	10	6	5	8	8	0	0	0	0	0	9	3	0	0	0	0	0	L1_Fruits;L2_Citrus_fruits_juices;L3_Citrus_fruits;L4_;L5_;Orange_raw
+Tangerine raw	8	0	0	7	9	5	9	0	0	5	0	5	0	13	0	7	10	5	0	0	0	6	0	0	5	7	0	0	7	0	0	L1_Fruits;L2_Citrus_fruits_juices;L3_Citrus_fruits;L4_;L5_;Tangerine_raw
+Apple dried uncooked	0	5	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Apple_dried_uncooked
+Apricot dried uncooked	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	3	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Apricot_dried_uncooked
+Banana chips	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Banana_chips
+Blueberries dried	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Blueberries_dried
+Cherries dried	0	5	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Cherries_dried
+Cranberries dried	0	0	4	0	4	0	7	0	0	0	0	0	0	0	0	5	0	5	0	0	0	0	9	5	0	0	3	0	0	0	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Cranberries_dried
+Date	0	11	6	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	7	0	0	0	0	0	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Date
+Fig dried cooked unsweetened	0	6	0	0	5	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Fig_dried_cooked_unsweetened
+Fruit mixture dried mixture includes three or more of the following apples apricots dates papaya peaches pears pineapples prunes raisins 	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Fruit_mixture_dried_mixture_includes_three_or_more_of_the_following_apples_apricots_dates_papaya_peaches_pears_pineapples_prunes_raisins_
+Mango dried	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	6	0	0	0	0	0	7	8	0	0	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Mango_dried
+Raisins	0	4	7	0	5	0	0	5	5	0	0	0	0	0	4	5	0	0	0	0	0	0	0	0	0	0	5	6	0	0	0	L1_Fruits;L2_Dried_fruits;L3_Dried_fruits;L4_;L5_;Raisins
+Apple cider	0	4	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Fruit_juices_and_nectars_excluding_citrus;L3_Fruit_juices_excluding_citrus;L4_;L5_;Apple_cider
+Apple juice	0	7	0	0	0	0	0	0	0	0	5	0	3	0	5	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	L1_Fruits;L2_Fruit_juices_and_nectars_excluding_citrus;L3_Fruit_juices_excluding_citrus;L4_;L5_;Apple_juice
+Cranberry juice 100 not a blend	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	3	0	0	0	0	L1_Fruits;L2_Fruit_juices_and_nectars_excluding_citrus;L3_Fruit_juices_excluding_citrus;L4_;L5_;Cranberry_juice_100_not_a_blend
+Fruit juice blend 100 juice	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Fruit_juices_and_nectars_excluding_citrus;L3_Fruit_juices_excluding_citrus;L4_;L5_;Fruit_juice_blend_100_juice
+Fruit juice blend with cranberry 100 juice	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	L1_Fruits;L2_Fruit_juices_and_nectars_excluding_citrus;L3_Fruit_juices_excluding_citrus;L4_;L5_;Fruit_juice_blend_with_cranberry_100_juice
+Fruit juice NFS	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Fruit_juices_and_nectars_excluding_citrus;L3_Fruit_juices_excluding_citrus;L4_;L5_;Fruit_juice_NFS
+Fruit smoothie drink made with fruit or fruit juice only no dairy products 	0	0	8	10	0	0	0	0	0	0	6	0	0	0	7	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	L1_Fruits;L2_Fruit_juices_and_nectars_excluding_citrus;L3_Fruit_juices_excluding_citrus;L4_;L5_;Fruit_smoothie_drink_made_with_fruit_or_fruit_juice_only_no_dairy_products_
+Pomegranate juice	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	L1_Fruits;L2_Fruit_juices_and_nectars_excluding_citrus;L3_Fruit_juices_excluding_citrus;L4_;L5_;Pomegranate_juice
+Pear nectar	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	L1_Fruits;L2_Fruit_juices_and_nectars_excluding_citrus;L3_Nectars;L4_;L5_;Pear_nectar
+Pear juice baby food	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	L1_Fruits;L2_Fruits_and_juices_baby_food;L3_Fruit_juice_and_fruit_juice_mixtures_baby;L4_;L5_;Pear_juice_baby_food
+Berries frozen NFS	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	10	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Berries;L4_;L5_;Berries_frozen_NFS
+Blackberries raw	0	0	0	0	0	5	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Berries;L4_;L5_;Blackberries_raw
+Blueberries cooked or canned unsweetened water pack	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	L1_Fruits;L2_Other_fruits;L3_Berries;L4_;L5_;Blueberries_cooked_or_canned_unsweetened_water_pack
+Blueberries frozen unsweetened	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	5	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Berries;L4_;L5_;Blueberries_frozen_unsweetened
+Blueberries raw	9	0	5	0	0	4	9	0	0	8	6	0	0	0	7	6	0	4	7	0	0	7	0	0	0	8	0	4	0	0	0	L1_Fruits;L2_Other_fruits;L3_Berries;L4_;L5_;Blueberries_raw
+Raspberries raw NS as to color	0	5	0	0	0	0	0	0	0	0	6	0	0	0	7	0	0	0	0	0	0	7	0	0	0	9	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Berries;L4_;L5_;Raspberries_raw_NS_as_to_color
+Strawberries frozen unsweetened	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	4	0	0	0	L1_Fruits;L2_Other_fruits;L3_Berries;L4_;L5_;Strawberries_frozen_unsweetened
+Strawberries raw	0	0	7	6	0	5	0	0	0	4	0	0	0	0	5	6	0	7	7	0	0	6	0	0	4	5	0	5	0	4	4	L1_Fruits;L2_Other_fruits;L3_Berries;L4_;L5_;Strawberries_raw
+Apple baked unsweetened	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Apple_baked_unsweetened
+Apple cooked or canned with syrup	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	5	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Apple_cooked_or_canned_with_syrup
+Apple raw	0	0	10	0	0	11	10	0	0	5	0	13	0	5	7	9	0	5	9	0	6	0	7	4	11	8	9	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Apple_raw
+Applesauce stewed apples unsweetened	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Applesauce_stewed_apples_unsweetened
+Applesauce stewed apples with sugar	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Applesauce_stewed_apples_with_sugar
+Avocado raw	0	7	9	0	11	8	7	6	9	11	0	13	8	10	9	14	0	0	0	0	9	8	0	0	12	0	0	6	8	0	7	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Avocado_raw
+Banana raw	6	8	8	10	10	0	8	11	7	7	0	10	6	8	8	11	8	10	10	9	11	0	9	0	10	7	9	0	0	0	10	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Banana_raw
+Cantaloupe muskmelon raw	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	3	4	0	0	4	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Cantaloupe_muskmelon_raw
+Cherries frozen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Cherries_frozen
+Cherries maraschino	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Cherries_maraschino
+Fruit NS as to type	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Fruit_NS_as_to_type
+Grapes raw NS as to type	0	0	6	0	0	4	0	0	0	0	0	6	0	0	0	4	0	4	6	0	0	0	4	0	4	0	4	5	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Grapes_raw_NS_as_to_type
+Honeydew melon raw	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Honeydew_melon_raw
+Kiwi fruit raw	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Kiwi_fruit_raw
+Mango cooked	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Mango_cooked
+Mango raw	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	6	0	0	0	0	0	0	0	0	0	0	7	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Mango_raw
+Nectarine raw	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Nectarine_raw
+Papaya raw	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Papaya_raw
+Peach cooked or canned drained solids	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Peach_cooked_or_canned_drained_solids
+Peach cooked or canned NS as to sweetened or unsweetened sweetened NS as to type of sweetener	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Peach_cooked_or_canned_NS_as_to_sweetened_or_unsweetened_sweetened_NS_as_to_type_of_sweetener
+Peach raw	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Peach_raw
+Pear cooked or canned juice pack	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Pear_cooked_or_canned_juice_pack
+Pear cooked or canned NS as to sweetened or unsweetened sweetened NS as to type of sweetener	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Pear_cooked_or_canned_NS_as_to_sweetened_or_unsweetened_sweetened_NS_as_to_type_of_sweetener
+Pear raw	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	6	0	0	0	0	0	11	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Pear_raw
+Persimmon raw	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Persimmon_raw
+Pineapple cooked or canned juice pack	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Pineapple_cooked_or_canned_juice_pack
+Pineapple raw	0	5	0	0	0	4	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	6	0	0	4	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Pineapple_raw
+Watermelon raw	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	3	0	L1_Fruits;L2_Other_fruits;L3_Fruits_excluding_berries;L4_;L5_;Watermelon_raw
+Chutney	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	L1_Fruits;L2_Other_fruits;L3_Mixtures_of_fruits_and_nonfruit_items;L4_;L5_;Chutney
+Guacamole	9	0	0	5	0	10	0	0	0	0	0	0	8	0	0	0	6	11	0	0	9	0	0	0	8	0	0	0	0	8	0	L1_Fruits;L2_Other_fruits;L3_Mixtures_of_fruits_and_nonfruit_items;L4_;L5_;Guacamole
+Sorbet fruit noncitrus flavor	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	L1_Fruits;L2_Other_fruits;L3_Mixtures_of_fruits_and_nonfruit_items;L4_;L5_;Sorbet_fruit_noncitrus_flavor
+Fruit salad fresh or raw excluding citrus fruits no dressing	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	8	0	0	L1_Fruits;L2_Other_fruits;L3_Mixtures_of_two_or_more_fruits;L4_;L5_;Fruit_salad_fresh_or_raw_excluding_citrus_fruits_no_dressing
+Fruit salad fresh or raw including citrus fruits no dressing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	L1_Fruits;L2_Other_fruits;L3_Mixtures_of_two_or_more_fruits;L4_;L5_;Fruit_salad_fresh_or_raw_including_citrus_fruits_no_dressing

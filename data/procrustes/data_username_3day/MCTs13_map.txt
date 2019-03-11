@@ -1,0 +1,11 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0209	MCTs13	5	2017-02-04	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	0	1	11:15 AM	21.7	0.1	3	56	Sample	Pre	1.55	None	None
+MCT.f.0211	MCTs13	7	2017-02-06	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	0	1	5:45 PM	21.7	0.1	4	45	Sample	Pre	1.55	None	None
+MCT.f.0213	MCTs13	9	2017-02-08	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	8:30 AM	21.7	0.1	2	2	Sample	Transition	1.55	None	None
+MCT.f.0214	MCTs13	10	2017-02-09	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	2:40 PM	21.7	0.1	2	41	Sample	Transition	1.55	None	None
+MCT.f.0215	MCTs13	11	2017-02-10	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	8:30 PM	21.7	0.1	1	17	Sample	Post	1.55	None	None
+MCT.f.0216	MCTs13	12	2017-02-11	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	10:45 AM	21.7	0.1	4	87	Sample	Post	1.55	None	None
+MCT.f.0218	MCTs13	14	2017-02-13	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	8:20 PM	21.7	0.1	4	11	Sample	Post	1.55	None	None
+MCT.f.0219	MCTs13	15	2017-02-14	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	12:35 PM	21.7	0.1	5	93	Sample	Post	1.55	None	None
+MCT.f.0220	MCTs13	16	2017-02-15	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	9:00 PM	21.7	0.1	6	15	Sample	Post	1.55	None	None
+MCT.f.0221	MCTs13	17	2017-02-16	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	4:45 PM	21.7	0.1	2	80	Sample	Post	1.55	None	None

@@ -1,0 +1,13 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+sample1	MCTs14	5	2/4/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	0	1	9:53 AM	25.9	0	5	86	Sample	Pre	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample2	MCTs14	6	2/5/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	0	1	12:00 PM	25.9	0	4	5	Sample	Pre	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample3	MCTs14	7	2/6/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	0	1	7:20 AM	25.9	0	2	56	Sample	Pre	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample4	MCTs14	8	2/7/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	8	1	7:30 AM	25.9	0	1	61	Sample	Transition	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample5	MCTs14	9	2/8/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:30 AM	25.9	0	3	29	Sample	Transition	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample6	MCTs14	10	2/9/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:30 AM	25.9	0	4	58	Sample	Transition	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample7	MCTs14	11	2/10/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:40 AM	25.9	0	4	73	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample8	MCTs14	12	2/11/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	9:47 AM	25.9	0	3	13	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample9	MCTs14	13	2/12/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	11:33 AM	25.9	0	3	43	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample10	MCTs14	14	2/13/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:30 AM	25.9	0	1	27	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample11	MCTs14	15	2/14/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:30 AM	25.9	0	2	17	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+sample13	MCTs14	17	2/16/17	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:40 AM	25.9	0	3	94	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic

@@ -1,0 +1,15 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+sample1	MCTs22	2	2/1/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	7:30 PM	18.3	1.6	4	30	Sample	Pre	1.325	None	None
+sample2	MCTs22	3	2/2/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	9:45 AM	18.3	1.6	6	17	Sample	Pre	1.325	None	None
+sample3	MCTs22	4	2/3/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	11:10 AM	18.3	1.6	5	85	Sample	Pre	1.325	None	None
+sample4	MCTs22	5	2/4/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	12:55 PM	18.3	1.6	4	64	Sample	Pre	1.325	None	None
+sample5	MCTs22	6	2/5/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	10:05 AM	18.3	1.6	3	46	Sample	Pre	1.325	None	None
+sample6	MCTs22	7	2/6/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	7:40 AM	18.3	1.6	1	51	Sample	Pre	1.325	None	None
+sample7	MCTs22	8	2/7/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	5	1	8:30 AM	18.3	1.6	1	44	Sample	Transition	1.325	None	None
+sample8	MCTs22	9	2/8/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	11:20 AM	18.3	1.6	5	5	Sample	Transition	1.325	None	None
+sample10	MCTs22	11	2/10/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	NA	18.3	1.6	3	89	Sample	Post	1.325	None	None
+sample11	MCTs22	12	2/11/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	8:50 AM	18.3	1.6	1	5	Sample	Post	1.325	None	None
+sample12	MCTs22	13	2/12/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	5:30 PM	18.3	1.6	2	20	Sample	Post	1.325	None	None
+sample13	MCTs22	14	2/13/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	2:35 PM	18.3	1.6	6	44	Sample	Post	1.325	None	None
+sample14	MCTs22	15	2/14/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	9:40 AM	18.3	1.6	2	92	Sample	Post	1.325	None	None
+sample16	MCTs22	17	2/16/17	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	8:00 PM	18.3	1.6	1	78	Sample	Post	1.325	None	Multivitamin

@@ -1,0 +1,13 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0005	MCTs01	5	2017-02-04	F	25.9	74.6	172.7	25	EVOO	NA	Complete	0	1	1:40 PM	25	-0.4	2	89	Sample	Pre	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0006	MCTs01	6	2017-02-05	F	25.9	74.6	172.7	25	EVOO	NA	Complete	0	1	8:00 AM	25	-0.4	4	23	Sample	Pre	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0007	MCTs01	7	2017-02-06	F	25.9	74.6	172.7	25	EVOO	NA	Complete	0	1	9:30 AM	25	-0.4	3	78	Sample	Pre	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0008	MCTs01	8	2017-02-07	F	25.9	74.6	172.7	25	EVOO	NA	Complete	6	1	9:20 AM	25	-0.4	4	46	Sample	Transition	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0009	MCTs01	9	2017-02-08	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	8:40 AM	25	-0.4	3	74	Sample	Transition	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0010	MCTs01	10	2017-02-09	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	8:55 AM	25	-0.4	3	52	Sample	Transition	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0011	MCTs01	11	2017-02-10	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	9:00 AM	25	-0.4	5	67	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0012	MCTs01	12	2017-02-11	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	12:00 PM	25	-0.4	4	7	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0013	MCTs01	13	2017-02-12	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	8:00 AM	25	-0.4	4	56	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0014	MCTs01	14	2017-02-13	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	9:00 AM	25	-0.4	2	39	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0016	MCTs01	16	2017-02-15	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	9:05 AM	25	-0.4	5	17	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0017	MCTs01	17	2017-02-16	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	8:55 AM	25	-0.4	1	84	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc

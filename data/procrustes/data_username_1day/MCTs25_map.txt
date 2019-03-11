@@ -1,0 +1,16 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0410	MCTs25	2	2017-02-01	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	8:40 AM	31.6	0	1	76	Sample	Pre	1.55	None	None
+MCT.f.0411	MCTs25	3	2017-02-02	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	5:45 PM	31.6	0	2	40	Sample	Pre	1.55	None	None
+MCT.f.0412	MCTs25	4	2017-02-03	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	4:00 PM	31.6	0	1	73	Sample	Pre	1.55	None	None
+MCT.f.0414	MCTs25	6	2017-02-05	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	10:00 PM	31.6	0	5	43	Sample	Pre	1.55	None	None
+MCT.f.0415	MCTs25	7	2017-02-06	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	8:00 AM	31.6	0	3	31	Sample	Pre	1.55	None	None
+MCT.f.0416	MCTs25	8	2017-02-07	M	23.9	104.8	182	31.6	MCT	100	Complete	8	1	8:15 AM	31.6	0	5	77	Sample	Transition	1.55	None	None
+MCT.f.0086	MCTs25	9	2017-02-08	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	8:00 AM	31.6	0	3	75	Sample	Transition	1.55	None	None
+MCT.f.0418	MCTs25	10	2017-02-09	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	9:00 AM	31.6	0	2	34	Sample	Transition	1.55	None	None
+MCT.f.0419	MCTs25	11	2017-02-10	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	7:40 AM	31.6	0	3	59	Sample	Post	1.55	None	None
+MCT.f.0420	MCTs25	12	2017-02-11	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	8:45 AM	31.6	0	2	64	Sample	Post	1.55	None	None
+MCT.f.0421	MCTs25	13	2017-02-12	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	11:30 PM	31.6	0	5	83	Sample	Post	1.55	None	None
+MCT.f.0422	MCTs25	14	2017-02-13	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	8:30 PM	31.6	0	1	87	Sample	Post	1.55	None	None
+MCT.f.0423	MCTs25	15	2017-02-14	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	9:45 AM	31.6	0	3	33	Sample	Post	1.55	None	None
+MCT.f.0424	MCTs25	16	2017-02-15	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	10:00 AM	31.6	0	5	1	Sample	Post	1.55	None	None
+MCT.f.0425	MCTs25	17	2017-02-16	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	2:00 PM	31.6	0	3	87	Sample	Post	1.55	None	None

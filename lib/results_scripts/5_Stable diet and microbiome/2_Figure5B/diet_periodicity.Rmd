@@ -1,0 +1,324 @@
+---
+title: "Response to reviewer 2"
+author: "Abby"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  pdf_document:
+  dev: png
+---
+
+#Reviewer comment #2
+
+I really like the tree-based representation of dietary intake! When analyzing the individualized nature of dietary intake, did the authors consider predictable patterns in individual dietary intake? The authors write that the subjects "often consume meals with conventional food pairings". Are there patterns or some sort of periodicity (e.g., autoregressive models) in dietary intake? Can this affect/predict the diet-microbiome interactions?
+
+# Thoughts to address
+Week day v. weekend diet? 
+
+Week day microbiome v. weekend? Are microbiome samples from Wednesday’s more similar to themselves than compared to other days of the week for example? Can we show this in diet?
+
+Potential to include the identification of patterns from dietary principal coordinates as it makes sense for this discussion.
+
+ 
+
+```{r setup, include=FALSE, message = FALSE}
+
+require(rmarkdown)
+require(knitr)
+require(ggplot2)
+require(reshape2)
+
+# set the path for root directory
+opts_knit$set(root.dir = "/Users/abby/Documents/Projects/dietstudy/")
+
+# set path for figures
+opts_chunk$set(echo = TRUE, fig.path = "../output/Figs/", dev = c("png", "pdf"), dpi = 300)
+
+```
+
+```{r load and organize data, include = F, message = F}
+# load map
+map <- read.delim(file = "data/maps/SampleID_map.txt")
+map <- map[colnames(map) %in% c("X.SampleID", "UserName","StudyDayNo","Diet.Week.Day")]
+
+# load table for everyone
+diet_dist <- read.delim("data/processed_food/dhydrt_beta/unweighted_unifrac_dhydrt.txt", row = 1)
+
+
+#limit map to the people with diet samples
+map <- map[map$X.SampleID %in% colnames(diet_dist),]
+map <- droplevels(map)
+
+
+# reorder diet_dist to match map order
+diet_dist <- diet_dist[order(match(rownames(diet_dist),map$X.SampleID)),order(match(colnames(diet_dist),map$X.SampleID))]
+
+
+# we want to know if, within a person, are days more similar to each other?
+
+# listify distance matrices by person
+list.diet<- NULL
+
+for (i in seq_along(unique(map$UserName))){
+  a <- as.character(unique(map$UserName)[i])
+  ids <- droplevels(map$X.SampleID[map$UserName == a])
+  
+  sub.diet <- diet_dist[rownames(diet_dist) %in% ids,colnames(diet_dist) %in% ids]
+  list.diet[[i]] <- sub.diet
+  
+} 
+
+
+# calculate distance to the next day and distance to days 2 days apart
+
+### This is the meat of the problem, and where I think I'm probably messing up! ###
+
+day1diff <- NULL
+day1diffall <- NULL
+weekdaysall <- NULL
+allotherdaysdiff <- NULL
+for (i in 1:length(list.diet)) {
+  # subset to just one person 
+  x <- as.matrix(list.diet[[i]])
+  n <- dim(x)[1]
+  # pull the distances between sucessive days
+  # create an indicator for the diagonals in the matrix
+  d <- row(x) - col(x)
+  # use split to group on these values by their diagonals 
+  vals <- split(x, d)
+  # get the mean of the diagonal that corresponds to 1 day diff
+  day1diff[[i]] <- mean(unlist(vals[n+1]))
+  day1diffall[[i]] <- unlist(vals[n+1])
+  # get the mean of all the other distances
+  allotherdaysdiff[[i]] <- mean(unlist(vals[(n+2):(2*n-1)]))
+  
+  # get the days for plotting
+  days <- colnames(x)[2:length(colnames(x))]
+  w <- subset(map, map$X.SampleID %in% days)
+  weekdaysall[[i]] <- as.vector(w[,"Diet.Week.Day"])
+}
+
+x <- unlist(day1diff)
+y <- unlist(allotherdaysdiff)
+
+
+```
+
+# Is next day diet more similar than all other days diet?
+```{r ttest1, include=F, message = F}
+# test if distance to next day is less than distance to all other days
+wilcox.test(x, y, alternative = "less")
+
+```
+
+
+```{r diet_distance_test, echo = F, fig.height=4, fig.width=4}
+pval <- wilcox.test(x, y, alternative = "less")$p.value
+#plot
+
+x <- as.data.frame(x)
+colnames(x) <- "distance"
+x$mb_dist_to <- "To Next Day"
+
+y <- as.data.frame(y)
+colnames(y) <- "distance"
+y$mb_dist_to <- "To Other Days"
+
+plot <- rbind(x,y)
+myplot <- ggplot(data = plot, aes(x = mb_dist_to, y = distance)) + 
+  geom_jitter(alpha = 0.2, width = 0.35, pch = 21, fill = "#5a2071") +
+  geom_boxplot(outlier.shape = NA, fill = NA) +
+  annotate("text", x = 1.5, y = 1, label = "italic(p) <= 0.001", size = 3, parse = T) +
+  theme_classic() +
+  xlab("Diet Distance from Today") +
+  ylab("Unweighted Unifrac Diet Distance")
+  
+  
+myplot
+
+```
+```{r weekday v weekend, include =F}
+
+
+
+set.seed(42)
+
+
+weekday <- NULL
+weekend <- NULL
+weekdaymean <- NULL
+weekendmean <- NULL
+for (i in 1:length(list.diet)) {
+  # subset to just one person 
+  x <- as.matrix(list.diet[[i]])
+  
+  # rename distance matrix with days of the week
+  weekdays <- map[map$X.SampleID %in% rownames(x),]$Diet.Week.Day
+  rownames(x) <- weekdays
+  colnames(x) <- weekdays
+  # melt 
+  melt_dist <- melt(x)
+  
+   # extract the values for Mon v. Tues, Tues v. Wed, Wed v. Thurs, Thurs v. Fri as weekday
+  weekday[[i]] <- melt_dist[melt_dist$Var1 == "Monday" & melt_dist$Var2 == "Tuesday"|
+                       melt_dist$Var1 == "Tuesday" & melt_dist$Var2 == "Wednesday"|
+                       melt_dist$Var1 == "Wednesday" & melt_dist$Var2 == "Thursday"|
+                       melt_dist$Var1 == "Thursday" & melt_dist$Var2 == "Friday",]$value
+  
+  
+  # extract the values for Fri v. Sat, Sat v. Sun as weekend day
+  weekend[[i]] <- melt_dist[#melt_dist$Var1 == "Friday" & melt_dist$Var2 == "Saturday"|
+                            melt_dist$Var1 == "Saturday" & melt_dist$Var2 == "Sunday",]$value
+  
+  #weekday[[i]] <- sample(weekday[[i]], length(weekend[[i]]))
+  
+  weekdaymean[[i]] <- mean(weekday[[i]])
+  weekendmean[[i]] <- mean(weekend[[i]])
+  
+}
+
+x <- unlist(weekdaymean)
+y <- unlist(weekendmean)
+
+
+names(x) <- unique(map$UserName)
+names(y) <- unique(map$UserName)
+
+x <- x[!names(x) %in% c("MCTs11", "MCTs12")]
+y <- y[!names(y) %in% c("MCTs11", "MCTs12")]
+
+```
+
+
+```{r ttest2, include=F, message = F}
+# test if distance to next weekday is less than distance between weekend days 
+# In other words, is diet on the weekend more variable than diet on sucessive the weekdays?
+
+wilcox.test(x, y, paired = T)
+
+```
+
+```{r diet_weekday_v_weekend, echo = F, fig.height=2.5, fig.width=2.5}
+
+#plot
+pval <- wilcox.test(x, y, paired = T)$p.value
+
+x <- as.data.frame(x)
+colnames(x) <- "distance"
+x$Diet_distance_to <- "Between\nconsecutive\nweekdays"
+
+y <- as.data.frame(y)
+colnames(y) <- "distance"
+y$Diet_distance_to <- "Between\nconsecutive\nweekend days"
+
+plot <- rbind(x,y)
+myplot <- ggplot(data = plot, aes(x = Diet_distance_to, y = distance)) + 
+  geom_jitter(alpha = 0.6, width = 0.35, color = "#5a2071", size = 2) +
+  geom_boxplot(outlier.shape = NA, fill = NA) +
+  annotate("text", x = 1.5, y = 0.5, label = paste0("italic(p) ==",round(pval,3)), size = 3, parse = T) +
+  theme_classic() +
+  ylab("Food distance, unweighted Unifrac") +
+  theme(axis.text = element_text(size = 7),
+        axis.title = element_text(size =9),
+        axis.title.x = element_blank())
+  
+  
+myplot
+
+```
+
+# Are same days of the week more similar to each other than different week days?
+```{r weekdays, include =F}
+
+sameweekdaylist <- NULL
+diffweekdaylist <- NULL
+
+for (i in 1:length(list.diet)) {
+  # subset to just one person 
+  x <- as.matrix(list.diet[[i]])
+  
+  # rename distance matrix with days of the week
+  weekdays <- map[map$X.SampleID %in% rownames(x),]$Diet.Week.Day
+  rownames(x) <- weekdays
+  colnames(x) <- weekdays
+  # melt 
+  melt_dist <- melt(x)
+  
+   # extract the values for Mon v. Tues, Tues v. Wed, Wed v. Thurs, Thurs v. Fri as weekday
+  sameweekday <- melt_dist[melt_dist$Var1 == "Monday" & melt_dist$Var2 == "Monday"|
+                       melt_dist$Var1 == "Tuesday" & melt_dist$Var2 == "Tuesday"|
+                       melt_dist$Var1 == "Wednesday" & melt_dist$Var2 == "Wednesday"|
+                       melt_dist$Var1 == "Thursday" & melt_dist$Var2 == "Thursday"|
+                       melt_dist$Var1 == "Friday" & melt_dist$Var2 == "Friday",]
+  sameweekdaylist[[i]] <- sameweekday[sameweekday$value != 0,]$value
+  
+  # extract the values for different week day
+  diffweekday <- melt_dist[melt_dist$Var1 == "Monday" & melt_dist$Var2 != "Monday"|
+                       melt_dist$Var1 == "Tuesday" & melt_dist$Var2 != "Tuesday"|
+                       melt_dist$Var1 == "Wednesday" & melt_dist$Var2 != "Wednesday"|
+                       melt_dist$Var1 == "Thursday" & melt_dist$Var2 != "Thursday"|
+                       melt_dist$Var1 == "Friday" & melt_dist$Var2 != "Friday",]
+  diffweekdaylist[[i]] <- diffweekday$value
+}
+
+
+x <- unlist(sameweekdaylist)
+y <- unlist(diffweekdaylist)
+
+
+
+```
+
+
+```{r ttest3, include=F, message = F}
+# test if distance to next weekday is less than distance between weekend days 
+# In other words, is diet on the weekend more variable than diet on sucessive the weekdays?
+
+t.test(x, y, "less")
+
+```
+
+```{r sameweekday_v_diffweekday, echo = F, fig.height=4, fig.width=4}
+
+#plot
+pval <- t.test(x, y, "less")$p.value
+
+x <- as.data.frame(x)
+colnames(x) <- "distance"
+x$Diet_distance_to <- "To same weekday"
+
+y <- as.data.frame(y)
+colnames(y) <- "distance"
+y$Diet_distance_to <- "To different weekday"
+
+plot <- rbind(x,y)
+myplot <- ggplot(data = plot, aes(x = Diet_distance_to, y = distance)) + 
+  geom_jitter(alpha = 0.2, width = 0.35, pch = 21, fill = "#5a2071") +
+  geom_boxplot(outlier.shape = NA, fill = NA) +
+  annotate("text", x = 1.5, y = 1, label = paste0("italic(p) ==",round(pval,2)), size = 4, parse = T) +
+  theme_classic() +
+  xlab("Diet Distance") +
+  ylab("Unweighted Unifrac Diet Distance")
+  
+  
+myplot
+
+```
+
+```{r plot distancetonextday, fig.height = 4, fig.width= 6}
+
+names(day1diffall) <- unique(map$UserName)
+mydistance <- stack(day1diffall)
+names(weekdaysall) <- unique(map$UserName)
+mydays <- stack(weekdaysall)
+
+plot <- cbind(mydistance, mydays)
+colnames(plot) <- c("Distance", "UserName", "Day", "UserName2")
+plot <- aggregate(plot$Distance, by = list(plot$Day, plot$UserName), FUN = mean)
+
+plot <- subset(plot, !plot$Group.2 %in% c("MCTs11", "MCTc12") )
+plot$Group.1 <- factor(plot$Group.1, levels = c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"))
+
+ggplot(plot, aes(x = Group.1, y = x)) + geom_boxplot(aes(group = Group.1)) + geom_hline(aes(yintercept = median(x)))
+
+
+```

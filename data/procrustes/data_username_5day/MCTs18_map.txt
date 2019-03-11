@@ -1,0 +1,14 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0294	MCTs18	5	2017-02-04	M	22.6	67.7	175	22.1	MCT	75	Complete	0	1	9:30 AM	22.1	0.4	4	92	Sample	Pre	1.725	ibuprofen	Multivitamin
+MCT.f.0295	MCTs18	6	2017-02-05	M	22.6	67.7	175	22.1	MCT	75	Complete	0	1	9:15 AM	22.1	0.4	4	70	Sample	Pre	1.725	ibuprofen	Multivitamin
+MCT.f.0296	MCTs18	7	2017-02-06	M	22.6	67.7	175	22.1	MCT	75	Complete	0	1	9:15 AM	22.1	0.4	2	70	Sample	Pre	1.725	ibuprofen	Multivitamin
+MCT.f.0297	MCTs18	8	2017-02-07	M	22.6	67.7	175	22.1	MCT	75	Complete	8	1	7:30 AM	22.1	0.4	1	18	Sample	Transition	1.725	ibuprofen	Multivitamin
+MCT.f.0298	MCTs18	9	2017-02-08	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	9:45 AM	22.1	0.4	1	82	Sample	Transition	1.725	ibuprofen	Multivitamin
+MCT.f.0299	MCTs18	10	2017-02-09	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	No Time	22.1	0.4	3	40	Sample	Transition	1.725	ibuprofen	Multivitamin
+MCT.f.0300	MCTs18	11	2017-02-10	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	9:30 AM	22.1	0.4	4	19	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0301	MCTs18	12	2017-02-11	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	3:30 PM	22.1	0.4	2	52	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0302	MCTs18	13	2017-02-12	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	12:00 PM	22.1	0.4	6	18	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0303	MCTs18	14	2017-02-13	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	9:30 AM	22.1	0.4	1	8	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0304	MCTs18	15	2017-02-14	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	10:00 AM	22.1	0.4	1	57	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0305	MCTs18	16	2017-02-15	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	9:45 AM	22.1	0.4	3	85	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0306	MCTs18	17	2017-02-16	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	9:30 AM	22.1	0.4	1	36	Sample	Post	1.725	ibuprofen	Multivitamin

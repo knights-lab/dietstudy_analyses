@@ -1,0 +1,13 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0530	MCTs32	3	2017-02-02	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	8:30 AM	25.3	-0.4	2	50	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0532	MCTs32	5	2017-02-04	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	10:20 AM	25.3	-0.4	5	94	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0533	MCTs32	6	2017-02-05	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	6:10 PM	25.3	-0.4	1	67	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0534	MCTs32	7	2017-02-06	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	8:58 AM	25.3	-0.4	6	2	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0535	MCTs32	8	2017-02-07	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	6	1	8:41 AM	25.3	-0.4	4	52	Sample	Transition	1.325	None	Multivitamin;fish oil
+MCT.f.0536	MCTs32	9	2017-02-08	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	8:34 AM	25.3	-0.4	2	13	Sample	Transition	1.325	None	Multivitamin;fish oil
+MCT.f.0538	MCTs32	11	2017-02-10	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	10:00 AM	25.3	-0.4	3	23	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0539	MCTs32	12	2017-02-11	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	11:44 AM	25.3	-0.4	5	26	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0540	MCTs32	13	2017-02-12	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	12:10 PM	25.3	-0.4	1	53	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0541	MCTs32	14	2017-02-13	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	9:14 AM	25.3	-0.4	5	81	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0543	MCTs32	16	2017-02-15	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	9:08 AM	25.3	-0.4	1	94	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0544	MCTs32	17	2017-02-16	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	9:30 AM	25.3	-0.4	3	68	Sample	Post	1.325	None	Multivitamin;fish oil

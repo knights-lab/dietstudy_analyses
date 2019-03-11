@@ -1,0 +1,13 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+sample2	MCTs20	2	2/1/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	3:10 PM	23.3	-0.7	5	33	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample3	MCTs20	3	2/2/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	11:10 AM	23.3	-0.7	1	69	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample4	MCTs20	4	2/3/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	3:30 PM	23.3	-0.7	5	51	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample6	MCTs20	6	2/5/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	9:30 AM	23.3	-0.7	1	89	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample7	MCTs20	7	2/6/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	NA	23.3	-0.7	5	87	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample8	MCTs20	8	2/7/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	5	1	1:10 PM	23.3	-0.7	1	65	Sample	Transition	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample11	MCTs20	11	2/10/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	9:30 AM	23.3	-0.7	4	27	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample12	MCTs20	12	2/11/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	3:00 PM	23.3	-0.7	1	14	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample13	MCTs20	13	2/12/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	11:10 AM	23.3	-0.7	3	25	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample14	MCTs20	14	2/13/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	9:30 AM	23.3	-0.7	3	44	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample15	MCTs20	15	2/14/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	10:00 AM	23.3	-0.7	1	1	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+sample17	MCTs20	17	2/16/17	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	12:30 PM	23.3	-0.7	2	57	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD

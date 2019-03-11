@@ -1,0 +1,14 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0155	MCTs10	2	2017-02-01	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	6:17 AM	23	1.2	6	10	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0157	MCTs10	4	2017-02-03	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	6:08 AM	23	1.2	2	93	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0158	MCTs10	5	2017-02-04	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	7:30 AM	23	1.2	1	41	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0159	MCTs10	6	2017-02-05	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	9:50 AM	23	1.2	6	45	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0160	MCTs10	7	2017-02-06	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	5:20 AM	23	1.2	3	19	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0161	MCTs10	8	2017-02-07	F	29.1	65.6	168.9	23	MCT	NA	Complete	6	1	7:20 AM	23	1.2	3	61	Sample	Transition	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0162	MCTs10	9	2017-02-08	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	7:06 AM	23	1.2	4	2	Sample	Transition	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0163	MCTs10	10	2017-02-09	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	7:28 AM	23	1.2	4	74	Sample	Transition	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0166	MCTs10	13	2017-02-12	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	9:30 AM	23	1.2	5	79	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0167	MCTs10	14	2017-02-13	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	6:30 AM	23	1.2	2	42	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0168	MCTs10	15	2017-02-14	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	6:30 AM	23	1.2	4	6	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0169	MCTs10	16	2017-02-15	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	6:22 AM	23	1.2	4	22	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0170	MCTs10	17	2017-02-16	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	6:30 AM	23	1.2	3	5	Sample	Post	1.55	Estrogen/progestrin bc pill	None

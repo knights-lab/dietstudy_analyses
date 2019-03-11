@@ -1,0 +1,15 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0139	MCTs09	3	2017-02-02	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	1	10:30 AM	23.8	0.4	4	36	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0141	MCTs09	5	2017-02-04	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	1	10:05 AM	23.8	0.4	5	22	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0142	MCTs09	6	2017-02-05	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	1	9:00 AM	23.8	0.4	5	61	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0143	MCTs09	7	2017-02-06	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	1	9:00 AM	23.8	0.4	5	47	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0144	MCTs09	8	2017-02-07	F	21.7	66.9	167.6	23.8	MCT	85	Complete	7	1	8:30 AM	23.8	0.4	1	56	Sample	Transition	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0145	MCTs09	9	2017-02-08	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	10:00 AM	23.8	0.4	1	50	Sample	Transition	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0146	MCTs09	10	2017-02-09	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	9:40 AM	23.8	0.4	2	68	Sample	Transition	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0147	MCTs09	11	2017-02-10	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	1:20 PM	23.8	0.4	2	29	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0148	MCTs09	12	2017-02-11	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	12:40 PM	23.8	0.4	1	42	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0149	MCTs09	13	2017-02-12	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	9:45 AM	23.8	0.4	1	93	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0150	MCTs09	14	2017-02-13	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	8:45 AM	23.8	0.4	2	72	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0151	MCTs09	15	2017-02-14	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	10:00 AM	23.8	0.4	5	4	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0152	MCTs09	16	2017-02-15	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	9:30 AM	23.8	0.4	1	13	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0153	MCTs09	17	2017-02-16	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	10:45 AM	23.8	0.4	3	90	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD

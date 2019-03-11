@@ -1,0 +1,15 @@
+Eigvals	2
+79.6343000916	0.0
+
+Proportion explained	2
+1.0	0.0
+
+Species	0	0
+
+Site	2	2
+MCT.f.0074	-6.31008320435	-0.0
+MCT.f.0075	6.31008320435	-0.0
+
+Biplot	0	0
+
+Site constraints	0	0

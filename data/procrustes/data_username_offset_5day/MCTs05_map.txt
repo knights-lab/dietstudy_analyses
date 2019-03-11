@@ -1,0 +1,6 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+sample2	MCTs05	6	2/5/17	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	10:30 AM	19.9	-0.6	3	76	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+sample3	MCTs05	7	2/6/17	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	8:15 AM	19.9	-0.6	3	58	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+sample4	MCTs05	8	2/7/17	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	5	1	2:30 PM	19.9	-0.6	2	47	Sample	Transition	1.375	Hormonal IUD;ibuprofen	None
+sample5	MCTs05	9	2/8/17	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	10	1	8:10 AM	19.9	-0.6	1	66	Sample	Transition	1.375	Hormonal IUD;ibuprofen	None
+sample6	MCTs05	10	2/9/17	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	10	1	12:00 PM	19.9	-0.6	2	16	Sample	Transition	1.375	Hormonal IUD;ibuprofen	None

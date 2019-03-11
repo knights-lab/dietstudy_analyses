@@ -1,0 +1,567 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Sample.Week.Day	DietDayNo	Diet.Record.Date	Diet.Week.Day	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Run1.Plate	Run2.Rerun	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0001	MCTs01	1	1/31/17	Tuesday	0	1/30/17	Monday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	0	1	12:00 PM	25	-0.4	5	NA	54	Sample	Pre	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0002	MCTs01	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	0	1	9:00 AM	25	-0.4	1	NA	39	Sample	Pre	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0003	MCTs01	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	0	1	10:30 AM	25	-0.4	1	NA	59	Sample	Pre	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0004	MCTs01	4	2/3/17	Friday	3	2/2/17	Thursday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	0	1	8:55 AM	25	-0.4	5	NA	32	Sample	Pre	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0005	MCTs01	5	2/4/17	Saturday	4	2/3/17	Friday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	0	1	1:40 PM	25	-0.4	2	Yes	89	Sample	Pre	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0006	MCTs01	6	2/5/17	Sunday	5	2/4/17	Saturday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	0	1	8:00 AM	25	-0.4	4	NA	23	Sample	Pre	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0007	MCTs01	7	2/6/17	Monday	6	2/5/17	Sunday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	0	1	9:30 AM	25	-0.4	3	NA	78	Sample	Pre	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0008	MCTs01	8	2/7/17	Tuesday	7	2/6/17	Monday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	6	1	9:20 AM	25	-0.4	4	NA	46	Sample	Transition	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0009	MCTs01	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	8:40 AM	25	-0.4	3	NA	74	Sample	Transition	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0010	MCTs01	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	8:55 AM	25	-0.4	3	NA	52	Sample	Transition	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0011	MCTs01	11	2/10/17	Friday	10	2/9/17	Thursday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	9:00 AM	25	-0.4	5	NA	67	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0012	MCTs01	12	2/11/17	Saturday	11	2/10/17	Friday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	12:00 PM	25	-0.4	4	NA	7	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0013	MCTs01	13	2/12/17	Sunday	12	2/11/17	Saturday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	8:00 AM	25	-0.4	4	NA	56	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0014	MCTs01	14	2/13/17	Monday	13	2/12/17	Sunday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	9:00 AM	25	-0.4	2	NA	39	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0015	MCTs01	15	2/14/17	Tuesday	14	2/13/17	Monday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	9:00 AM	25	-0.4	6	Yes	36	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0016	MCTs01	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	9:05 AM	25	-0.4	5	NA	17	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0017	MCTs01	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	1	8:55 AM	25	-0.4	1	NA	84	Sample	Post	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc
+MCT.f.0035	MCTs03	1	1/31/17	Tuesday	0	1/30/17	Monday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	0	1	5:21 PM	26.6	2.9	2	NA	10	Sample	Pre	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0036	MCTs03	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	0	1	2:20 PM	26.6	2.9	3	NA	81	Sample	Pre	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0037	MCTs03	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	0	1	4:21 PM	26.6	2.9	4	NA	55	Sample	Pre	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0038	MCTs03	4	2/3/17	Friday	3	2/2/17	Thursday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	0	1	No Time	26.6	2.9	5	NA	89	Sample	Pre	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0039	MCTs03	5	2/4/17	Saturday	4	2/3/17	Friday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	0	1	11:25 PM	26.6	2.9	4	NA	84	Sample	Pre	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0040	MCTs03	6	2/5/17	Sunday	5	2/4/17	Saturday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	0	1	11:30 PM	26.6	2.9	5	NA	14	Sample	Pre	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0041	MCTs03	7	2/6/17	Monday	6	2/5/17	Sunday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	0	1	2:35 PM	26.6	2.9	3	NA	79	Sample	Pre	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0042	MCTs03	8	2/7/17	Tuesday	7	2/6/17	Monday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	9	1	3:00 PM	26.6	2.9	1	NA	68	Sample	Transition	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0043	MCTs03	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	18	1	5:00 PM	26.6	2.9	3	NA	93	Sample	Transition	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0044	MCTs03	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	18	1	5:20 PM	26.6	2.9	1	NA	23	Sample	Transition	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0045	MCTs03	11	2/10/17	Friday	10	2/9/17	Thursday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	18	1	7:30 PM	26.6	2.9	3	NA	8	Sample	Post	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0046	MCTs03	12	2/11/17	Saturday	11	2/10/17	Friday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	18	0	NA	26.6	2.9	NA	NA	NA	Sample	Post	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0047	MCTs03	13	2/12/17	Sunday	12	2/11/17	Saturday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	18	1	7:45 PM	26.6	2.9	6	NA	52	Sample	Post	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0048	MCTs03	14	2/13/17	Monday	13	2/12/17	Sunday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	18	1	No Time	26.6	2.9	4	NA	9	Sample	Post	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0049	MCTs03	15	2/14/17	Tuesday	14	2/13/17	Monday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	18	1	2:58 PM	26.6	2.9	6	NA	9	Sample	Post	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0051	MCTs03	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	25.4	91.2	185.1	26.6	MCT	104	Complete	18	1	3:20 PM	26.6	2.9	3	NA	86	Sample	Post	1.55	Allegra;Flonase;Asthma inhaler	VitD
+MCT.f.0052	MCTs04	1	1/31/17	Tuesday	0	1/30/17	Monday	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	11:30 AM	18.9	0.6	3	NA	9	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0053	MCTs04	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	9:15 AM	18.9	0.6	2	Yes	76	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0054	MCTs04	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	8:30 AM	18.9	0.6	2	Yes	51	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0055	MCTs04	4	2/3/17	Friday	3	2/2/17	Thursday	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	8:00 AM	18.9	0.6	5	NA	90	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0056	MCTs04	5	2/4/17	Saturday	4	2/3/17	Friday	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	11:30 AM	18.9	0.6	2	Yes	4	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0057	MCTs04	6	2/5/17	Sunday	5	2/4/17	Saturday	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	9:15 AM	18.9	0.6	4	NA	85	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0058	MCTs04	7	2/6/17	Monday	6	2/5/17	Sunday	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	10:30 AM	18.9	0.6	3	NA	7	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0059	MCTs04	8	2/7/17	Tuesday	7	2/6/17	Monday	F	24	50.6	163.8	18.9	MCT	78	Complete	6	1	11:00 AM	18.9	0.6	5	NA	53	Sample	Transition	1.55	None	Multivitamin
+MCT.f.0060	MCTs04	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	9:00 AM	18.9	0.6	3	NA	38	Sample	Transition	1.55	None	Multivitamin
+MCT.f.0061	MCTs04	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	8:00 AM	18.9	0.6	3	NA	14	Sample	Transition	1.55	None	Multivitamin
+MCT.f.0062	MCTs04	11	2/10/17	Friday	10	2/9/17	Thursday	F	24	50.6	163.8	18.9	MCT	78	Complete	12	NA	NA	18.9	0.6	NA	NA	NA	Sample	Post	1.55	None	Multivitamin
+MCT.f.0063	MCTs04	12	2/11/17	Saturday	11	2/10/17	Friday	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	9:30 AM	18.9	0.6	6	NA	48	Sample	Post	1.55	None	Multivitamin
+MCT.f.0064	MCTs04	13	2/12/17	Sunday	12	2/11/17	Saturday	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	No Time	18.9	0.6	1	NA	46	Sample	Post	1.55	None	Multivitamin
+MCT.f.0065	MCTs04	14	2/13/17	Monday	13	2/12/17	Sunday	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	No Time	18.9	0.6	1	NA	72	Sample	Post	1.55	None	Multivitamin
+MCT.f.0066	MCTs04	15	2/14/17	Tuesday	14	2/13/17	Monday	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	No Time	18.9	0.6	4	NA	3	Sample	Post	1.55	None	Multivitamin
+MCT.f.0067	MCTs04	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	8:15 AM	18.9	0.6	5	NA	75	Sample	Post	1.55	None	Multivitamin
+MCT.f.0068	MCTs04	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	No Time	18.9	0.6	4	NA	14	Sample	Post	1.55	None	Multivitamin
+MCT.f.0069	MCTs05	1	1/31/17	Tuesday	0	1/30/17	Monday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	7:45 PM	19.9	-0.6	4	NA	4	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0070	MCTs05	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	8:15 AM	19.9	-0.6	3	NA	63	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0071	MCTs05	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	2:20 PM	19.9	-0.6	1	NA	21	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0072	MCTs05	4	2/3/17	Friday	3	2/2/17	Thursday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	1:30 PM	19.9	-0.6	5	NA	25	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0073	MCTs05	5	2/4/17	Saturday	4	2/3/17	Friday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	0	NA	19.9	-0.6	NA	NA	NA	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0074	MCTs05	6	2/5/17	Sunday	5	2/4/17	Saturday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	10:30 AM	19.9	-0.6	3	NA	76	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0075	MCTs05	7	2/6/17	Monday	6	2/5/17	Sunday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	8:15 AM	19.9	-0.6	3	NA	58	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0417	MCTs06	1	1/31/17	Tuesday	0	1/30/17	Monday	M	23.7	78	185.4	22.7	MCT	87	Complete	0	1	4:34 PM	22.7	-1.3	3	NA	54	Sample	Pre	1.55	None	Whey protein;fish oil
+MCT.f.0087	MCTs06	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	23.7	78	185.4	22.7	MCT	87	Complete	0	0	NA	22.7	-1.3	NA	NA	NA	Sample	Pre	1.55	None	Whey protein;fish oil
+MCT.f.0088	MCTs06	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	23.7	78	185.4	22.7	MCT	87	Complete	0	0	NA	22.7	-1.3	NA	NA	NA	Sample	Pre	1.55	None	Whey protein;fish oil
+MCT.f.0089	MCTs06	4	2/3/17	Friday	3	2/2/17	Thursday	M	23.7	78	185.4	22.7	MCT	87	Complete	0	1	1:00 PM	22.7	-1.3	5	NA	18	Sample	Pre	1.55	None	Whey protein;fish oil
+MCT.f.0090	MCTs06	5	2/4/17	Saturday	4	2/3/17	Friday	M	23.7	78	185.4	22.7	MCT	87	Complete	0	0	NA	22.7	-1.3	NA	NA	NA	Sample	Pre	1.55	None	Whey protein;fish oil
+MCT.f.0091	MCTs06	6	2/5/17	Sunday	5	2/4/17	Saturday	M	23.7	78	185.4	22.7	MCT	87	Complete	0	1	No Time	22.7	-1.3	6	NA	41	Sample	Pre	1.55	None	Whey protein;fish oil
+MCT.f.0092	MCTs06	7	2/6/17	Monday	6	2/5/17	Sunday	M	23.7	78	185.4	22.7	MCT	87	Complete	0	0	1:25 PM	22.7	-1.3	NA	NA	NA	Sample	Pre	1.55	None	Whey protein;fish oil
+MCT.f.0093	MCTs06	8	2/7/17	Tuesday	7	2/6/17	Monday	M	23.7	78	185.4	22.7	MCT	87	Complete	8	0	NA	22.7	-1.3	NA	NA	NA	Sample	Transition	1.55	None	Whey protein;fish oil
+MCT.f.0094	MCTs06	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	23.7	78	185.4	22.7	MCT	87	Complete	17	1	2:05 AM	22.7	-1.3	6	NA	13	Sample	Transition	1.55	None	Whey protein;fish oil
+MCT.f.0095	MCTs06	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	23.7	78	185.4	22.7	MCT	87	Complete	17	1	12:20 PM	22.7	-1.3	6	NA	54	Sample	Transition	1.55	None	Whey protein;fish oil
+MCT.f.0096	MCTs06	11	2/10/17	Friday	10	2/9/17	Thursday	M	23.7	78	185.4	22.7	MCT	87	Complete	17	1	6:43 PM	22.7	-1.3	5	NA	16	Sample	Post	1.55	None	Whey protein;fish oil
+MCT.f.0097	MCTs06	12	2/11/17	Saturday	11	2/10/17	Friday	M	23.7	78	185.4	22.7	MCT	87	Complete	17	0	NA	22.7	-1.3	NA	NA	NA	Sample	Post	1.55	None	Whey protein;fish oil
+MCT.f.0098	MCTs06	13	2/12/17	Sunday	12	2/11/17	Saturday	M	23.7	78	185.4	22.7	MCT	87	Complete	17	1	7:00 PM	22.7	-1.3	1	NA	37	Sample	Post	1.55	None	Whey protein;fish oil
+MCT.f.0099	MCTs06	14	2/13/17	Monday	13	2/12/17	Sunday	M	23.7	78	185.4	22.7	MCT	87	Complete	17	1	7:13 PM	22.7	-1.3	2	Yes	25	Sample	Post	1.55	None	Whey protein;fish oil
+MCT.f.0100	MCTs06	15	2/14/17	Tuesday	14	2/13/17	Monday	M	23.7	78	185.4	22.7	MCT	87	Complete	17	0	NA	22.7	-1.3	NA	NA	NA	Sample	Post	1.55	None	Whey protein;fish oil
+MCT.f.0101	MCTs06	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	23.7	78	185.4	22.7	MCT	87	Complete	17	0	NA	22.7	-1.3	NA	NA	NA	Sample	Post	1.55	None	Whey protein;fish oil
+MCT.f.0102	MCTs06	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	23.7	78	185.4	22.7	MCT	87	Complete	17	1	7:50 AM	22.7	-1.3	4	NA	79	Sample	Post	1.55	None	Whey protein;fish oil
+MCT.f.0103	MCTs07	1	1/31/17	Tuesday	0	1/30/17	Monday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	1	9:40 AM	27.4	-3.2	1	NA	71	Sample	Pre	1.55	None	VitD
+MCT.f.0104	MCTs07	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	1	9:10 AM	27.4	-3.2	2	NA	62	Sample	Pre	1.55	None	VitD
+MCT.f.0105	MCTs07	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	NA	NA	27.4	-3.2	NA	NA	NA	Sample	Pre	1.55	None	VitD
+MCT.f.0106	MCTs07	4	2/3/17	Friday	3	2/2/17	Thursday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	1	10:00 AM	27.4	-3.2	6	NA	39	Sample	Pre	1.55	None	VitD
+MCT.f.0107	MCTs07	5	2/4/17	Saturday	4	2/3/17	Friday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	1	10:45 PM	27.4	-3.2	5	NA	80	Sample	Pre	1.55	None	VitD
+MCT.f.0108	MCTs07	6	2/5/17	Sunday	5	2/4/17	Saturday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	1	9:30 AM	27.4	-3.2	4	NA	17	Sample	Pre	1.55	None	VitD
+MCT.f.0109	MCTs07	7	2/6/17	Monday	6	2/5/17	Sunday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	0	1	7:45 AM	27.4	-3.2	1	NA	26	Sample	Pre	1.55	None	VitD
+MCT.f.0110	MCTs07	8	2/7/17	Tuesday	7	2/6/17	Monday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	9	1	11:15 PM	27.4	-3.2	2	Yes	33	Sample	Transition	1.55	None	VitD
+MCT.f.0111	MCTs07	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	No Time	27.4	-3.2	3	NA	20	Sample	Transition	1.55	None	VitD
+MCT.f.0112	MCTs07	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	9:30 AM	27.4	-3.2	4	NA	67	Sample	Transition	1.55	None	VitD
+MCT.f.0113	MCTs07	11	2/10/17	Friday	10	2/9/17	Thursday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	4:15 PM	27.4	-3.2	2	NA	71	Sample	Post	1.55	None	VitD
+MCT.f.0114	MCTs07	12	2/11/17	Saturday	11	2/10/17	Friday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	1:40 AM	27.4	-3.2	4	NA	44	Sample	Post	1.55	None	VitD
+MCT.f.0115	MCTs07	13	2/12/17	Sunday	12	2/11/17	Saturday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	10:30 PM	27.4	-3.2	4	NA	10	Sample	Post	1.55	None	VitD
+MCT.f.0116	MCTs07	14	2/13/17	Monday	13	2/12/17	Sunday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	8:10 AM	27.4	-3.2	1	NA	15	Sample	Post	1.55	None	VitD
+MCT.f.0117	MCTs07	15	2/14/17	Tuesday	14	2/13/17	Monday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	4:40 PM	27.4	-3.2	6	NA	49	Sample	Post	1.55	None	VitD
+MCT.f.0118	MCTs07	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	5:30 PM	27.4	-3.2	4	NA	32	Sample	Post	1.55	None	VitD
+MCT.f.0119	MCTs07	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	1	11:30 AM	27.4	-3.2	1	NA	25	Sample	Post	1.55	None	VitD
+MCT.f.0120	MCTs08	1	1/31/17	Tuesday	0	1/30/17	Monday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	0	1	7:25 AM	18.8	-0.6	4	NA	90	Sample	Pre	1.9	None	Multivitamin
+MCT.f.0121	MCTs08	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	0	1	6:40 AM	18.8	-0.6	3	NA	18	Sample	Pre	1.9	None	Multivitamin
+MCT.f.0122	MCTs08	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	0	1	7:30 AM	18.8	-0.6	1	NA	91	Sample	Pre	1.9	None	Multivitamin
+MCT.f.0123	MCTs08	4	2/3/17	Friday	3	2/2/17	Thursday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	0	1	8:00 AM	18.8	-0.6	6	NA	24	Sample	Pre	1.9	None	Multivitamin
+MCT.f.0124	MCTs08	5	2/4/17	Saturday	4	2/3/17	Friday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	0	1	11:05 AM	18.8	-0.6	4	NA	48	Sample	Pre	1.9	None	Multivitamin
+MCT.f.0125	MCTs08	6	2/5/17	Sunday	5	2/4/17	Saturday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	0	1	6:45 AM	18.8	-0.6	2	Yes	83	Sample	Pre	1.9	None	Multivitamin
+MCT.f.0126	MCTs08	7	2/6/17	Monday	6	2/5/17	Sunday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	0	1	9:10 AM	18.8	-0.6	2	Yes	77	Sample	Pre	1.9	None	Multivitamin
+MCT.f.0127	MCTs08	8	2/7/17	Tuesday	7	2/6/17	Monday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	9	1	7:45 AM	18.8	-0.6	2	Yes	66	Sample	Transition	1.9	None	Multivitamin
+MCT.f.0128	MCTs08	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	18	1	7:45 AM	18.8	-0.6	5	NA	36	Sample	Transition	1.9	None	Multivitamin
+MCT.f.0129	MCTs08	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	18	1	9:15 AM	18.8	-0.6	3	NA	48	Sample	Transition	1.9	None	Multivitamin
+MCT.f.0130	MCTs08	11	2/10/17	Friday	10	2/9/17	Thursday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	18	1	7:50 AM	18.8	-0.6	4	NA	25	Sample	Post	1.9	None	Multivitamin
+MCT.f.0131	MCTs08	12	2/11/17	Saturday	11	2/10/17	Friday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	18	1	8:45 AM	18.8	-0.6	2	Yes	18	Sample	Post	1.9	None	Multivitamin
+MCT.f.0132	MCTs08	13	2/12/17	Sunday	12	2/11/17	Saturday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	18	1	8:45 AM	18.8	-0.6	2	Yes	24	Sample	Post	1.9	None	Multivitamin
+MCT.f.0133	MCTs08	14	2/13/17	Monday	13	2/12/17	Sunday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	18	1	6:40 AM	18.8	-0.6	6	NA	40	Sample	Post	1.9	None	Multivitamin
+MCT.f.0134	MCTs08	15	2/14/17	Tuesday	14	2/13/17	Monday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	18	1	6:45 AM	18.8	-0.6	5	NA	78	Sample	Post	1.9	None	Multivitamin
+MCT.f.0135	MCTs08	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	18	1	8:04 AM	18.8	-0.6	3	NA	32	Sample	Post	1.9	None	Multivitamin
+MCT.f.0136	MCTs08	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	32.3	59.4	177.8	18.8	MCT	81	Complete	18	1	9:30 AM	18.8	-0.6	2	Yes	5	Sample	Post	1.9	None	Multivitamin
+MCT.f.0137	MCTs09	1	1/31/17	Tuesday	0	1/30/17	Monday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	1	10:00 AM	23.8	0.4	4	NA	63	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0138	MCTs09	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	1	8:15 AM	23.8	0.4	6	NA	4	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0139	MCTs09	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	1	10:30 AM	23.8	0.4	4	NA	36	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0140	MCTs09	4	2/3/17	Friday	3	2/2/17	Thursday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	0	NA	23.8	0.4	NA	NA	NA	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0141	MCTs09	5	2/4/17	Saturday	4	2/3/17	Friday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	1	10:05 AM	23.8	0.4	5	NA	22	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0142	MCTs09	6	2/5/17	Sunday	5	2/4/17	Saturday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	1	9:00 AM	23.8	0.4	5	NA	61	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0143	MCTs09	7	2/6/17	Monday	6	2/5/17	Sunday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	0	1	9:00 AM	23.8	0.4	5	NA	47	Sample	Pre	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0144	MCTs09	8	2/7/17	Tuesday	7	2/6/17	Monday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	7	1	8:30 AM	23.8	0.4	1	NA	56	Sample	Transition	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0145	MCTs09	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	10:00 AM	23.8	0.4	1	NA	50	Sample	Transition	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0146	MCTs09	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	9:40 AM	23.8	0.4	2	Yes	68	Sample	Transition	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0147	MCTs09	11	2/10/17	Friday	10	2/9/17	Thursday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	1:20 PM	23.8	0.4	2	Yes	29	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0148	MCTs09	12	2/11/17	Saturday	11	2/10/17	Friday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	12:40 PM	23.8	0.4	1	NA	42	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0149	MCTs09	13	2/12/17	Sunday	12	2/11/17	Saturday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	9:45 AM	23.8	0.4	1	NA	93	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0150	MCTs09	14	2/13/17	Monday	13	2/12/17	Sunday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	8:45 AM	23.8	0.4	2	NA	72	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0151	MCTs09	15	2/14/17	Tuesday	14	2/13/17	Monday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	10:00 AM	23.8	0.4	5	NA	4	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0152	MCTs09	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	9:30 AM	23.8	0.4	1	NA	13	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0153	MCTs09	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	1	10:45 AM	23.8	0.4	3	NA	90	Sample	Post	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD
+MCT.f.0154	MCTs10	1	1/31/17	Tuesday	0	1/30/17	Monday	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	6:30 AM	23	1.2	5	NA	70	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0155	MCTs10	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	6:17 AM	23	1.2	6	NA	10	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0156	MCTs10	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	6:40 AM	23	1.2	2	Yes	69	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0157	MCTs10	4	2/3/17	Friday	3	2/2/17	Thursday	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	6:08 AM	23	1.2	2	Yes	93	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0158	MCTs10	5	2/4/17	Saturday	4	2/3/17	Friday	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	7:30 AM	23	1.2	1	NA	41	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0159	MCTs10	6	2/5/17	Sunday	5	2/4/17	Saturday	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	9:50 AM	23	1.2	6	NA	45	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0160	MCTs10	7	2/6/17	Monday	6	2/5/17	Sunday	F	29.1	65.6	168.9	23	MCT	NA	Complete	0	1	5:20 AM	23	1.2	3	NA	19	Sample	Pre	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0161	MCTs10	8	2/7/17	Tuesday	7	2/6/17	Monday	F	29.1	65.6	168.9	23	MCT	NA	Complete	6	1	7:20 AM	23	1.2	3	NA	61	Sample	Transition	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0162	MCTs10	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	7:06 AM	23	1.2	4	NA	2	Sample	Transition	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0163	MCTs10	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	7:28 AM	23	1.2	4	NA	74	Sample	Transition	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0164	MCTs10	11	2/10/17	Friday	10	2/9/17	Thursday	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	7:15 AM	23	1.2	3	NA	62	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0165	MCTs10	12	2/11/17	Saturday	11	2/10/17	Friday	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	8:48 AM	23	1.2	5	NA	15	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0166	MCTs10	13	2/12/17	Sunday	12	2/11/17	Saturday	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	9:30 AM	23	1.2	5	NA	79	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0167	MCTs10	14	2/13/17	Monday	13	2/12/17	Sunday	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	6:30 AM	23	1.2	2	Yes	42	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0168	MCTs10	15	2/14/17	Tuesday	14	2/13/17	Monday	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	6:30 AM	23	1.2	4	NA	6	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0169	MCTs10	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	6:22 AM	23	1.2	4	NA	22	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0170	MCTs10	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1	6:30 AM	23	1.2	3	NA	5	Sample	Post	1.55	Estrogen/progestrin bc pill	None
+MCT.f.0171	MCTs11	1	1/31/17	Tuesday	0	1/30/17	Monday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	0	1	11:30 AM	22.1	-2.3	2	Yes	86	Sample	Pre	1.375	None	Multivitamin
+MCT.f.0172	MCTs11	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	0	1	3:28 PM	22.1	-2.3	2	Yes	28	Sample	Pre	1.375	None	Multivitamin
+MCT.f.0173	MCTs11	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	0	1	1:40 PM	22.1	-2.3	5	NA	48	Sample	Pre	1.375	None	Multivitamin
+MCT.f.0174	MCTs11	4	2/3/17	Friday	3	2/2/17	Thursday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	0	1	1:40 PM	22.1	-2.3	1	NA	30	Sample	Pre	1.375	None	Multivitamin
+MCT.f.0175	MCTs11	5	2/4/17	Saturday	4	2/3/17	Friday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	0	0	NA	22.1	-2.3	NA	NA	NA	Sample	Pre	1.375	None	Multivitamin
+MCT.f.0176	MCTs11	6	2/5/17	Sunday	5	2/4/17	Saturday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	0	1	12:40 PM	22.1	-2.3	3	NA	77	Sample	Pre	1.375	None	Multivitamin
+MCT.f.0177	MCTs11	7	2/6/17	Monday	6	2/5/17	Sunday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	0	1	10:40 AM	22.1	-2.3	6	Yes	5	Sample	Pre	1.375	None	Multivitamin
+MCT.f.0178	MCTs11	8	2/7/17	Tuesday	7	2/6/17	Monday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	6	1	5:30 PM	22.1	-2.3	4	NA	72	Sample	Transition	1.375	None	Multivitamin
+MCT.f.0179	MCTs11	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	13	1	11:35 AM	22.1	-2.3	2	Yes	48	Sample	Transition	1.375	None	Multivitamin
+MCT.f.0180	MCTs11	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	13	1	12:30 PM	22.1	-2.3	4	NA	39	Sample	Transition	1.375	None	Multivitamin
+MCT.f.0181	MCTs11	11	2/10/17	Friday	10	2/9/17	Thursday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	13	1	12:20 PM	22.1	-2.3	1	NA	75	Sample	Post	1.375	None	Multivitamin
+MCT.f.0182	MCTs11	12	2/11/17	Saturday	11	2/10/17	Friday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	13	1	12:30 PM	22.1	-2.3	1	NA	10	Sample	Post	1.375	None	Multivitamin
+MCT.f.0183	MCTs11	13	2/12/17	Sunday	12	2/11/17	Saturday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	13	1	12:00 PM	22.1	-2.3	3	NA	49	Sample	Post	1.375	None	Multivitamin
+MCT.f.0184	MCTs11	14	2/13/17	Monday	13	2/12/17	Sunday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	13	1	11:10 AM	22.1	-2.3	1	NA	60	Sample	Post	1.375	None	Multivitamin
+MCT.f.0185	MCTs11	15	2/14/17	Tuesday	14	2/13/17	Monday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	13	1	12:30 PM	22.1	-2.3	3	NA	51	Sample	Post	1.375	None	Multivitamin
+MCT.f.0186	MCTs11	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	13	1	10:50 AM	22.1	-2.3	5	NA	72	Sample	Post	1.375	None	Multivitamin
+MCT.f.0187	MCTs11	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	13	1	12:30 PM	22.1	-2.3	5	NA	44	Sample	Post	1.375	None	Multivitamin
+MCT.f.0188	MCTs12	1	1/31/17	Tuesday	0	1/30/17	Monday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	0	1	1:22 PM	21.1	-1.4	4	NA	66	Sample	Pre	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0189	MCTs12	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	0	1	5:19 PM	21.1	-1.4	5	NA	57	Sample	Pre	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0190	MCTs12	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	0	1	11:17 AM	21.1	-1.4	3	NA	34	Sample	Pre	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0191	MCTs12	4	2/3/17	Friday	3	2/2/17	Thursday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	0	1	8:45 AM	21.1	-1.4	4	NA	16	Sample	Pre	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0192	MCTs12	5	2/4/17	Saturday	4	2/3/17	Friday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	0	1	1:30 PM	21.1	-1.4	4	NA	53	Sample	Pre	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0193	MCTs12	6	2/5/17	Sunday	5	2/4/17	Saturday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	0	1	12:10 PM	21.1	-1.4	6	NA	50	Sample	Pre	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0194	MCTs12	7	2/6/17	Monday	6	2/5/17	Sunday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	0	1	9:50 AM	21.1	-1.4	2	NA	30	Sample	Pre	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0195	MCTs12	8	2/7/17	Tuesday	7	2/6/17	Monday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	6	1	12:10 PM	21.1	-1.4	5	NA	73	Sample	Transition	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0196	MCTs12	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	12	1	12:00 PM	21.1	-1.4	1	NA	80	Sample	Transition	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0197	MCTs12	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	12	1	11:40 AM	21.1	-1.4	2	NA	54	Sample	Transition	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0198	MCTs12	11	2/10/17	Friday	10	2/9/17	Thursday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	12	1	10:00 AM	21.1	-1.4	2	Yes	45	Sample	Post	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0199	MCTs12	12	2/11/17	Saturday	11	2/10/17	Friday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	12	1	12:05 PM	21.1	-1.4	3	NA	1	Sample	Post	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0200	MCTs12	13	2/12/17	Sunday	12	2/11/17	Saturday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	12	1	11:30 AM	21.1	-1.4	5	NA	39	Sample	Post	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0201	MCTs12	14	2/13/17	Monday	13	2/12/17	Sunday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	12	1	11:10 AM	21.1	-1.4	5	NA	2	Sample	Post	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0202	MCTs12	15	2/14/17	Tuesday	14	2/13/17	Monday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	12	1	11:15 AM	21.1	-1.4	1	NA	33	Sample	Post	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0203	MCTs12	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	12	1	11:30 AM	21.1	-1.4	4	NA	57	Sample	Post	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0204	MCTs12	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	26.5	62.5	172.1	21.1	MCT	79	Complete	12	1	11:30 AM	21.1	-1.4	1	NA	62	Sample	Post	1.375	Estrogen/progestrin bc pill	Multivitamin
+MCT.f.0205	MCTs13	1	1/31/17	Tuesday	0	1/30/17	Monday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	0	0	NA	21.7	0.1	NA	NA	NA	Sample	Pre	1.55	None	None
+MCT.f.0206	MCTs13	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	0	1	9:10 PM	21.7	0.1	5	NA	37	Sample	Pre	1.55	None	None
+MCT.f.0207	MCTs13	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	0	0	NA	21.7	0.1	NA	NA	NA	Sample	Pre	1.55	None	None
+MCT.f.0208	MCTs13	4	2/3/17	Friday	3	2/2/17	Thursday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	0	1	3:15 PM	21.7	0.1	6	NA	25	Sample	Pre	1.55	None	None
+MCT.f.0209	MCTs13	5	2/4/17	Saturday	4	2/3/17	Friday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	0	1	11:15 AM	21.7	0.1	3	NA	56	Sample	Pre	1.55	None	None
+MCT.f.0210	MCTs13	6	2/5/17	Sunday	5	2/4/17	Saturday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	0	0	NA	21.7	0.1	NA	NA	NA	Sample	Pre	1.55	None	None
+MCT.f.0211	MCTs13	7	2/6/17	Monday	6	2/5/17	Sunday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	0	1	5:45 PM	21.7	0.1	4	NA	45	Sample	Pre	1.55	None	None
+MCT.f.0212	MCTs13	8	2/7/17	Tuesday	7	2/6/17	Monday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	5	0	NA	21.7	0.1	NA	NA	NA	Sample	Transition	1.55	None	None
+MCT.f.0213	MCTs13	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	8:30 AM	21.7	0.1	2	Yes	2	Sample	Transition	1.55	None	None
+MCT.f.0214	MCTs13	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	2:40 PM	21.7	0.1	2	NA	41	Sample	Transition	1.55	None	None
+MCT.f.0215	MCTs13	11	2/10/17	Friday	10	2/9/17	Thursday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	8:30 PM	21.7	0.1	1	NA	17	Sample	Post	1.55	None	None
+MCT.f.0216	MCTs13	12	2/11/17	Saturday	11	2/10/17	Friday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	10:45 AM	21.7	0.1	4	NA	87	Sample	Post	1.55	None	None
+MCT.f.0217	MCTs13	13	2/12/17	Sunday	12	2/11/17	Saturday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	0	NA	21.7	0.1	NA	NA	NA	Sample	Post	1.55	None	None
+MCT.f.0218	MCTs13	14	2/13/17	Monday	13	2/12/17	Sunday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	8:20 PM	21.7	0.1	4	NA	11	Sample	Post	1.55	None	None
+MCT.f.0219	MCTs13	15	2/14/17	Tuesday	14	2/13/17	Monday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	12:35 PM	21.7	0.1	5	NA	93	Sample	Post	1.55	None	None
+MCT.f.0220	MCTs13	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	9:00 PM	21.7	0.1	6	NA	15	Sample	Post	1.55	None	None
+MCT.f.0221	MCTs13	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	1	4:45 PM	21.7	0.1	2	Yes	80	Sample	Post	1.55	None	None
+MCT.f.0222	MCTs14	1	1/31/17	Tuesday	0	1/30/17	Monday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	0	1	8:00 AM	25.9	0	3	NA	45	Sample	Pre	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0223	MCTs14	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	0	1	7:30 AM	25.9	0	3	NA	71	Sample	Pre	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0224	MCTs14	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	0	1	7:45 AM	25.9	0	6	NA	30	Sample	Pre	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0225	MCTs14	4	2/3/17	Friday	3	2/2/17	Thursday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	0	1	No Time	25.9	0	3	NA	30	Sample	Pre	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0226	MCTs14	5	2/4/17	Saturday	4	2/3/17	Friday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	0	1	9:53 AM	25.9	0	5	NA	86	Sample	Pre	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0227	MCTs14	6	2/5/17	Sunday	5	2/4/17	Saturday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	0	1	12:00 PM	25.9	0	4	NA	5	Sample	Pre	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0228	MCTs14	7	2/6/17	Monday	6	2/5/17	Sunday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	0	1	7:20 AM	25.9	0	2	NA	56	Sample	Pre	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0229	MCTs14	8	2/7/17	Tuesday	7	2/6/17	Monday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	8	1	7:30 AM	25.9	0	1	NA	61	Sample	Transition	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0230	MCTs14	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:30 AM	25.9	0	3	NA	29	Sample	Transition	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0231	MCTs14	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:30 AM	25.9	0	4	NA	58	Sample	Transition	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0232	MCTs14	11	2/10/17	Friday	10	2/9/17	Thursday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:40 AM	25.9	0	4	NA	73	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0233	MCTs14	12	2/11/17	Saturday	11	2/10/17	Friday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	9:47 AM	25.9	0	3	NA	13	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0234	MCTs14	13	2/12/17	Sunday	12	2/11/17	Saturday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	11:33 AM	25.9	0	3	NA	43	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0235	MCTs14	14	2/13/17	Monday	13	2/12/17	Sunday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:30 AM	25.9	0	1	NA	27	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0236	MCTs14	15	2/14/17	Tuesday	14	2/13/17	Monday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:30 AM	25.9	0	2	Yes	17	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0237	MCTs14	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:30 AM	25.9	0	2	Yes	31	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0238	MCTs14	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	1	7:40 AM	25.9	0	3	NA	94	Sample	Post	1.55	None	Tumeric;B-complex;fish oil; probiotic
+MCT.f.0239	MCTs15	1	1/31/17	Tuesday	0	1/30/17	Monday	F	21.3	49.7	163	18.7	MCT	79	Complete	0	0	NA	18.7	-1.2	NA	NA	NA	Sample	Pre	1.375	None	None
+MCT.f.0240	MCTs15	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	21.3	49.7	163	18.7	MCT	79	Complete	0	1	9:00 AM	18.7	-1.2	3	NA	37	Sample	Pre	1.375	None	None
+MCT.f.0241	MCTs15	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	21.3	49.7	163	18.7	MCT	79	Complete	0	1	9:00 AM	18.7	-1.2	3	NA	50	Sample	Pre	1.375	None	None
+MCT.f.0242	MCTs15	4	2/3/17	Friday	3	2/2/17	Thursday	F	21.3	49.7	163	18.7	MCT	79	Complete	0	1	8:20 AM	18.7	-1.2	2	Yes	12	Sample	Pre	1.375	None	None
+MCT.f.0243	MCTs15	5	2/4/17	Saturday	4	2/3/17	Friday	F	21.3	49.7	163	18.7	MCT	79	Complete	0	1	9:30 AM	18.7	-1.2	4	NA	80	Sample	Pre	1.375	None	None
+MCT.f.0244	MCTs15	6	2/5/17	Sunday	5	2/4/17	Saturday	F	21.3	49.7	163	18.7	MCT	79	Complete	0	1	9:30 AM	18.7	-1.2	2	Yes	84	Sample	Pre	1.375	None	None
+MCT.f.0245	MCTs15	7	2/6/17	Monday	6	2/5/17	Sunday	F	21.3	49.7	163	18.7	MCT	79	Complete	0	1	7:00 AM	18.7	-1.2	1	NA	90	Sample	Pre	1.375	None	None
+MCT.f.0246	MCTs15	8	2/7/17	Tuesday	7	2/6/17	Monday	F	21.3	49.7	163	18.7	MCT	79	Complete	5	0	NA	18.7	-1.2	NA	NA	NA	Sample	Transition	1.375	None	None
+MCT.f.0247	MCTs15	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	21.3	49.7	163	18.7	MCT	79	Complete	10	1	8:30 AM	18.7	-1.2	4	NA	51	Sample	Transition	1.375	None	None
+MCT.f.0248	MCTs15	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	21.3	49.7	163	18.7	MCT	79	Complete	10	1	8:50 AM	18.7	-1.2	5	NA	91	Sample	Transition	1.375	None	None
+MCT.f.0249	MCTs15	11	2/10/17	Friday	10	2/9/17	Thursday	F	21.3	49.7	163	18.7	MCT	79	Complete	10	1	9:00 AM	18.7	-1.2	1	NA	49	Sample	Post	1.375	None	None
+MCT.f.0250	MCTs15	12	2/11/17	Saturday	11	2/10/17	Friday	F	21.3	49.7	163	18.7	MCT	79	Complete	10	1	10:00 AM	18.7	-1.2	5	NA	20	Sample	Post	1.375	None	None
+MCT.f.0251	MCTs15	13	2/12/17	Sunday	12	2/11/17	Saturday	F	21.3	49.7	163	18.7	MCT	79	Complete	10	0	NA	18.7	-1.2	NA	NA	NA	Sample	Post	1.375	None	None
+MCT.f.0252	MCTs15	14	2/13/17	Monday	13	2/12/17	Sunday	F	21.3	49.7	163	18.7	MCT	79	Complete	10	1	8:15 AM	18.7	-1.2	5	NA	56	Sample	Post	1.375	None	None
+MCT.f.0253	MCTs15	15	2/14/17	Tuesday	14	2/13/17	Monday	F	21.3	49.7	163	18.7	MCT	79	Complete	10	1	No Time	18.7	-1.2	4	NA	35	Sample	Post	1.375	None	None
+MCT.f.0254	MCTs15	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	21.3	49.7	163	18.7	MCT	79	Complete	10	1	8:15 AM	18.7	-1.2	3	NA	91	Sample	Post	1.375	None	None
+MCT.f.0255	MCTs15	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	21.3	49.7	163	18.7	MCT	79	Complete	10	1	8:50 AM	18.7	-1.2	1	NA	88	Sample	Post	1.375	None	None
+MCT.f.0256	MCTs16	1	1/31/17	Tuesday	0	1/30/17	Monday	F	19.7	49.7	171	17	EVOO	76	Complete	0	1	7:50 AM	17	-0.1	6	NA	7	Sample	Pre	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0257	MCTs16	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	19.7	49.7	171	17	EVOO	76	Complete	0	0	NA	17	-0.1	NA	NA	NA	Sample	Pre	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0258	MCTs16	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	19.7	49.7	171	17	EVOO	76	Complete	0	1	6:50 AM	17	-0.1	1	NA	22	Sample	Pre	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0259	MCTs16	4	2/3/17	Friday	3	2/2/17	Thursday	F	19.7	49.7	171	17	EVOO	76	Complete	0	1	8:30 AM	17	-0.1	4	NA	42	Sample	Pre	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0260	MCTs16	5	2/4/17	Saturday	4	2/3/17	Friday	F	19.7	49.7	171	17	EVOO	76	Complete	0	1	7:20 AM	17	-0.1	1	NA	7	Sample	Pre	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0261	MCTs16	6	2/5/17	Sunday	5	2/4/17	Saturday	F	19.7	49.7	171	17	EVOO	76	Complete	0	1	9:20 AM	17	-0.1	4	NA	20	Sample	Pre	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0262	MCTs16	7	2/6/17	Monday	6	2/5/17	Sunday	F	19.7	49.7	171	17	EVOO	76	Complete	0	0	NA	17	-0.1	NA	NA	NA	Sample	Pre	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0263	MCTs16	8	2/7/17	Tuesday	7	2/6/17	Monday	F	19.7	49.7	171	17	EVOO	76	Complete	6	1	12:15 PM	17	-0.1	1	NA	58	Sample	Transition	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0264	MCTs16	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	19.7	49.7	171	17	EVOO	76	Complete	13	1	6:20 AM	17	-0.1	4	NA	75	Sample	Transition	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0265	MCTs16	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	19.7	49.7	171	17	EVOO	76	Complete	13	1	8:05 AM	17	-0.1	3	NA	70	Sample	Transition	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0266	MCTs16	11	2/10/17	Friday	10	2/9/17	Thursday	F	19.7	49.7	171	17	EVOO	76	Complete	13	1	7:46 AM	17	-0.1	2	NA	58	Sample	Post	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0267	MCTs16	12	2/11/17	Saturday	11	2/10/17	Friday	F	19.7	49.7	171	17	EVOO	76	Complete	13	1	8:50 PM	17	-0.1	6	NA	56	Sample	Post	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0268	MCTs16	13	2/12/17	Sunday	12	2/11/17	Saturday	F	19.7	49.7	171	17	EVOO	76	Complete	13	1	6:30 AM	17	-0.1	5	NA	84	Sample	Post	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0269	MCTs16	14	2/13/17	Monday	13	2/12/17	Sunday	F	19.7	49.7	171	17	EVOO	76	Complete	13	1	8:03 AM	17	-0.1	5	NA	46	Sample	Post	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0270	MCTs16	15	2/14/17	Tuesday	14	2/13/17	Monday	F	19.7	49.7	171	17	EVOO	76	Complete	13	1	7:10 AM	17	-0.1	6	Yes	12	Sample	Post	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0271	MCTs16	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	19.7	49.7	171	17	EVOO	76	Complete	13	1	9:00 AM	17	-0.1	4	NA	26	Sample	Post	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0272	MCTs16	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	19.7	49.7	171	17	EVOO	76	Complete	13	1	8:00 AM	17	-0.1	5	NA	76	Sample	Post	1.725	None	Multivitamin;VitC;Fe;B12
+MCT.f.0290	MCTs18	1	1/31/17	Tuesday	0	1/30/17	Monday	M	22.6	67.7	175	22.1	MCT	75	Complete	0	1	7:00 AM	22.1	0.4	5	NA	60	Sample	Pre	1.725	ibuprofen	Multivitamin
+MCT.f.0291	MCTs18	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	22.6	67.7	175	22.1	MCT	75	Complete	0	1	9:00 AM	22.1	0.4	2	Yes	63	Sample	Pre	1.725	ibuprofen	Multivitamin
+MCT.f.0292	MCTs18	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	22.6	67.7	175	22.1	MCT	75	Complete	0	1	9:40 AM	22.1	0.4	1	NA	32	Sample	Pre	1.725	ibuprofen	Multivitamin
+MCT.f.0293	MCTs18	4	2/3/17	Friday	3	2/2/17	Thursday	M	22.6	67.7	175	22.1	MCT	75	Complete	0	1	8:30 AM	22.1	0.4	2	Yes	35	Sample	Pre	1.725	ibuprofen	Multivitamin
+MCT.f.0294	MCTs18	5	2/4/17	Saturday	4	2/3/17	Friday	M	22.6	67.7	175	22.1	MCT	75	Complete	0	1	9:30 AM	22.1	0.4	4	NA	92	Sample	Pre	1.725	ibuprofen	Multivitamin
+MCT.f.0295	MCTs18	6	2/5/17	Sunday	5	2/4/17	Saturday	M	22.6	67.7	175	22.1	MCT	75	Complete	0	1	9:15 AM	22.1	0.4	4	NA	70	Sample	Pre	1.725	ibuprofen	Multivitamin
+MCT.f.0296	MCTs18	7	2/6/17	Monday	6	2/5/17	Sunday	M	22.6	67.7	175	22.1	MCT	75	Complete	0	1	9:15 AM	22.1	0.4	2	Yes	70	Sample	Pre	1.725	ibuprofen	Multivitamin
+MCT.f.0297	MCTs18	8	2/7/17	Tuesday	7	2/6/17	Monday	M	22.6	67.7	175	22.1	MCT	75	Complete	8	1	7:30 AM	22.1	0.4	1	NA	18	Sample	Transition	1.725	ibuprofen	Multivitamin
+MCT.f.0298	MCTs18	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	9:45 AM	22.1	0.4	1	NA	82	Sample	Transition	1.725	ibuprofen	Multivitamin
+MCT.f.0299	MCTs18	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	No Time	22.1	0.4	3	NA	40	Sample	Transition	1.725	ibuprofen	Multivitamin
+MCT.f.0300	MCTs18	11	2/10/17	Friday	10	2/9/17	Thursday	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	9:30 AM	22.1	0.4	4	NA	19	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0301	MCTs18	12	2/11/17	Saturday	11	2/10/17	Friday	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	3:30 PM	22.1	0.4	2	NA	52	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0302	MCTs18	13	2/12/17	Sunday	12	2/11/17	Saturday	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	12:00 PM	22.1	0.4	6	NA	18	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0303	MCTs18	14	2/13/17	Monday	13	2/12/17	Sunday	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	9:30 AM	22.1	0.4	1	NA	8	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0304	MCTs18	15	2/14/17	Tuesday	14	2/13/17	Monday	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	10:00 AM	22.1	0.4	1	NA	57	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0305	MCTs18	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	9:45 AM	22.1	0.4	3	NA	85	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0306	MCTs18	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	22.6	67.7	175	22.1	MCT	75	Complete	16	1	9:30 AM	22.1	0.4	1	NA	36	Sample	Post	1.725	ibuprofen	Multivitamin
+MCT.f.0307	MCTs19	1	1/31/17	Tuesday	0	1/30/17	Monday	F	20.7	65.3	169	22.9	MCT	87	Complete	0	1	5:45 PM	22.9	0.7	3	NA	66	Sample	Pre	1.325	Hormonal IUD	Multivitamin
+MCT.f.0308	MCTs19	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	20.7	65.3	169	22.9	MCT	87	Complete	0	1	7:35 PM	22.9	0.7	6	NA	43	Sample	Pre	1.325	Hormonal IUD	Multivitamin
+MCT.f.0309	MCTs19	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	20.7	65.3	169	22.9	MCT	87	Complete	0	0	NA	22.9	0.7	NA	NA	NA	Sample	Pre	1.325	Hormonal IUD	Multivitamin
+MCT.f.0310	MCTs19	4	2/3/17	Friday	3	2/2/17	Thursday	F	20.7	65.3	169	22.9	MCT	87	Complete	0	1	5:30 PM	22.9	0.7	3	NA	55	Sample	Pre	1.325	Hormonal IUD	Multivitamin
+MCT.f.0311	MCTs19	5	2/4/17	Saturday	4	2/3/17	Friday	F	20.7	65.3	169	22.9	MCT	87	Complete	0	1	3:33 PM	22.9	0.7	6	NA	33	Sample	Pre	1.325	Hormonal IUD	Multivitamin
+MCT.f.0312	MCTs19	6	2/5/17	Sunday	5	2/4/17	Saturday	F	20.7	65.3	169	22.9	MCT	87	Complete	0	1	7:10 PM	22.9	0.7	4	NA	43	Sample	Pre	1.325	Hormonal IUD	Multivitamin
+MCT.f.0313	MCTs19	7	2/6/17	Monday	6	2/5/17	Sunday	F	20.7	65.3	169	22.9	MCT	87	Complete	0	1	6:05 PM	22.9	0.7	1	NA	16	Sample	Pre	1.325	Hormonal IUD	Multivitamin
+MCT.f.0314	MCTs19	8	2/7/17	Tuesday	7	2/6/17	Monday	F	20.7	65.3	169	22.9	MCT	87	Complete	6	1	10:23 PM	22.9	0.7	1	NA	79	Sample	Transition	1.325	Hormonal IUD	Multivitamin
+MCT.f.0315	MCTs19	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	20.7	65.3	169	22.9	MCT	87	Complete	12	1	7:18 PM	22.9	0.7	5	NA	82	Sample	Transition	1.325	Hormonal IUD	Multivitamin
+MCT.f.0316	MCTs19	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	20.7	65.3	169	22.9	MCT	87	Complete	12	1	10:30 PM	22.9	0.7	1	NA	64	Sample	Transition	1.325	Hormonal IUD	Multivitamin
+MCT.f.0317	MCTs19	11	2/10/17	Friday	10	2/9/17	Thursday	F	20.7	65.3	169	22.9	MCT	87	Complete	12	1	5:00 PM	22.9	0.7	6	NA	29	Sample	Post	1.325	Hormonal IUD	Multivitamin
+MCT.f.0318	MCTs19	12	2/11/17	Saturday	11	2/10/17	Friday	F	20.7	65.3	169	22.9	MCT	87	Complete	12	1	6:40 PM	22.9	0.7	5	NA	74	Sample	Post	1.325	Hormonal IUD	Multivitamin
+MCT.f.0319	MCTs19	13	2/12/17	Sunday	12	2/11/17	Saturday	F	20.7	65.3	169	22.9	MCT	87	Complete	12	1	1:40 PM	22.9	0.7	1	NA	29	Sample	Post	1.325	Hormonal IUD	Multivitamin
+MCT.f.0320	MCTs19	14	2/13/17	Monday	13	2/12/17	Sunday	F	20.7	65.3	169	22.9	MCT	87	Complete	12	1	8:25 PM	22.9	0.7	2	Yes	43	Sample	Post	1.325	Hormonal IUD	Multivitamin
+MCT.f.0321	MCTs19	15	2/14/17	Tuesday	14	2/13/17	Monday	F	20.7	65.3	169	22.9	MCT	87	Complete	12	1	1:50 PM	22.9	0.7	5	NA	11	Sample	Post	1.325	Hormonal IUD	Multivitamin
+MCT.f.0322	MCTs19	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	20.7	65.3	169	22.9	MCT	87	Complete	12	1	7:45 PM	22.9	0.7	4	NA	89	Sample	Post	1.325	Hormonal IUD	Multivitamin
+MCT.f.0323	MCTs19	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	20.7	65.3	169	22.9	MCT	87	Complete	12	1	5:55 PM	22.9	0.7	4	NA	49	Sample	Post	1.325	Hormonal IUD	Multivitamin
+MCT.f.0324	MCTs20	1	1/31/17	Tuesday	0	1/30/17	Monday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	0	NA	23.3	-0.7	NA	NA	NA	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0325	MCTs20	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	3:10 PM	23.3	-0.7	5	NA	33	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0326	MCTs20	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	11:10 AM	23.3	-0.7	1	NA	69	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0327	MCTs20	4	2/3/17	Friday	3	2/2/17	Thursday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	3:30 PM	23.3	-0.7	5	NA	51	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0328	MCTs20	5	2/4/17	Saturday	4	2/3/17	Friday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	0	NA	23.3	-0.7	NA	NA	NA	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0329	MCTs20	6	2/5/17	Sunday	5	2/4/17	Saturday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	9:30 AM	23.3	-0.7	1	NA	89	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0330	MCTs20	7	2/6/17	Monday	6	2/5/17	Sunday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	NA	23.3	-0.7	5	NA	87	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0331	MCTs20	8	2/7/17	Tuesday	7	2/6/17	Monday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	5	1	1:10 PM	23.3	-0.7	1	NA	65	Sample	Transition	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0332	MCTs20	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	0	NA	23.3	-0.7	NA	NA	NA	Sample	Transition	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0333	MCTs20	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	0	NA	23.3	-0.7	NA	NA	NA	Sample	Transition	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0334	MCTs20	11	2/10/17	Friday	10	2/9/17	Thursday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	9:30 AM	23.3	-0.7	4	NA	27	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0335	MCTs20	12	2/11/17	Saturday	11	2/10/17	Friday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	3:00 PM	23.3	-0.7	1	NA	14	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0336	MCTs20	13	2/12/17	Sunday	12	2/11/17	Saturday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	11:10 AM	23.3	-0.7	3	NA	25	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0337	MCTs20	14	2/13/17	Monday	13	2/12/17	Sunday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	9:30 AM	23.3	-0.7	3	NA	44	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0338	MCTs20	15	2/14/17	Tuesday	14	2/13/17	Monday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	10:00 AM	23.3	-0.7	1	NA	1	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0339	MCTs20	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	0	NA	23.3	-0.7	NA	NA	NA	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0340	MCTs20	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	12:30 PM	23.3	-0.7	2	NA	57	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0341	MCTs21	1	1/31/17	Tuesday	0	1/30/17	Monday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	0	1	7:00 AM	20.6	-0.1	2	Yes	22	Sample	Pre	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0342	MCTs21	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	0	0	NA	20.6	-0.1	NA	NA	NA	Sample	Pre	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0343	MCTs21	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	0	NA	NA	20.6	-0.1	NA	NA	NA	Sample	Pre	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0344	MCTs21	4	2/3/17	Friday	3	2/2/17	Thursday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	0	1	5:00 PM	20.6	-0.1	3	NA	65	Sample	Pre	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0345	MCTs21	5	2/4/17	Saturday	4	2/3/17	Friday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	0	1	3:30 PM	20.6	-0.1	1	NA	6	Sample	Pre	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0346	MCTs21	6	2/5/17	Sunday	5	2/4/17	Saturday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	0	1	1:00 PM	20.6	-0.1	1	NA	77	Sample	Pre	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0347	MCTs21	7	2/6/17	Monday	6	2/5/17	Sunday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	0	1	4:30 PM	20.6	-0.1	5	NA	88	Sample	Pre	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0348	MCTs21	8	2/7/17	Tuesday	7	2/6/17	Monday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	5	1	6:30 AM	20.6	-0.1	3	NA	21	Sample	Transition	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0349	MCTs21	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	10	1	7:00 PM	20.6	-0.1	6	NA	6	Sample	Transition	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0350	MCTs21	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	10	1	7:40 PM	20.6	-0.1	5	NA	29	Sample	Transition	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0351	MCTs21	11	2/10/17	Friday	10	2/9/17	Thursday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	10	1	4:05 PM	20.6	-0.1	3	NA	57	Sample	Post	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0352	MCTs21	12	2/11/17	Saturday	11	2/10/17	Friday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	10	1	9:45 AM	20.6	-0.1	3	NA	92	Sample	Post	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0353	MCTs21	13	2/12/17	Sunday	12	2/11/17	Saturday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	10	1	12:00 PM	20.6	-0.1	2	Yes	3	Sample	Post	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0354	MCTs21	14	2/13/17	Monday	13	2/12/17	Sunday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	10	1	1:30 PM	20.6	-0.1	1	NA	2	Sample	Post	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0355	MCTs21	15	2/14/17	Tuesday	14	2/13/17	Monday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	10	1	7:00 AM	20.6	-0.1	3	NA	60	Sample	Post	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0356	MCTs21	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	10	1	5:00 PM	20.6	-0.1	2	NA	73	Sample	Post	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0357	MCTs21	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	29.1	53.7	161.3	20.6	MCT	79	Complete	10	1	4:00 PM	20.6	-0.1	1	NA	70	Sample	Post	1.725	Hormonal IUD	Multivitamin;VitD;fish oil
+MCT.f.0358	MCTs22	1	1/31/17	Tuesday	0	1/30/17	Monday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	11:00 AM	18.3	1.6	2	Yes	65	Sample	Pre	1.325	None	None
+MCT.f.0359	MCTs22	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	7:30 PM	18.3	1.6	4	NA	30	Sample	Pre	1.325	None	None
+MCT.f.0360	MCTs22	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	9:45 AM	18.3	1.6	6	NA	17	Sample	Pre	1.325	None	None
+MCT.f.0361	MCTs22	4	2/3/17	Friday	3	2/2/17	Thursday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	11:10 AM	18.3	1.6	5	NA	85	Sample	Pre	1.325	None	None
+MCT.f.0362	MCTs22	5	2/4/17	Saturday	4	2/3/17	Friday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	12:55 PM	18.3	1.6	4	NA	64	Sample	Pre	1.325	None	None
+MCT.f.0363	MCTs22	6	2/5/17	Sunday	5	2/4/17	Saturday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	10:05 AM	18.3	1.6	3	NA	46	Sample	Pre	1.325	None	None
+MCT.f.0364	MCTs22	7	2/6/17	Monday	6	2/5/17	Sunday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	0	1	7:40 AM	18.3	1.6	1	NA	51	Sample	Pre	1.325	None	None
+MCT.f.0365	MCTs22	8	2/7/17	Tuesday	7	2/6/17	Monday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	5	1	8:30 AM	18.3	1.6	1	NA	44	Sample	Transition	1.325	None	None
+MCT.f.0366	MCTs22	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	11:20 AM	18.3	1.6	5	NA	5	Sample	Transition	1.325	None	None
+MCT.f.0367	MCTs22	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	0	4:15 PM	18.3	1.6	NA	NA	NA	Sample	Transition	1.325	None	None
+MCT.f.0368	MCTs22	11	2/10/17	Friday	10	2/9/17	Thursday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	NA	18.3	1.6	3	NA	89	Sample	Post	1.325	None	None
+MCT.f.0369	MCTs22	12	2/11/17	Saturday	11	2/10/17	Friday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	8:50 AM	18.3	1.6	1	NA	5	Sample	Post	1.325	None	None
+MCT.f.0370	MCTs22	13	2/12/17	Sunday	12	2/11/17	Saturday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	5:30 PM	18.3	1.6	2	Yes	20	Sample	Post	1.325	None	None
+MCT.f.0371	MCTs22	14	2/13/17	Monday	13	2/12/17	Sunday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	2:35 PM	18.3	1.6	6	Yes	44	Sample	Post	1.325	None	None
+MCT.f.0372	MCTs22	15	2/14/17	Tuesday	14	2/13/17	Monday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	9:40 AM	18.3	1.6	2	Yes	92	Sample	Post	1.325	None	None
+MCT.f.0373	MCTs22	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	4:20 PM	18.3	1.6	5	NA	13	Sample	Post	1.325	None	None
+MCT.f.0374	MCTs22	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1	8:00 PM	18.3	1.6	1	NA	78	Sample	Post	1.325	None	Multivitamin
+MCT.f.0375	MCTs23	1	1/31/17	Tuesday	0	1/30/17	Monday	M	37.9	82.9	193	22.3	EVOO	96	Complete	0	1	7:15 AM	22.3	-2.6	2	NA	67	Sample	Pre	1.325	None	Multivitamin
+MCT.f.0376	MCTs23	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	37.9	82.9	193	22.3	EVOO	96	Complete	0	1	11:00 AM	22.3	-2.6	6	Yes	20	Sample	Pre	1.325	None	Multivitamin
+MCT.f.0377	MCTs23	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	37.9	82.9	193	22.3	EVOO	96	Complete	0	1	9:00 AM	22.3	-2.6	4	NA	94	Sample	Pre	1.325	None	Multivitamin
+MCT.f.0378	MCTs23	4	2/3/17	Friday	3	2/2/17	Thursday	M	37.9	82.9	193	22.3	EVOO	96	Complete	0	1	9:30 AM	22.3	-2.6	6	NA	27	Sample	Pre	1.325	None	Multivitamin
+MCT.f.0379	MCTs23	5	2/4/17	Saturday	4	2/3/17	Friday	M	37.9	82.9	193	22.3	EVOO	96	Complete	0	1	10:10 AM	22.3	-2.6	4	NA	61	Sample	Pre	1.325	None	Multivitamin
+MCT.f.0380	MCTs23	6	2/5/17	Sunday	5	2/4/17	Saturday	M	37.9	82.9	193	22.3	EVOO	96	Complete	0	1	10:15 AM	22.3	-2.6	3	NA	24	Sample	Pre	1.325	None	Multivitamin
+MCT.f.0381	MCTs23	7	2/6/17	Monday	6	2/5/17	Sunday	M	37.9	82.9	193	22.3	EVOO	96	Complete	0	1	9:00 AM	22.3	-2.6	1	NA	74	Sample	Pre	1.325	None	Multivitamin
+MCT.f.0382	MCTs23	8	2/7/17	Tuesday	7	2/6/17	Monday	M	37.9	82.9	193	22.3	EVOO	96	Complete	7	1	3:00 PM	22.3	-2.6	5	NA	68	Sample	Transition	1.325	None	Multivitamin
+MCT.f.0383	MCTs23	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	37.9	82.9	193	22.3	EVOO	96	Complete	14	1	9:30 AM	22.3	-2.6	1	NA	9	Sample	Transition	1.325	None	Multivitamin
+MCT.f.0384	MCTs23	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	37.9	82.9	193	22.3	EVOO	96	Complete	14	1	10:30 AM	22.3	-2.6	6	NA	31	Sample	Transition	1.325	None	Multivitamin
+MCT.f.0385	MCTs23	11	2/10/17	Friday	10	2/9/17	Thursday	M	37.9	82.9	193	22.3	EVOO	96	Complete	14	1	11:30 AM	22.3	-2.6	2	NA	59	Sample	Post	1.325	None	Multivitamin
+MCT.f.0386	MCTs23	12	2/11/17	Saturday	11	2/10/17	Friday	M	37.9	82.9	193	22.3	EVOO	96	Complete	14	1	1:45 PM	22.3	-2.6	6	Yes	51	Sample	Post	1.325	None	Multivitamin
+MCT.f.0387	MCTs23	13	2/12/17	Sunday	12	2/11/17	Saturday	M	37.9	82.9	193	22.3	EVOO	96	Complete	14	1	1:10 PM	22.3	-2.6	2	NA	55	Sample	Post	1.325	None	Multivitamin
+MCT.f.0388	MCTs23	14	2/13/17	Monday	13	2/12/17	Sunday	M	37.9	82.9	193	22.3	EVOO	96	Complete	14	1	9:35 AM	22.3	-2.6	4	NA	24	Sample	Post	1.325	None	Multivitamin
+MCT.f.0389	MCTs23	15	2/14/17	Tuesday	14	2/13/17	Monday	M	37.9	82.9	193	22.3	EVOO	96	Complete	14	1	9:05 AM	22.3	-2.6	2	Yes	9	Sample	Post	1.325	None	Multivitamin
+MCT.f.0390	MCTs23	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	37.9	82.9	193	22.3	EVOO	96	Complete	14	1	9:00 AM	22.3	-2.6	5	NA	65	Sample	Post	1.325	None	Multivitamin
+MCT.f.0391	MCTs23	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	37.9	82.9	193	22.3	EVOO	96	Complete	14	1	12:15 PM	22.3	-2.6	2	NA	37	Sample	Post	1.325	None	Multivitamin
+MCT.f.0392	MCTs24	1	1/31/17	Tuesday	0	1/30/17	Monday	F	26	54.6	157	22.2	EVOO	79.5	Complete	0	1	10:00 AM	22.2	-1.4	3	NA	47	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0393	MCTs24	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	26	54.6	157	22.2	EVOO	79.5	Complete	0	1	11:00 AM	22.2	-1.4	1	NA	85	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0394	MCTs24	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	26	54.6	157	22.2	EVOO	79.5	Complete	0	1	9:51 PM	22.2	-1.4	2	NA	82	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0395	MCTs24	4	2/3/17	Friday	3	2/2/17	Thursday	F	26	54.6	157	22.2	EVOO	79.5	Complete	0	1	12:16 PM	22.2	-1.4	3	NA	22	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0396	MCTs24	5	2/4/17	Saturday	4	2/3/17	Friday	F	26	54.6	157	22.2	EVOO	79.5	Complete	0	1	11:50 AM	22.2	-1.4	1	NA	45	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0397	MCTs24	6	2/5/17	Sunday	5	2/4/17	Saturday	F	26	54.6	157	22.2	EVOO	79.5	Complete	0	1	4:28 PM	22.2	-1.4	3	NA	82	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0398	MCTs24	7	2/6/17	Monday	6	2/5/17	Sunday	F	26	54.6	157	22.2	EVOO	79.5	Complete	0	1	3:30 PM	22.2	-1.4	2	Yes	14	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0399	MCTs24	8	2/7/17	Tuesday	7	2/6/17	Monday	F	26	54.6	157	22.2	EVOO	79.5	Complete	5	1	9:00 PM	22.2	-1.4	4	NA	60	Sample	Transition	1.55	None	Multivitamin
+MCT.f.0400	MCTs24	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	26	54.6	157	22.2	EVOO	79.5	Complete	11	1	9:00 PM	22.2	-1.4	1	NA	43	Sample	Transition	1.55	None	Multivitamin
+MCT.f.0401	MCTs24	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	26	54.6	157	22.2	EVOO	79.5	Complete	11	0	NA	22.2	-1.4	NA	NA	NA	Sample	Transition	1.55	None	Multivitamin
+MCT.f.0402	MCTs24	11	2/10/17	Friday	10	2/9/17	Thursday	F	26	54.6	157	22.2	EVOO	79.5	Complete	11	1	11:28 AM	22.2	-1.4	2	NA	36	Sample	Post	1.55	None	Multivitamin
+MCT.f.0403	MCTs24	12	2/11/17	Saturday	11	2/10/17	Friday	F	26	54.6	157	22.2	EVOO	79.5	Complete	11	1	10:49 AM	22.2	-1.4	5	NA	63	Sample	Post	1.55	None	Multivitamin
+MCT.f.0404	MCTs24	13	2/12/17	Sunday	12	2/11/17	Saturday	F	26	54.6	157	22.2	EVOO	79.5	Complete	11	1	2:43 PM	22.2	-1.4	5	NA	55	Sample	Post	1.55	None	Multivitamin
+MCT.f.0405	MCTs24	14	2/13/17	Monday	13	2/12/17	Sunday	F	26	54.6	157	22.2	EVOO	79.5	Complete	11	1	12:07 PM	22.2	-1.4	1	NA	54	Sample	Post	1.55	None	Multivitamin
+MCT.f.0406	MCTs24	15	2/14/17	Tuesday	14	2/13/17	Monday	F	26	54.6	157	22.2	EVOO	79.5	Complete	11	1	8:40 PM	22.2	-1.4	5	NA	24	Sample	Post	1.55	None	Multivitamin
+MCT.f.0407	MCTs24	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	26	54.6	157	22.2	EVOO	79.5	Complete	11	1	11:30 AM	22.2	-1.4	2	Yes	11	Sample	Post	1.55	None	Multivitamin
+MCT.f.0408	MCTs24	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	26	54.6	157	22.2	EVOO	79.5	Complete	11	1	9:30 AM	22.2	-1.4	6	NA	19	Sample	Post	1.55	None	Multivitamin
+MCT.f.0409	MCTs25	1	1/31/17	Tuesday	0	1/30/17	Monday	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	8:40 AM	31.6	0	3	NA	64	Sample	Pre	1.55	None	None
+MCT.f.0410	MCTs25	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	8:40 AM	31.6	0	1	NA	76	Sample	Pre	1.55	None	None
+MCT.f.0411	MCTs25	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	5:45 PM	31.6	0	2	Yes	40	Sample	Pre	1.55	None	None
+MCT.f.0412	MCTs25	4	2/3/17	Friday	3	2/2/17	Thursday	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	4:00 PM	31.6	0	1	NA	73	Sample	Pre	1.55	None	None
+MCT.f.0413	MCTs25	5	2/4/17	Saturday	4	2/3/17	Friday	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	2:30 PM	31.6	0	4	NA	54	Sample	Pre	1.55	None	None
+MCT.f.0414	MCTs25	6	2/5/17	Sunday	5	2/4/17	Saturday	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	10:00 PM	31.6	0	5	NA	43	Sample	Pre	1.55	None	None
+MCT.f.0415	MCTs25	7	2/6/17	Monday	6	2/5/17	Sunday	M	23.9	104.8	182	31.6	MCT	100	Complete	0	1	8:00 AM	31.6	0	3	NA	31	Sample	Pre	1.55	None	None
+MCT.f.0416	MCTs25	8	2/7/17	Tuesday	7	2/6/17	Monday	M	23.9	104.8	182	31.6	MCT	100	Complete	8	1	8:15 AM	31.6	0	5	NA	77	Sample	Transition	1.55	None	None
+MCT.f.0086	MCTs25	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	8:00 AM	31.6	0	3	NA	75	Sample	Transition	1.55	None	None
+MCT.f.0418	MCTs25	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	9:00 AM	31.6	0	2	Yes	34	Sample	Transition	1.55	None	None
+MCT.f.0419	MCTs25	11	2/10/17	Friday	10	2/9/17	Thursday	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	7:40 AM	31.6	0	3	NA	59	Sample	Post	1.55	None	None
+MCT.f.0420	MCTs25	12	2/11/17	Saturday	11	2/10/17	Friday	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	8:45 AM	31.6	0	2	Yes	64	Sample	Post	1.55	None	None
+MCT.f.0421	MCTs25	13	2/12/17	Sunday	12	2/11/17	Saturday	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	11:30 PM	31.6	0	5	NA	83	Sample	Post	1.55	None	None
+MCT.f.0422	MCTs25	14	2/13/17	Monday	13	2/12/17	Sunday	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	8:30 PM	31.6	0	1	NA	87	Sample	Post	1.55	None	None
+MCT.f.0423	MCTs25	15	2/14/17	Tuesday	14	2/13/17	Monday	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	9:45 AM	31.6	0	3	NA	33	Sample	Post	1.55	None	None
+MCT.f.0424	MCTs25	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	10:00 AM	31.6	0	5	NA	1	Sample	Post	1.55	None	None
+MCT.f.0425	MCTs25	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	23.9	104.8	182	31.6	MCT	100	Complete	17	1	2:00 PM	31.6	0	3	NA	87	Sample	Post	1.55	None	None
+MCT.f.0426	MCTs26	1	1/31/17	Tuesday	0	1/30/17	Monday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	7:45 AM	26	-2.8	4	NA	88	Sample	Pre	1.55	None	None
+MCT.f.0427	MCTs26	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	6:33 AM	26	-2.8	1	NA	40	Sample	Pre	1.55	None	None
+MCT.f.0428	MCTs26	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	11:00 AM	26	-2.8	4	NA	18	Sample	Pre	1.55	None	None
+MCT.f.0429	MCTs26	4	2/3/17	Friday	3	2/2/17	Thursday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	9:00 AM	26	-2.8	1	NA	55	Sample	Pre	1.55	None	None
+MCT.f.0430	MCTs26	5	2/4/17	Saturday	4	2/3/17	Friday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	12:00 PM	26	-2.8	5	NA	35	Sample	Pre	1.55	None	None
+MCT.f.0431	MCTs26	6	2/5/17	Sunday	5	2/4/17	Saturday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	9:00 AM	26	-2.8	3	NA	41	Sample	Pre	1.55	None	None
+MCT.f.0432	MCTs26	7	2/6/17	Monday	6	2/5/17	Sunday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	0	1	6:45 AM	26	-2.8	4	NA	38	Sample	Pre	1.55	None	None
+MCT.f.0433	MCTs26	8	2/7/17	Tuesday	7	2/6/17	Monday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	7	1	10:00 AM	26	-2.8	3	NA	35	Sample	Transition	1.55	None	None
+MCT.f.0434	MCTs26	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	5:30 PM	26	-2.8	5	NA	71	Sample	Transition	1.55	None	None
+MCT.f.0435	MCTs26	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	12:26 PM	26	-2.8	6	Yes	28	Sample	Transition	1.55	None	None
+MCT.f.0436	MCTs26	11	2/10/17	Friday	10	2/9/17	Thursday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	11:00 AM	26	-2.8	2	Yes	90	Sample	Post	1.55	None	None
+MCT.f.0437	MCTs26	12	2/11/17	Saturday	11	2/10/17	Friday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	8:45 AM	26	-2.8	4	NA	41	Sample	Post	1.55	None	None
+MCT.f.0438	MCTs26	13	2/12/17	Sunday	12	2/11/17	Saturday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	8:30 AM	26	-2.8	4	NA	71	Sample	Post	1.55	None	None
+MCT.f.0439	MCTs26	14	2/13/17	Monday	13	2/12/17	Sunday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	9:15 AM	26	-2.8	6	NA	34	Sample	Post	1.55	None	None
+MCT.f.0440	MCTs26	15	2/14/17	Tuesday	14	2/13/17	Monday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	1:15 PM	26	-2.8	5	NA	42	Sample	Post	1.55	None	None
+MCT.f.0441	MCTs26	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	7:15 AM	26	-2.8	4	NA	8	Sample	Post	1.55	None	None
+MCT.f.0442	MCTs26	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	1	5:45 PM	26	-2.8	5	NA	66	Sample	Post	1.55	None	None
+MCT.f.0443	MCTs27	1	1/31/17	Tuesday	0	1/30/17	Monday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	0	1	3:00 PM	27.3	-0.1	6	NA	35	Sample	Pre	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0444	MCTs27	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	0	1	10:00 AM	27.3	-0.1	3	NA	3	Sample	Pre	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0445	MCTs27	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	0	1	7:30 AM	27.3	-0.1	4	NA	12	Sample	Pre	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0446	MCTs27	4	2/3/17	Friday	3	2/2/17	Thursday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	0	1	8:30 AM	27.3	-0.1	4	NA	81	Sample	Pre	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0447	MCTs27	5	2/4/17	Saturday	4	2/3/17	Friday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	0	1	7:45 AM	27.3	-0.1	6	NA	38	Sample	Pre	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0448	MCTs27	6	2/5/17	Sunday	5	2/4/17	Saturday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	0	0	NA	27.3	-0.1	NA	NA	NA	Sample	Pre	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0449	MCTs27	7	2/6/17	Monday	6	2/5/17	Sunday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	0	1	11:30 AM	27.3	-0.1	3	NA	4	Sample	Pre	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0450	MCTs27	8	2/7/17	Tuesday	7	2/6/17	Monday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	5	1	7:30 AM	27.3	-0.1	3	NA	42	Sample	Transition	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0451	MCTs27	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	11	1	1:00 PM	27.3	-0.1	2	Yes	26	Sample	Transition	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0452	MCTs27	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	11	1	8:15 AM	27.3	-0.1	4	NA	91	Sample	Transition	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0453	MCTs27	11	2/10/17	Friday	10	2/9/17	Thursday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	11	1	2:00 PM	27.3	-0.1	5	NA	92	Sample	Post	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0454	MCTs27	12	2/11/17	Saturday	11	2/10/17	Friday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	11	1	11:00 AM	27.3	-0.1	2	Yes	1	Sample	Post	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0455	MCTs27	13	2/12/17	Sunday	12	2/11/17	Saturday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	11	1	10:15 AM	27.3	-0.1	5	NA	30	Sample	Post	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0456	MCTs27	14	2/13/17	Monday	13	2/12/17	Sunday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	11	1	8:00 AM	27.3	-0.1	4	NA	50	Sample	Post	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0457	MCTs27	15	2/14/17	Tuesday	14	2/13/17	Monday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	11	1	2:00 PM	27.3	-0.1	4	NA	33	Sample	Post	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0458	MCTs27	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	11	1	12:30 PM	27.3	-0.1	1	NA	35	Sample	Post	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0459	MCTs27	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	11	1	9:00 AM	27.3	-0.1	1	NA	24	Sample	Post	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD
+MCT.f.0460	MCTs28	1	1/31/17	Tuesday	0	1/30/17	Monday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	8:00 AM	18.9	NA	5	NA	9	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0461	MCTs28	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	9:35 PM	18.9	NA	6	NA	21	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0462	MCTs28	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	2:25 PM	18.9	NA	5	NA	12	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0463	MCTs28	4	2/3/17	Friday	3	2/2/17	Thursday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	8:10 AM	18.9	NA	3	NA	88	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0464	MCTs28	5	2/4/17	Saturday	4	2/3/17	Friday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	3:07 PM	18.9	NA	1	NA	83	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0465	MCTs28	6	2/5/17	Sunday	5	2/4/17	Saturday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	7:30 AM	18.9	NA	5	NA	23	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0466	MCTs28	7	2/6/17	Monday	6	2/5/17	Sunday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	0	NA	18.9	NA	NA	NA	NA	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0467	MCTs28	8	2/7/17	Tuesday	7	2/6/17	Monday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	5	1	2:55 PM	18.9	NA	2	NA	81	Sample	Transition	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0468	MCTs28	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	2:20 PM	18.9	NA	2	Yes	87	Sample	Transition	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0469	MCTs28	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	0	NA	18.9	NA	NA	NA	NA	Sample	Transition	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0470	MCTs28	11	2/10/17	Friday	10	2/9/17	Thursday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	8:10 AM	18.9	NA	6	NA	16	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0471	MCTs28	12	2/11/17	Saturday	11	2/10/17	Friday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	0	NA	18.9	NA	NA	NA	NA	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0472	MCTs28	13	2/12/17	Sunday	12	2/11/17	Saturday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	9:39 PM	18.9	NA	1	NA	38	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0473	MCTs28	14	2/13/17	Monday	13	2/12/17	Sunday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	10:17 AM	18.9	NA	5	NA	31	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0475	MCTs28	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	7:40 AM	18.9	NA	2	NA	46	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0476	MCTs28	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	7:40 AM	18.9	NA	1	NA	28	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0477	MCTs29	1	1/31/17	Tuesday	0	1/30/17	Monday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	0	1	8:20 PM	26.2	-1.1	2	Yes	78	Sample	Pre	1.325	None	None
+MCT.f.0478	MCTs29	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	0	0	NA	26.2	-1.1	NA	NA	NA	Sample	Pre	1.325	None	None
+MCT.f.0479	MCTs29	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	0	NA	NA	26.2	-1.1	NA	NA	NA	Sample	Pre	1.325	None	None
+MCT.f.0480	MCTs29	4	2/3/17	Friday	3	2/2/17	Thursday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	0	0	NA	26.2	-1.1	NA	NA	NA	Sample	Pre	1.325	None	None
+MCT.f.0481	MCTs29	5	2/4/17	Saturday	4	2/3/17	Friday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	0	1	1:45 PM	26.2	-1.1	5	NA	50	Sample	Pre	1.325	None	None
+MCT.f.0482	MCTs29	6	2/5/17	Sunday	5	2/4/17	Saturday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	0	1	2:30 PM	26.2	-1.1	5	NA	21	Sample	Pre	1.325	None	None
+MCT.f.0483	MCTs29	7	2/6/17	Monday	6	2/5/17	Sunday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	0	0	NA	26.2	-1.1	NA	NA	NA	Sample	Pre	1.325	None	None
+MCT.f.0484	MCTs29	8	2/7/17	Tuesday	7	2/6/17	Monday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	5	0	NA	26.2	-1.1	NA	NA	NA	Sample	Transition	1.325	None	None
+MCT.f.0485	MCTs29	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	0	NA	26.2	-1.1	NA	NA	NA	Sample	Transition	1.325	None	None
+MCT.f.0486	MCTs29	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	1	8:20 PM	26.2	-1.1	3	NA	83	Sample	Transition	1.325	None	None
+MCT.f.0487	MCTs29	11	2/10/17	Friday	10	2/9/17	Thursday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	0	NA	26.2	-1.1	NA	NA	NA	Sample	Post	1.325	None	None
+MCT.f.0488	MCTs29	12	2/11/17	Saturday	11	2/10/17	Friday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	1	10:50 AM	26.2	-1.1	3	NA	67	Sample	Post	1.325	None	None
+MCT.f.0489	MCTs29	13	2/12/17	Sunday	12	2/11/17	Saturday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	1	4:08 PM	26.2	-1.1	5	NA	38	Sample	Post	1.325	None	None
+MCT.f.0490	MCTs29	14	2/13/17	Monday	13	2/12/17	Sunday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	0	NA	26.2	-1.1	NA	NA	NA	Sample	Post	1.325	None	None
+MCT.f.0491	MCTs29	15	2/14/17	Tuesday	14	2/13/17	Monday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	0	NA	26.2	-1.1	NA	NA	NA	Sample	Post	1.325	None	None
+MCT.f.0492	MCTs29	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	1	NA	26.2	-1.1	4	NA	65	Sample	Post	1.325	None	None
+MCT.f.0493	MCTs29	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	0	NA	26.2	-1.1	NA	NA	NA	Sample	Post	1.325	None	None
+MCT.f.0511	MCTs31	1	1/31/17	Tuesday	0	1/30/17	Monday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	12:45 PM	22.1	-0.3	6	NA	55	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0512	MCTs31	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	2:45 PM	22.1	-0.3	5	NA	27	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0513	MCTs31	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	9:15 AM	22.1	-0.3	3	NA	17	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0514	MCTs31	4	2/3/17	Friday	3	2/2/17	Thursday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	10:00 AM	22.1	-0.3	5	NA	58	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0515	MCTs31	5	2/4/17	Saturday	4	2/3/17	Friday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	10:50 AM	22.1	-0.3	5	NA	28	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0516	MCTs31	6	2/5/17	Sunday	5	2/4/17	Saturday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	11:55 AM	22.1	-0.3	2	NA	49	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0517	MCTs31	7	2/6/17	Monday	6	2/5/17	Sunday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	0	1	10:20 AM	22.1	-0.3	3	NA	53	Sample	Pre	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0518	MCTs31	8	2/7/17	Tuesday	7	2/6/17	Monday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	5	0	NA	22.1	-0.3	NA	NA	NA	Sample	Transition	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0519	MCTs31	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	9:10 AM	22.1	-0.3	5	NA	59	Sample	Transition	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0520	MCTs31	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	8:45 PM	22.1	-0.3	4	NA	15	Sample	Transition	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0521	MCTs31	11	2/10/17	Friday	10	2/9/17	Thursday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	0	NA	22.1	-0.3	NA	NA	NA	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0522	MCTs31	12	2/11/17	Saturday	11	2/10/17	Friday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	8:30 AM	22.1	-0.3	2	NA	75	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0523	MCTs31	13	2/12/17	Sunday	12	2/11/17	Saturday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	9:30 AM	22.1	-0.3	2	Yes	32	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0524	MCTs31	14	2/13/17	Monday	13	2/12/17	Sunday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	10:45 AM	22.1	-0.3	6	NA	23	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0525	MCTs31	15	2/14/17	Tuesday	14	2/13/17	Monday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	10:00 AM	22.1	-0.3	4	NA	47	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0526	MCTs31	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	11:15 AM	22.1	-0.3	2	Yes	21	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0527	MCTs31	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	1	12:10 PM	22.1	-0.3	6	NA	3	Sample	Post	1.55	None	Multivitamin;VitD;fish oil
+MCT.f.0528	MCTs32	1	1/31/17	Tuesday	0	1/30/17	Monday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	10:30 AM	25.3	-0.4	4	NA	28	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0529	MCTs32	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	7:30 AM	25.3	-0.4	3	NA	36	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0530	MCTs32	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	8:30 AM	25.3	-0.4	2	NA	50	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0531	MCTs32	4	2/3/17	Friday	3	2/2/17	Thursday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	3:51 PM	25.3	-0.4	4	NA	21	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0532	MCTs32	5	2/4/17	Saturday	4	2/3/17	Friday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	10:20 AM	25.3	-0.4	5	NA	94	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0533	MCTs32	6	2/5/17	Sunday	5	2/4/17	Saturday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	6:10 PM	25.3	-0.4	1	NA	67	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0534	MCTs32	7	2/6/17	Monday	6	2/5/17	Sunday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	0	1	8:58 AM	25.3	-0.4	6	NA	2	Sample	Pre	1.325	None	Multivitamin;fish oil
+MCT.f.0535	MCTs32	8	2/7/17	Tuesday	7	2/6/17	Monday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	6	1	8:41 AM	25.3	-0.4	4	NA	52	Sample	Transition	1.325	None	Multivitamin;fish oil
+MCT.f.0536	MCTs32	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	8:34 AM	25.3	-0.4	2	Yes	13	Sample	Transition	1.325	None	Multivitamin;fish oil
+MCT.f.0537	MCTs32	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	9:05 AM	25.3	-0.4	6	NA	32	Sample	Transition	1.325	None	Multivitamin;fish oil
+MCT.f.0538	MCTs32	11	2/10/17	Friday	10	2/9/17	Thursday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	10:00 AM	25.3	-0.4	3	NA	23	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0539	MCTs32	12	2/11/17	Saturday	11	2/10/17	Friday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	11:44 AM	25.3	-0.4	5	NA	26	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0540	MCTs32	13	2/12/17	Sunday	12	2/11/17	Saturday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	12:10 PM	25.3	-0.4	1	NA	53	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0541	MCTs32	14	2/13/17	Monday	13	2/12/17	Sunday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	9:14 AM	25.3	-0.4	5	NA	81	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0542	MCTs32	15	2/14/17	Tuesday	14	2/13/17	Monday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	12:29 PM	25.3	-0.4	1	NA	31	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0543	MCTs32	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	9:08 AM	25.3	-0.4	1	NA	94	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0544	MCTs32	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	1	9:30 AM	25.3	-0.4	3	NA	68	Sample	Post	1.325	None	Multivitamin;fish oil
+MCT.f.0545	MCTs33	1	1/31/17	Tuesday	0	1/30/17	Monday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	0	1	No Time	23.4	-0.6	2	Yes	19	Sample	Pre	1.325	None	None
+MCT.f.0546	MCTs33	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	0	1	No Time	23.4	-0.6	2	Yes	6	Sample	Pre	1.325	None	None
+MCT.f.0547	MCTs33	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	0	1	No Time	23.4	-0.6	6	NA	1	Sample	Pre	1.325	None	None
+MCT.f.0548	MCTs33	4	2/3/17	Friday	3	2/2/17	Thursday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	0	1	No Time	23.4	-0.6	2	Yes	91	Sample	Pre	1.325	None	None
+MCT.f.0549	MCTs33	5	2/4/17	Saturday	4	2/3/17	Friday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	0	1	No Time	23.4	-0.6	4	NA	40	Sample	Pre	1.325	None	None
+MCT.f.0550	MCTs33	6	2/5/17	Sunday	5	2/4/17	Saturday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	0	1	No Time	23.4	-0.6	2	Yes	44	Sample	Pre	1.325	None	None
+MCT.f.0551	MCTs33	7	2/6/17	Monday	6	2/5/17	Sunday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	0	1	No Time	23.4	-0.6	1	NA	19	Sample	Pre	1.325	None	None
+MCT.f.0552	MCTs33	8	2/7/17	Tuesday	7	2/6/17	Monday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	6	1	No Time	23.4	-0.6	4	NA	68	Sample	Transition	1.325	None	None
+MCT.f.0553	MCTs33	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	12	1	No Time	23.4	-0.6	4	NA	31	Sample	Transition	1.325	None	None
+MCT.f.0554	MCTs33	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	12	1	No Time	23.4	-0.6	4	NA	59	Sample	Transition	1.325	None	None
+MCT.f.0555	MCTs33	11	2/10/17	Friday	10	2/9/17	Thursday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	12	1	No Time	23.4	-0.6	3	NA	39	Sample	Post	1.325	None	None
+MCT.f.0556	MCTs33	12	2/11/17	Saturday	11	2/10/17	Friday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	12	1	No Time	23.4	-0.6	4	NA	76	Sample	Post	1.325	None	None
+MCT.f.0557	MCTs33	13	2/12/17	Sunday	12	2/11/17	Saturday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	12	1	No Time	23.4	-0.6	1	NA	48	Sample	Post	1.325	None	None
+MCT.f.0558	MCTs33	14	2/13/17	Monday	13	2/12/17	Sunday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	12	1	No Time	23.4	-0.6	6	NA	8	Sample	Post	1.325	None	None
+MCT.f.0559	MCTs33	15	2/14/17	Tuesday	14	2/13/17	Monday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	12	1	No Time	23.4	-0.6	1	NA	4	Sample	Post	1.325	None	None
+MCT.f.0560	MCTs33	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	12	1	No Time	23.4	-0.6	6	NA	14	Sample	Post	1.325	None	None
+MCT.f.0561	MCTs33	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	37.9	64.5	166	23.4	MCT	84.6	Complete	12	1	No Time	23.4	-0.6	2	Yes	88	Sample	Post	1.325	None	None
+MCT.f.0562	MCTs34	1	1/31/17	Tuesday	0	1/30/17	Monday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	2	Yes	85	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0563	MCTs34	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	0	NA	20.7	NA	NA	NA	NA	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0564	MCTs34	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	4	NA	13	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0565	MCTs34	4	2/3/17	Friday	3	2/2/17	Thursday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	1	NA	52	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0566	MCTs34	5	2/4/17	Saturday	4	2/3/17	Friday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	1	NA	81	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0567	MCTs34	6	2/5/17	Sunday	5	2/4/17	Saturday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	1	NA	86	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0568	MCTs34	7	2/6/17	Monday	6	2/5/17	Sunday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	0	1	No Time	20.7	NA	6	NA	42	Sample	Pre	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0569	MCTs34	8	2/7/17	Tuesday	7	2/6/17	Monday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	4	0	NA	20.7	NA	NA	NA	NA	Sample	Transition	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0570	MCTs34	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	4	NA	34	Sample	Transition	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0571	MCTs34	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	0	NA	20.7	NA	NA	NA	NA	Sample	Transition	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0572	MCTs34	11	2/10/17	Friday	10	2/9/17	Thursday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	5	NA	64	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0573	MCTs34	12	2/11/17	Saturday	11	2/10/17	Friday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	4	NA	83	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0574	MCTs34	13	2/12/17	Sunday	12	2/11/17	Saturday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	2	NA	38	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0575	MCTs34	14	2/13/17	Monday	13	2/12/17	Sunday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	4	NA	82	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0576	MCTs34	15	2/14/17	Tuesday	14	2/13/17	Monday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	0	NA	20.7	NA	NA	NA	NA	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0577	MCTs34	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	3	NA	84	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0578	MCTs34	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	1	No Time	20.7	NA	4	NA	86	Sample	Post	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil
+MCT.f.0579	MCTs35	1	1/31/17	Tuesday	0	1/30/17	Monday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	0	1	5:35 AM	24.2	1	2	Yes	8	Sample	Pre	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0580	MCTs35	2	2/1/17	Wednesday	1	1/31/17	Tuesday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	0	1	5:55 AM	24.2	1	2	NA	60	Sample	Pre	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0581	MCTs35	3	2/2/17	Thursday	2	2/1/17	Wednesday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	0	1	6:00 AM	24.2	1	4	NA	29	Sample	Pre	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0582	MCTs35	4	2/3/17	Friday	3	2/2/17	Thursday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	0	1	6:08 AM	24.2	1	3	NA	80	Sample	Pre	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0583	MCTs35	5	2/4/17	Saturday	4	2/3/17	Friday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	0	1	4:00 PM	24.2	1	3	NA	2	Sample	Pre	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0584	MCTs35	6	2/5/17	Sunday	5	2/4/17	Saturday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	0	0	NA	24.2	1	NA	NA	NA	Sample	Pre	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0585	MCTs35	7	2/6/17	Monday	6	2/5/17	Sunday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	0	1	5:42 AM	24.2	1	2	Yes	27	Sample	Pre	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0586	MCTs35	8	2/7/17	Tuesday	7	2/6/17	Monday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	6	1	5:55 AM	24.2	1	5	NA	41	Sample	Transition	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0587	MCTs35	9	2/8/17	Wednesday	8	2/7/17	Tuesday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	12	1	6:00 AM	24.2	1	4	NA	69	Sample	Transition	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0588	MCTs35	10	2/9/17	Thursday	9	2/8/17	Wednesday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	12	1	6:05 AM	24.2	1	5	NA	45	Sample	Transition	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0589	MCTs35	11	2/10/17	Friday	10	2/9/17	Thursday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	12	0	NA	24.2	1	NA	NA	NA	Sample	Post	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0590	MCTs35	12	2/11/17	Saturday	11	2/10/17	Friday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	12	1	8:45 AM	24.2	1	4	NA	1	Sample	Post	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0591	MCTs35	13	2/12/17	Sunday	12	2/11/17	Saturday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	12	0	NA	24.2	1	NA	NA	NA	Sample	Post	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0592	MCTs35	14	2/13/17	Monday	13	2/12/17	Sunday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	12	1	9:45 AM	24.2	1	4	NA	77	Sample	Post	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0593	MCTs35	15	2/14/17	Tuesday	14	2/13/17	Monday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	12	1	5:00 PM	24.2	1	5	NA	6	Sample	Post	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0594	MCTs35	16	2/15/17	Wednesday	15	2/14/17	Tuesday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	12	1	8:03 PM	24.2	1	6	NA	47	Sample	Post	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0595	MCTs35	17	2/16/17	Thursday	16	2/15/17	Wednesday	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	12	1	5:15 AM	24.2	1	6	NA	53	Sample	Post	1.55	ibuprofen	Multivitamin;folate
+MCT.f.0596	MCTs36	1	1/31/17	Tuesday	0	1/30/17	Monday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	0	1	7:40 AM	27.8	0.2	5	NA	62	Sample	Pre	1.55	lisinopril	None
+MCT.f.0597	MCTs36	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	0	1	7:15 AM	27.8	0.2	1	NA	34	Sample	Pre	1.55	lisinopril	None
+MCT.f.0598	MCTs36	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	0	1	7:20 AM	27.8	0.2	1	NA	11	Sample	Pre	1.55	lisinopril	None
+MCT.f.0599	MCTs36	4	2/3/17	Friday	3	2/2/17	Thursday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	0	1	6:30 AM	27.8	0.2	6	NA	37	Sample	Pre	1.55	lisinopril	None
+MCT.f.0600	MCTs36	5	2/4/17	Saturday	4	2/3/17	Friday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	0	1	4:30 AM	27.8	0.2	3	NA	69	Sample	Pre	1.55	lisinopril	None
+MCT.f.0601	MCTs36	6	2/5/17	Sunday	5	2/4/17	Saturday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	0	1	11:50 AM	27.8	0.2	1	NA	92	Sample	Pre	1.55	lisinopril	None
+MCT.f.0602	MCTs36	7	2/6/17	Monday	6	2/5/17	Sunday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	0	1	6:35 AM	27.8	0.2	3	NA	28	Sample	Pre	1.55	lisinopril	None
+MCT.f.0603	MCTs36	8	2/7/17	Tuesday	7	2/6/17	Monday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	5	1	7:00 AM	27.8	0.2	3	NA	15	Sample	Transition	1.55	lisinopril	None
+MCT.f.0604	MCTs36	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	11	1	7:30 AM	27.8	0.2	6	NA	46	Sample	Transition	1.55	lisinopril	None
+MCT.f.0605	MCTs36	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	11	1	7:40 AM	27.8	0.2	5	NA	7	Sample	Transition	1.55	lisinopril	None
+MCT.f.0606	MCTs36	11	2/10/17	Friday	10	2/9/17	Thursday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	11	1	7:30 AM	27.8	0.2	3	NA	11	Sample	Post	1.55	lisinopril	None
+MCT.f.0607	MCTs36	12	2/11/17	Saturday	11	2/10/17	Friday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	11	1	8:30 AM	27.8	0.2	3	NA	27	Sample	Post	1.55	lisinopril	None
+MCT.f.0608	MCTs36	13	2/12/17	Sunday	12	2/11/17	Saturday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	11	1	8:00 AM	27.8	0.2	1	NA	20	Sample	Post	1.55	lisinopril	None
+MCT.f.0609	MCTs36	14	2/13/17	Monday	13	2/12/17	Sunday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	11	1	6:50 AM	27.8	0.2	1	NA	3	Sample	Post	1.55	lisinopril	None
+MCT.f.0610	MCTs36	15	2/14/17	Tuesday	14	2/13/17	Monday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	11	1	7:00 AM	27.8	0.2	2	NA	79	Sample	Post	1.55	lisinopril	None
+MCT.f.0611	MCTs36	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	11	1	6:00 AM	27.8	0.2	1	NA	47	Sample	Post	1.55	lisinopril	None
+MCT.f.0612	MCTs36	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	11	1	6:15 AM	27.8	0.2	2	Yes	53	Sample	Post	1.55	lisinopril	None
+MCT.f.0613	MCTs37	1	1/31/17	Tuesday	0	1/30/17	Monday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	6:00 AM	27.3	-1.3	5	NA	3	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0614	MCTs37	2	2/1/17	Wednesday	1	1/31/17	Tuesday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	6:45 AM	27.3	-1.3	5	NA	69	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0615	MCTs37	3	2/2/17	Thursday	2	2/1/17	Wednesday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	7:35 AM	27.3	-1.3	6	NA	11	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0616	MCTs37	4	2/3/17	Friday	3	2/2/17	Thursday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	7:00 AM	27.3	-1.3	3	NA	16	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0617	MCTs37	5	2/4/17	Saturday	4	2/3/17	Friday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	7:30 AM	27.3	-1.3	3	NA	6	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0618	MCTs37	6	2/5/17	Sunday	5	2/4/17	Saturday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	8:15 AM	27.3	-1.3	6	NA	26	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0619	MCTs37	7	2/6/17	Monday	6	2/5/17	Sunday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	0	1	4:45 AM	27.3	-1.3	3	NA	12	Sample	Pre	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0620	MCTs37	8	2/7/17	Tuesday	7	2/6/17	Monday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	7	1	6:15 PM	27.3	-1.3	5	NA	40	Sample	Transition	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0621	MCTs37	9	2/8/17	Wednesday	8	2/7/17	Tuesday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	6:45 PM	27.3	-1.3	5	NA	10	Sample	Transition	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0622	MCTs37	10	2/9/17	Thursday	9	2/8/17	Wednesday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	9:30 PM	27.3	-1.3	6	NA	22	Sample	Transition	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0623	MCTs37	11	2/10/17	Friday	10	2/9/17	Thursday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	6:40 PM	27.3	-1.3	1	NA	12	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0624	MCTs37	12	2/11/17	Saturday	11	2/10/17	Friday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	6:40 PM	27.3	-1.3	5	NA	19	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0625	MCTs37	13	2/12/17	Sunday	12	2/11/17	Saturday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	8:00 PM	27.3	-1.3	2	Yes	94	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0626	MCTs37	14	2/13/17	Monday	13	2/12/17	Sunday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	7:30 PM	27.3	-1.3	5	NA	52	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0627	MCTs37	15	2/14/17	Tuesday	14	2/13/17	Monday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	8:15 PM	27.3	-1.3	4	NA	78	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0628	MCTs37	16	2/15/17	Wednesday	15	2/14/17	Tuesday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	7:30 PM	27.3	-1.3	2	NA	74	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None
+MCT.f.0629	MCTs37	17	2/16/17	Thursday	16	2/15/17	Wednesday	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	1	7:15 PM	27.3	-1.3	4	NA	37	Sample	Post	1.325	Metformin;ranitidine;atrovistatin	None

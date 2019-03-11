@@ -1,0 +1,16 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0052	MCTs04	1	2017-01-31	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	11:30 AM	18.9	0.6	3	9	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0053	MCTs04	2	2017-02-01	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	9:15 AM	18.9	0.6	2	76	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0054	MCTs04	3	2017-02-02	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	8:30 AM	18.9	0.6	2	51	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0055	MCTs04	4	2017-02-03	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	8:00 AM	18.9	0.6	5	90	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0056	MCTs04	5	2017-02-04	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	11:30 AM	18.9	0.6	2	4	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0057	MCTs04	6	2017-02-05	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	9:15 AM	18.9	0.6	4	85	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0058	MCTs04	7	2017-02-06	F	24	50.6	163.8	18.9	MCT	78	Complete	0	1	10:30 AM	18.9	0.6	3	7	Sample	Pre	1.55	None	Multivitamin
+MCT.f.0059	MCTs04	8	2017-02-07	F	24	50.6	163.8	18.9	MCT	78	Complete	6	1	11:00 AM	18.9	0.6	5	53	Sample	Transition	1.55	None	Multivitamin
+MCT.f.0060	MCTs04	9	2017-02-08	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	9:00 AM	18.9	0.6	3	38	Sample	Transition	1.55	None	Multivitamin
+MCT.f.0061	MCTs04	10	2017-02-09	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	8:00 AM	18.9	0.6	3	14	Sample	Transition	1.55	None	Multivitamin
+MCT.f.0063	MCTs04	12	2017-02-11	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	9:30 AM	18.9	0.6	6	48	Sample	Post	1.55	None	Multivitamin
+MCT.f.0065	MCTs04	14	2017-02-13	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	No Time	18.9	0.6	1	72	Sample	Post	1.55	None	Multivitamin
+MCT.f.0066	MCTs04	15	2017-02-14	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	No Time	18.9	0.6	4	3	Sample	Post	1.55	None	Multivitamin
+MCT.f.0067	MCTs04	16	2017-02-15	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	8:15 AM	18.9	0.6	5	75	Sample	Post	1.55	None	Multivitamin
+MCT.f.0068	MCTs04	17	2017-02-16	F	24	50.6	163.8	18.9	MCT	78	Complete	12	1	No Time	18.9	0.6	4	14	Sample	Post	1.55	None	Multivitamin

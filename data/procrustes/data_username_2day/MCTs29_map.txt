@@ -1,0 +1,6 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0481	MCTs29	5	2017-02-04	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	0	1	1:45 PM	26.2	-1.1	5	50	Sample	Pre	1.325	None	None
+MCT.f.0482	MCTs29	6	2017-02-05	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	0	1	2:30 PM	26.2	-1.1	5	21	Sample	Pre	1.325	None	None
+MCT.f.0486	MCTs29	10	2017-02-09	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	1	8:20 PM	26.2	-1.1	3	83	Sample	Transition	1.325	None	None
+MCT.f.0489	MCTs29	13	2017-02-12	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	1	4:08 PM	26.2	-1.1	5	38	Sample	Post	1.325	None	None
+MCT.f.0492	MCTs29	16	2017-02-15	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	1	NA	26.2	-1.1	4	65	Sample	Post	1.325	None	None

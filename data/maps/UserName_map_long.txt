@@ -1,0 +1,75 @@
+UserName	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	Weight.Change	Activity.Factor	Medications	Dietary.Supp	Race/Ethnicity	Blood.draw	Time	Cholesterol	Trigs	HDL	LDL	NonHDL.Chol	Glu	Ins	Homa.IR
+MCTs01	F	25.9	74.6	172.7	25	EVOO	NA	Complete	12	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	White	Baseline	8:35 AM	165	65	72	81	94	87	7.5	1.61
+MCTs01	F	25.9	74.2	172.7	25	EVOO	NA	Complete	12	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	White	Final	9:30 AM	133	45	66	58	67	77	4.7	0.89
+MCTs02	F	32.7	89.6	162.8	33.8	NA	116.5	Dropped	NA	NA	1.55	None	Multivitamin;VitD	White	Baseline	NA	NA	NA	NA	NA	NA	NA	NA	NA
+MCTs02	F	32.7	89.6	162.8	33.8	NA	116.5	Dropped	NA	NA	1.55	None	Multivitamin;VitD	White	Final	NA	NA	NA	NA	NA	NA	NA	NA	NA
+MCTs03	M	25.4	91.2	185.1	26.6	MCT	104	Complete	18	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	White	Baseline	9:00 AM	186	88	52	116	134	95	10.1	2.37
+MCTs03	M	25.4	94.1	185.1	26.6	MCT	104	Complete	18	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	White	Final	9:03 AM	166	87	53	96	114	92	6.9	1.57
+MCTs04	F	24	50.6	163.8	18.9	MCT	78	Complete	12	0.6	1.55	None	Multivitamin	White	Baseline	8:35 AM	138	45	69	60	69	94	6.3	1.46
+MCTs04	F	24	51.2	163.8	18.9	MCT	78	Complete	12	0.6	1.55	None	Multivitamin	White	Final	9:15 AM	118	51	61	47	57	92	13.3	3.02
+MCTs05	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	10	-0.6	1.375	Hormonal IUD;ibuprofen	None	White	Baseline	9:10 AM	122	53	50	61	72	84	6.8	1.41
+MCTs05	F	23.1	56.6	169.5	19.9	EVOO	85.5	Complete	10	-0.6	1.375	Hormonal IUD;ibuprofen	None	White	Final	9:08 AM	123	58	51	60	72	84	7.2	1.49
+MCTs06	M	23.7	78	185.4	22.7	MCT	87	Complete	17	-1.3	1.55	None	Whey protein;fish oil	White	Baseline	10:00 AM	148	43	67	72	80	78	4.3	0.83
+MCTs06	M	23.7	76.7	185.4	22.7	MCT	87	Complete	17	-1.3	1.55	None	Whey protein;fish oil	White	Final	8:00 AM	150	65	62	75	88	77	6.9	1.31
+MCTs07	M	28.5	90.2	181.3	27.4	MCT	95.5	Complete	18	-3.2	1.55	None	VitD	White	Baseline	8:37 AM	151	57	57	83	94	88	9.5	2.06
+MCTs07	M	28.5	87	181.3	27.4	MCT	95.5	Complete	18	-3.2	1.55	None	VitD	White	Final	8:43 AM	158	57	50	96	108	89	5.7	1.25
+MCTs08	M	32.3	59.4	177.8	18.8	MCT	81	Complete	18	-0.6	1.9	None	Multivitamin	White	Baseline	9:23 AM	148	40	63	78	86	95	4.4	1.03
+MCTs08	M	32.3	58.8	177.8	18.8	MCT	81	Complete	18	-0.6	1.9	None	Multivitamin	White	Final	8:05 AM	154	46	62	83	92	86	3.6	0.76
+MCTs09	F	21.7	66.9	167.6	23.8	MCT	85	Complete	14	0.4	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD	White	Baseline	7:30 AM	177	57	61	104	116	84	9	1.87
+MCTs09	F	21.7	67.3	167.6	23.8	MCT	85	Complete	14	0.4	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD	White	Final	7:42 AM	183	72	57	112	126	78	8.9	1.71
+MCTs10	F	29.1	65.6	168.9	23	MCT	NA	Complete	13	1.2	1.55	Estrogen/progestrin bc pill	None	White	Baseline	7:05 AM	161	82	64	80	97	88	8	1.74
+MCTs10	F	29.1	66.8	168.9	23	MCT	NA	Complete	13	1.2	1.55	Estrogen/progestrin bc pill	None	White	Final	7:00 AM	158	85	52	89	106	78	5.4	1.04
+MCTs11	M	27.9	69.2	176.8	22.1	EVOO	84	Complete	13	-2.3	1.375	None	Multivitamin	White	Baseline	9:26 AM	130	67	43	74	87	77	5.4	1.03
+MCTs11	M	27.9	66.9	176.8	22.1	EVOO	84	Complete	13	-2.3	1.375	None	Multivitamin	White	Final	9:37 AM	110	72	42	53	68	80	6.9	1.36
+MCTs12	F	26.5	62.5	172.1	21.1	MCT	79	Complete	12	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	Asian	Baseline	9:23 AM	114	39	46	60	67	89	13.8	3.03
+MCTs12	F	26.5	61.1	172.1	21.1	MCT	79	Complete	12	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	Asian	Final	9:35 AM	113	45	48	56	65	82	10.6	2.15
+MCTs13	F	40.6	59.1	165.1	21.7	EVOO	78.5	Complete	11	0.1	1.55	None	None	White	Baseline	8:28 AM	219	81	74	129	145	94	12	2.79
+MCTs13	F	40.6	59.2	165.1	21.7	EVOO	78.5	Complete	11	0.1	1.55	None	None	White	Final	8:12 AM	229	60	84	133	145	87	5.1	1.1
+MCTs14	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	0	1.55	None	Tumeric;B-complex;fish oil; probiotic	White	Baseline	8:09 AM	219	103	53	146	166	95	5.9	1.38
+MCTs14	M	40.7	88	184.2	25.9	EVOO	90.5	Complete	16	0	1.55	None	Tumeric;B-complex;fish oil; probiotic	White	Final	9:35 AM	178	148	42	106	136	91	8.3	1.86
+MCTs15	F	21.3	49.7	163	18.7	MCT	79	Complete	10	-1.2	1.375	None	None	White	Baseline	8:44 AM	140	54	46	83	94	85	11.1	2.33
+MCTs15	F	21.3	48.5	163	18.7	MCT	79	Complete	10	-1.2	1.375	None	None	White	Final	8:50 AM	175	58	56	107	119	86	7.7	1.64
+MCTs16	F	19.7	49.7	171	17	EVOO	76	Complete	13	-0.1	1.725	None	Multivitamin;VitC;Fe;B12	White	Baseline	7:20 AM	176	49	64	102	112	80	5.8	1.15
+MCTs16	F	19.7	49.6	171	17	EVOO	76	Complete	13	-0.1	1.725	None	Multivitamin;VitC;Fe;B12	White	Final	7:15 AM	158	55	65	83	94	78	6.9	1.33
+MCTs17	F	20.1	67.7	178	21.4	NA	90	Dropped	NA	NA	1.55	Estrogen/progestrin bc pill;mirilax	Multivitamin;VitD	White	Baseline	NA	NA	NA	NA	NA	NA	NA	NA	NA
+MCTs17	F	20.1	67.7	178	21.4	NA	90	Dropped	NA	NA	1.55	Estrogen/progestrin bc pill;mirilax	Multivitamin;VitD	White	Final	NA	NA	NA	NA	NA	NA	NA	NA	NA
+MCTs18	M	22.6	67.7	175	22.1	MCT	75	Complete	16	0.4	1.725	ibuprofen	Multivitamin	White	Baseline	9:55 AM	131	64	52	66	79	87	4.8	1.03
+MCTs18	M	22.6	68.1	175	22.1	MCT	75	Complete	16	0.4	1.725	ibuprofen	Multivitamin	White	Final	10:15 AM	152	76	54	82	97	86	3.7	0.79
+MCTs19	F	20.7	65.3	169	22.9	MCT	87	Complete	12	0.7	1.325	Hormonal IUD	Multivitamin	White	Baseline	7:19 AM	176	77	45	115	131	80	8.4	1.66
+MCTs19	F	20.7	66	169	22.9	MCT	87	Complete	12	0.7	1.325	Hormonal IUD	Multivitamin	White	Final	7:40 AM	163	74	42	106	121	77	11	2.09
+MCTs20	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	-0.7	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD	White	Baseline	9:16 AM	167	58	66	89	100	92	6.6	1.5
+MCTs20	F	33.5	68.8	172.7	23.3	EVOO	91	Complete	11	-0.7	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD	White	Final	9:10 AM	168	48	68	91	101	88	4.9	1.06
+MCTs21	F	29.1	53.7	161.3	20.6	MCT	79	Complete	10	-0.1	1.725	Hormonal IUD	Multivitamin;VitD;fish oil	White	Baseline	7:10 AM	182	77	64	103	118	84	11.4	2.36
+MCTs21	F	29.1	53.6	161.3	20.6	MCT	79	Complete	10	-0.1	1.725	Hormonal IUD	Multivitamin;VitD;fish oil	White	Final	7:06 AM	154	49	61	83	93	80	14.5	2.86
+MCTs22	F	22	48.5	162.6	18.3	MCT	76.5	Complete	10	1.6	1.325	None	None	White	Baseline	7:15 AM	216	64	54	149	162	92	9.9	2.25
+MCTs22	F	22	50.1	162.6	18.3	MCT	76.5	Complete	10	1.6	1.325	None	None	White	Final	7:15 AM	223	55	56	156	167	87	10.8	2.32
+MCTs23	M	37.9	82.9	193	22.3	EVOO	96	Complete	14	-2.6	1.325	None	Multivitamin	White	Baseline	9:30 AM	109	76	52	42	58	75	7.2	1.33
+MCTs23	M	37.9	80.3	193	22.3	EVOO	96	Complete	14	-2.6	1.325	None	Multivitamin	White	Final	9:40 AM	111	113	51	37	60	78	5.9	1.14
+MCTs24	F	26	54.6	157	22.2	EVOO	79.5	Complete	11	-1.4	1.55	None	Multivitamin	Asian	Baseline	8:25 AM	150	64	48	89	102	82	9.1	1.84
+MCTs24	F	26	53.2	157	22.2	EVOO	79.5	Complete	11	-1.4	1.55	None	Multivitamin	Asian	Final	9:00 AM	145	64	52	79	92	80	6.4	1.26
+MCTs25	M	23.9	104.8	182	31.6	MCT	100	Complete	17	0	1.55	None	None	White	Baseline	9:27 AM	135	62	39	84	96	76	8.4	1.58
+MCTs25	M	23.9	104.8	182	31.6	MCT	100	Complete	17	0	1.55	None	None	White	Final	7:39 AM	152	112	42	88	110	78	12.3	2.37
+MCTs26	M	27.1	94.3	190.5	26	EVOO	94.2	Complete	15	-2.8	1.55	None	None	White	Baseline	9:25 AM	152	54	62	79	90	89	8.8	1.93
+MCTs26	M	27.1	91.5	190.5	26	EVOO	94.2	Complete	15	-2.8	1.55	None	None	White	Final	7:35 AM	157	65	58	87	100	75	4.3	0.8
+MCTs27	F	28.8	70.9	161.3	27.3	EVOO	90	Complete	11	-0.1	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD	White	Baseline	8:35 AM	172	65	72	87	100	84	5.3	1.1
+MCTs27	F	28.8	70.8	161.3	27.3	EVOO	90	Complete	11	-0.1	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD	White	Final	8:47 AM	174	85	66	90	107	83	10.1	2.07
+MCTs28	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	NA	1.325	Thyroid hormone	VitD;VitB;gulcosamine	Asian	Baseline	NA	NA	NA	NA	NA	NA	NA	NA	NA
+MCTs28	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	NA	1.325	Thyroid hormone	VitD;VitB;gulcosamine	Asian	Final	NA	NA	NA	NA	NA	NA	NA	NA	NA
+MCTs29	F	22.3	69.3	162.6	26.2	EVOO	96	Complete	11	-1.1	1.325	None	None	White	Baseline	9:45 AM	159	79	52	91	107	78	9	1.73
+MCTs29	F	22.3	68.2	162.6	26.2	EVOO	96	Complete	11	-1.1	1.325	None	None	White	Final	9:25 AM	149	56	49	89	101	81	15.9	3.18
+MCTs30	F	26	70.6	163.2	26.5	NA	93.3	Dropped	NA	NA	1.55	Estrogen/progestrin bc pill	None	White	Baseline	NA	NA	NA	NA	NA	NA	NA	NA	NA
+MCTs30	F	26	70.6	163.2	26.5	NA	93.3	Dropped	NA	NA	1.55	Estrogen/progestrin bc pill	None	White	Final	NA	NA	NA	NA	NA	NA	NA	NA	NA
+MCTs31	F	30.1	59.9	164.8	22.1	EVOO	84.9	Complete	11	-0.3	1.55	None	Multivitamin;VitD;fish oil	White	Baseline	8:12 AM	187	47	81	97	106	77	13.9	2.64
+MCTs31	F	30.1	59.6	164.8	22.1	EVOO	84.9	Complete	11	-0.3	1.55	None	Multivitamin;VitD;fish oil	White	Final	8:15 AM	172	55	74	88	99	72	5.4	0.96
+MCTs32	M	37	83.5	181.6	25.3	EVOO	86.7	Complete	12	-0.4	1.325	None	Multivitamin;fish oil	White	Baseline	10:05 AM	163	59	38	113	125	82	8.5	1.72
+MCTs32	M	37	83.1	181.6	25.3	EVOO	86.7	Complete	12	-0.4	1.325	None	Multivitamin;fish oil	White	Final	9:59 AM	150	67	35	101	115	87	8.4	1.8
+MCTs33	M	37.9	64.5	166	23.4	MCT	84.6	Complete	12	-0.6	1.325	None	None	White	Baseline	9:35 AM	208	68	59	134	148	85	3.9	0.82
+MCTs33	M	37.9	63.9	166	23.4	MCT	84.6	Complete	12	-0.6	1.325	None	None	White	Final	9:42 AM	210	80	60	134	150	86	4.2	0.89
+MCTs34	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	NA	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil	White	Baseline	NA	NA	NA	NA	NA	NA	NA	NA	NA
+MCTs34	F	41.4	53.9	161.3	20.7	EVOO	85.5	No blood draw	9	NA	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil	White	Final	NA	NA	NA	NA	NA	NA	NA	NA	NA
+MCTs35	F	29.5	64.5	163.2	24.2	EVOO	84.5	Complete	12	1	1.55	ibuprofen	Multivitamin;folate	African	Baseline	9:38 AM	184	44	64	111	120	77	9.2	1.75
+MCTs35	F	29.5	65.5	163.2	24.2	EVOO	84.5	Complete	12	1	1.55	ibuprofen	Multivitamin;folate	African	Final	7:32 AM	163	30	69	87	93	71	5.5	0.96
+MCTs36	M	61.6	74.9	164.1	27.8	EVOO	100.4	Complete	11	0.2	1.55	lisinopril	None	Indian	Baseline	8:30 AM	234	109	47	165	187	103	10.8	2.75
+MCTs36	M	61.6	75.1	164.1	27.8	EVOO	100.4	Complete	11	0.2	1.55	lisinopril	None	Indian	Final	8:23 AM	243	138	54	162	189	95	10.2	2.39
+MCTs37	M	45.2	84.9	176.5	27.3	MCT	97.5	Complete	14	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	Indian	Baseline	8:30 AM	121	126	42	54	80	98	21.2	5.13
+MCTs37	M	45.2	83.6	176.5	27.3	MCT	97.5	Complete	14	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	Indian	Final	8:10 AM	117	90	39	60	78	95	16.8	3.94

@@ -1,0 +1,13 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Plate	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0325	MCTs20	2	2017-02-01	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	3:10 PM	23.3	-0.7	5	33	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0326	MCTs20	3	2017-02-02	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	11:10 AM	23.3	-0.7	1	69	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0327	MCTs20	4	2017-02-03	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	3:30 PM	23.3	-0.7	5	51	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0329	MCTs20	6	2017-02-05	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	9:30 AM	23.3	-0.7	1	89	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0330	MCTs20	7	2017-02-06	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	NA	23.3	-0.7	5	87	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0331	MCTs20	8	2017-02-07	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	5	1	1:10 PM	23.3	-0.7	1	65	Sample	Transition	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0334	MCTs20	11	2017-02-10	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	9:30 AM	23.3	-0.7	4	27	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0335	MCTs20	12	2017-02-11	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	3:00 PM	23.3	-0.7	1	14	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0336	MCTs20	13	2017-02-12	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	11:10 AM	23.3	-0.7	3	25	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0337	MCTs20	14	2017-02-13	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	9:30 AM	23.3	-0.7	3	44	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0338	MCTs20	15	2017-02-14	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	10:00 AM	23.3	-0.7	1	1	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0340	MCTs20	17	2017-02-16	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	12:30 PM	23.3	-0.7	2	57	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
