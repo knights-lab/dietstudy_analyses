@@ -1,0 +1,13 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Sample.Week.Day	DietDayNo	Diet.Record.Date	Diet.Week.Day	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Run1.Plate	Run2.Rerun	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0325	MCTs20	2	2017-02-01	Wednesday	1	1/31/17	Tuesday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	3:10 PM	23.3	-0.7	5	NA	33	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0326	MCTs20	3	2017-02-02	Thursday	2	2/1/17	Wednesday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	11:10 AM	23.3	-0.7	1	NA	69	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0327	MCTs20	4	2017-02-03	Friday	3	2/2/17	Thursday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	3:30 PM	23.3	-0.7	5	NA	51	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0329	MCTs20	6	2017-02-05	Sunday	5	2/4/17	Saturday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	9:30 AM	23.3	-0.7	1	NA	89	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0330	MCTs20	7	2017-02-06	Monday	6	2/5/17	Sunday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	0	1	NA	23.3	-0.7	5	NA	87	Sample	Pre	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0331	MCTs20	8	2017-02-07	Tuesday	7	2/6/17	Monday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	5	1	1:10 PM	23.3	-0.7	1	NA	65	Sample	Transition	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0334	MCTs20	11	2017-02-10	Friday	10	2/9/17	Thursday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	9:30 AM	23.3	-0.7	4	NA	27	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0335	MCTs20	12	2017-02-11	Saturday	11	2/10/17	Friday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	3:00 PM	23.3	-0.7	1	NA	14	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0336	MCTs20	13	2017-02-12	Sunday	12	2/11/17	Saturday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	11:10 AM	23.3	-0.7	3	NA	25	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0337	MCTs20	14	2017-02-13	Monday	13	2/12/17	Sunday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	9:30 AM	23.3	-0.7	3	NA	44	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0338	MCTs20	15	2017-02-14	Tuesday	14	2/13/17	Monday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	10:00 AM	23.3	-0.7	1	NA	1	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD
+MCT.f.0340	MCTs20	17	2017-02-16	Thursday	16	2/15/17	Wednesday	F	33.5	69.5	172.7	23.3	EVOO	91	Complete	11	1	12:30 PM	23.3	-0.7	2	NA	57	Sample	Post	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD

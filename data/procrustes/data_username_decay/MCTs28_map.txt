@@ -1,0 +1,13 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Sample.Week.Day	DietDayNo	Diet.Record.Date	Diet.Week.Day	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Run1.Plate	Run2.Rerun	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0460	MCTs28	1	2017-01-31	Tuesday	0	1/30/17	Monday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	8:00 AM	18.9	NA	5	NA	9	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0461	MCTs28	2	2017-02-01	Wednesday	1	1/31/17	Tuesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	9:35 PM	18.9	NA	6	NA	21	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0462	MCTs28	3	2017-02-02	Thursday	2	2/1/17	Wednesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	2:25 PM	18.9	NA	5	NA	12	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0463	MCTs28	4	2017-02-03	Friday	3	2/2/17	Thursday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	8:10 AM	18.9	NA	3	NA	88	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0464	MCTs28	5	2017-02-04	Saturday	4	2/3/17	Friday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	0	1	3:07 PM	18.9	NA	1	NA	83	Sample	Pre	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0467	MCTs28	8	2017-02-07	Tuesday	7	2/6/17	Monday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	5	1	2:55 PM	18.9	NA	2	NA	81	Sample	Transition	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0468	MCTs28	9	2017-02-08	Wednesday	8	2/7/17	Tuesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	2:20 PM	18.9	NA	2	Yes	87	Sample	Transition	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0470	MCTs28	11	2017-02-10	Friday	10	2/9/17	Thursday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	8:10 AM	18.9	NA	6	NA	16	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0472	MCTs28	13	2017-02-12	Sunday	12	2/11/17	Saturday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	9:39 PM	18.9	NA	1	NA	38	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0473	MCTs28	14	2017-02-13	Monday	13	2/12/17	Sunday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	10:17 AM	18.9	NA	5	NA	31	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0475	MCTs28	16	2017-02-15	Wednesday	15	2/14/17	Tuesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	7:40 AM	18.9	NA	2	NA	46	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine
+MCT.f.0476	MCTs28	17	2017-02-16	Thursday	16	2/15/17	Wednesday	F	61	50.1	162.6	18.9	MCT	84.7	No blood draw	10	1	7:40 AM	18.9	NA	1	NA	28	Sample	Post	1.325	Thyroid hormone	VitD;VitB;gulcosamine

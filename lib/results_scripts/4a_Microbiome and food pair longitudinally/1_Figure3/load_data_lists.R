@@ -237,5 +237,55 @@ names(diet.pcoa.5day) <- gsub("_.*", "", temp)
 
 ############################
 
+
+
+
+# load microbiome and diet flies as list for procrustes
+###### Scale up for each person #########
+# read in each microbiome distance matrix and calculate pcoas for each person
+setwd("/Users/abby/Documents/Projects/dietstudy_analyses/data/procrustes/data_username_decay/")
+
+# get the file paths for the euclidean distance matrices for microbiome
+temp <- list.files(pattern = "*_tax.txt", recursive = T)
+temp <- temp[grep("euclidean", temp)]
+
+# drop MCTs05, MCTs06, MCTs28 and MCTs29 (less than 10 days of microbiome or food data points)
+temp <- temp[grep("MCTs05", temp, invert = T)]
+temp <- temp[grep("MCTs06", temp, invert = T)]
+temp <- temp[grep("MCTs28", temp, invert = T)]
+temp <- temp[grep("MCTs29", temp, invert = T)]
+
+# create a list containing each of these
+mb.dist.decay <- lapply(temp, function(x) read.delim(x, row.names = 1))
+
+# make the PCOA from the distances
+mb.pcoa.decay <- lapply(mb.dist.1day, function(x) as.data.frame(pcoa(x)$vectors))
+
+names(mb.pcoa.decay) <- gsub("_.*", "", temp)
+
+##############################
+
+# read in each dietary distance matrix and calculate pcoas for each person
+# get the file paths for the unweighted distance matrices for diet
+temp <- list.files(pattern = "*_food.txt", recursive = T)
+temp <- temp[grep("unweighted", temp)]
+
+# drop MCTs05, MCTs06, MCTs28, and MCTs29 (less than 10 days of microbiome or food data points)
+temp <- temp[grep("MCTs05", temp, invert = T)]
+temp <- temp[grep("MCTs06", temp, invert = T)]
+temp <- temp[grep("MCTs28", temp, invert = T)]
+temp <- temp[grep("MCTs29", temp, invert = T)]
+
+# create a list containing each of these
+diet.dist.decay <- lapply(temp, function(x) read.delim(x, row.names = 1))
+
+# make the PCOA from the distances
+diet.pcoa.decay <- lapply(diet.dist.decay, function(x) as.data.frame(pcoa(x)$vectors))
+
+names(diet.pcoa.decay) <- gsub("_.*", "", temp)
+
+############################
+
+
 # clean up and rm the dist matrices, don't need them for downstream analysis
 rm(list=ls(pattern = "dist"))

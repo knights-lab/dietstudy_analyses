@@ -283,8 +283,8 @@ no_cols <- length(unique(plot3$Food))
 ##TODO fix the color of meats/milks
 colors_food <- rev(c("#fe9700",
 "#c91acb",
-"#00a2f2",
 "#d43f1f",
+"#00a2f2",
 "#5dd047",
 "#ffff59",
 "#662a00",

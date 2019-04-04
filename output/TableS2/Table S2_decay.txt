@@ -1,0 +1,25 @@
+Food	Species	Correlation	Pvalue	fdr_pval	ID
+Cakes_cookies_pies_pastries_bars	Roseburia inulinivorans	0.71	0.001	0.13	18
+Cakes_cookies_pies_pastries_bars	Roseburia inulinivorans	0.74	0.006	0.16	35
+Cakes_cookies_pies_pastries_bars	Roseburia inulinivorans	0.73	0.001	0.12	07
+Cereals_not_cooked_or_NS_as_to_cooked	Bacteroides oleiciplenus	0.79	0.004	0.2	20
+Cereals_not_cooked_or_NS_as_to_cooked	Bacteroides oleiciplenus	-0.82	< 0.001	0.095	35
+Cereals_not_cooked_or_NS_as_to_cooked	Bacteroides oleiciplenus	0.9	< 0.001	0.17	03
+Cereals_not_cooked_or_NS_as_to_cooked	Bifidobacterium pseudocatenulatum	0.79	< 0.001	0.2	36
+Cereals_not_cooked_or_NS_as_to_cooked	Bifidobacterium pseudocatenulatum	0.79	< 0.001	0.2	22
+Cereals_not_cooked_or_NS_as_to_cooked	Bifidobacterium pseudocatenulatum	0.87	< 0.001	0.0085	18
+Cereals_not_cooked_or_NS_as_to_cooked	Enterococcus faecium	0.7	0.002	0.14	18
+Cereals_not_cooked_or_NS_as_to_cooked	Enterococcus faecium	0.77	< 0.001	0.12	33
+Cereals_not_cooked_or_NS_as_to_cooked	Enterococcus faecium	0.76	0.004	0.15	35
+Darkgreen_vegetables	Bacteroides sp. 1_1_6	0.81	0.002	0.18	20
+Darkgreen_vegetables	Bacteroides sp. 1_1_6	-0.73	< 0.001	0.11	18
+Darkgreen_vegetables	Bacteroides sp. 1_1_6	0.72	0.009	0.18	35
+Pastas_cooked_cereals_rice	Alistipes putredinis	-0.68	0.007	0.19	32
+Pastas_cooked_cereals_rice	Alistipes putredinis	0.75	< 0.001	0.1	18
+Pastas_cooked_cereals_rice	Alistipes putredinis	-0.69	0.004	0.19	07
+Pork	Bacteroides oleiciplenus	-0.73	< 0.001	0.13	23
+Pork	Bacteroides oleiciplenus	-0.77	0.001	0.2	22
+Pork	Bacteroides oleiciplenus	0.87	< 0.001	0.022	33
+Water_noncarbonated	Ruminococcus bicirculans	-0.74	0.001	0.18	33
+Water_noncarbonated	Ruminococcus bicirculans	-0.81	< 0.001	0.13	24
+Water_noncarbonated	Ruminococcus bicirculans	0.73	0.004	0.16	32

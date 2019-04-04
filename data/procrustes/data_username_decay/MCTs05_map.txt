@@ -1,0 +1,7 @@
+#SampleID	UserName	StudyDayNo	StudyDate	Sample.Week.Day	DietDayNo	Diet.Record.Date	Diet.Week.Day	Gender	Age	Weight	Height	BMI	Supplement	Waist.Circumference	Study.Status	oilGrams.assigned	fecal.status	fecal.time	BMI.1	Weight.Change	Run1.Plate	Run2.Rerun	SampleOrder	SampleType	Timing	Activity.Factor	Medications	Dietary.Supp
+MCT.f.0069	MCTs05	1	2017-01-31	Tuesday	0	1/30/17	Monday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	7:45 PM	19.9	-0.6	4	NA	4	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0070	MCTs05	2	2017-02-01	Wednesday	1	1/31/17	Tuesday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	8:15 AM	19.9	-0.6	3	NA	63	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0071	MCTs05	3	2017-02-02	Thursday	2	2/1/17	Wednesday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	2:20 PM	19.9	-0.6	1	NA	21	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0072	MCTs05	4	2017-02-03	Friday	3	2/2/17	Thursday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	1:30 PM	19.9	-0.6	5	NA	25	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0074	MCTs05	6	2017-02-05	Sunday	5	2/4/17	Saturday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	10:30 AM	19.9	-0.6	3	NA	76	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None
+MCT.f.0075	MCTs05	7	2017-02-06	Monday	6	2/5/17	Sunday	F	23.1	57.2	169.5	19.9	EVOO	85.5	Complete	0	1	8:15 AM	19.9	-0.6	3	NA	58	Sample	Pre	1.375	Hormonal IUD;ibuprofen	None

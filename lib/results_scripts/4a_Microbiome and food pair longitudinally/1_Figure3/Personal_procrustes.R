@@ -184,26 +184,6 @@ for (n in names(mb.pcoa.3day)) {
 
 
 
-# sort for plotting A #
-new_order <- names(sort(unlist(pval.list.3[pval.list.3 < 0.05])))
-
-order_indiv_pro3 <- indiv_pro3[new_order]
-
-new_order
-
-
-
-
-
-### PLOT 3A  fig.height=2.7, fig.width=7 ####
-
-grid.arrange(grobs = order_indiv_pro3, nrow=3)
-
-fig3A <- arrangeGrob(grobs = order_indiv_pro3, nrow=3)
-
-ggsave("../../../output/Figure3/Figure3A.pdf", fig3A, width = 7, height = 2.7)
-
-
 #### keep running the procrustes with more days of diet ###
 indiv_pro4 <- as.list(NULL)
 pval.list.4 <- as.list(NULL)
@@ -318,14 +298,90 @@ for (n in names(mb.pcoa.5day)) {
 
 
 
+
+
+indiv_prodecay <- as.list(NULL)
+pval.list.decay <- as.list(NULL)
+
+for (n in names(mb.pcoa.decay)) {
+  
+  pcoa_f <- diet.pcoa.decay[[n]]
+  pcoa_t <- mb.pcoa.decay[[n]]
+  
+  # procrustes
+  pro <- procrustes(pcoa_f, pcoa_t)
+  pro_test <- protest(pcoa_f, pcoa_t, perm = 9999) # may want to skip this for plotting?
+  
+  eigen <- sqrt(pro$svd$d)
+  percent_var <- signif(eigen/sum(eigen), 4)*100
+  
+  beta_pro <- data.frame(pro$X)
+  trans_pro <- data.frame(pro$Yrot)
+  beta_pro$UserName <- rownames(beta_pro)
+  beta_pro$type <- "Food Distance (Unweighted Unifrac)"
+  trans_pro$UserName <- rownames(trans_pro)
+  trans_pro$type <- "Microbiome Distance (Aitchison's)"
+  
+  colnames(trans_pro) <- colnames(beta_pro)
+  
+  pval <- pro_test$signif
+  
+  plot <- rbind(beta_pro, trans_pro)
+  
+  indiv_prodecay[[n]] <- ggplot(plot) +
+    geom_point(size = 3, alpha=0.75, aes(x = Axis.1, y = Axis.2, color = type)) +
+    scale_color_manual(values = c("#5a2071", "#5f86b7")) +
+    theme_bw() +
+    geom_line(aes(x= Axis.1, y=Axis.2, group=UserName), col = "darkgrey", alpha = 0.6) +
+    theme(panel.background = element_blank(),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          plot.margin = margin(.01, .01, .01, .01, "in"),
+          plot.title = element_text(size = 9, hjust = 0.5),
+          legend.position = 'none',
+          axis.text = element_blank(),
+          axis.title = element_blank(),
+          axis.ticks = element_blank(),
+          aspect.ratio = 1) +
+    # ggtitle(gsub("MCTs", "", n)) +
+    NULL
+  
+  pval.list.decay[[n]] <- pval
+  
+}
+
+
+# sort for plotting A #
+new_order <- names(sort(unlist(pval.list.decay[pval.list.decay < 0.05])))
+
+order_indiv_prodecay <- indiv_prodecay[new_order]
+
+new_order
+
+names(order_indiv_prodecay)
+
+
+
+### PLOT 3A  fig.height=2.7, fig.width=7 ####
+
+grid.arrange(grobs = order_indiv_prodecay, nrow=3)
+
+fig3A <- arrangeGrob(grobs = order_indiv_prodecay, nrow=3)
+
+ggsave("../../../output/Figure3/Figure3A.pdf", fig3A, width = 7, height = 2.7)
+
+
+
+
 ### look at pvalues ###
 plot <- as.data.frame(unlist(pval.list.1))
 plot$pval.list.2 <- unlist(pval.list.2)
 plot$pval.list.3 <- unlist(pval.list.3)
 plot$pval.list.4 <- unlist(pval.list.4)
 plot$pval.list.5 <- unlist(pval.list.5)
+plot$pval.list.decay <- unlist(pval.list.decay)
 
-colnames(plot) <- c("day1Monte Carlo p-value", "day2Monte Carlo p-value", "day3Monte Carlo p-value", "day4Monte Carlo p-value", "day5Monte Carlo p-value")
+colnames(plot) <- c("day1Monte Carlo p-value", "day2Monte Carlo p-value", "day3Monte Carlo p-value", "day4Monte Carlo p-value", "day5Monte Carlo p-value", "decayMonte Carlo p-value")
 plot$UserName <- rownames(plot)
 
 
@@ -391,9 +447,9 @@ ggplot(plot2_melt, aes(x = UserName, y = log(value), group = variable)) +
 ### Make boxplot for Figure 3B ###
 
 
-colMeans(plot[1:5])
-apply(plot[1:5], 2, function(x) median(x) )
-table(apply(plot[1:5], 1, function(x) which.min(x)))
+colMeans(plot[1:6])
+apply(plot[1:6], 2, function(x) median(x) )
+table(apply(plot[1:6], 1, function(x) which.min(x)))
 
 plot_melt <- melt(plot)
 plot_melt <- na.omit(plot_melt)
@@ -404,7 +460,7 @@ names(UserNameColors)<- gsub("MCTs", "", names(UserNameColors))
 
 ggplot(plot_melt, aes(x = variable, y = -log(value))) +
   geom_boxplot(outlier.shape = NA) + 
-  scale_x_discrete(labels = c("1", "2", "3", "4", "5")) +
+  scale_x_discrete(labels = c("1", "2", "3", "4", "5", "All with\ndecaying\ninfluence")) +
   geom_jitter(shape = 21, size = 3, fill = "light grey", alpha = 0.9) +
   geom_hline(yintercept = -log(0.05), linetype = 2, color = "darkgrey") +
   theme_classic() +
@@ -414,7 +470,7 @@ ggplot(plot_melt, aes(x = variable, y = -log(value))) +
 plot_melt$UserName <- gsub("MCTs", "", plot_melt$UserName)
 
 myplot <- ggplot(plot_melt, aes(x = variable, y = -log(value))) +
-  scale_x_discrete(labels = c("1", "2", "3", "4", "5")) +
+  scale_x_discrete(labels = c("1", "2", "3", "4", "5", "All with\ndecaying\ninfluence")) +
   geom_line(aes(group = UserName), color = "grey", alpha = 0.5) +
   geom_jitter(aes(color = UserName), size = 3, alpha = 0.7, width = 0.1) +
   scale_color_manual(values = UserNameColors) +
@@ -455,13 +511,13 @@ require(gridExtra)
 
 venn_plot <- plot
 
-venn_plot[1:5] <- apply(venn_plot[1:5], 2, function(x) ifelse(x < 0.05, as.character(venn_plot$UserName), NA))
+venn_plot[1:6] <- apply(venn_plot[1:6], 2, function(x) ifelse(x < 0.05, as.character(venn_plot$UserName), NA))
 
 
-xlist <- apply(venn_plot[1:4], 2, function(x) x[!is.na(x)])
+xlist <- apply(venn_plot[c(2,3,4,6)], 2, function(x) x[!is.na(x)])
 
 venn.plot <- venn.diagram(xlist , filename = NULL, fill=c("red", "orange", "#5a2071", "pink"), alpha=c(0.4,0.4,0.4,0.4), 
-                          cex = 2, cat.fontface=4, category.names=c("1 day", "2 days", "3 days", "4 days"))
+                          cex = 2, cat.fontface=4, category.names=c("2 days", "3 days", "4 days", "All days"))
  
 # To plot the venn diagram we will use the grid.draw() function to plot the venn diagram
 grid.draw(venn.plot)
