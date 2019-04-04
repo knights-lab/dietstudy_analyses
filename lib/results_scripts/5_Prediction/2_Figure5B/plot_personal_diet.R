@@ -34,6 +34,7 @@ colnames(scramble.diet) <- mynames
 # format for ggplot to make plots
 require(ggplot2)
 require(reshape2)
+require(tibble)
 
 own.diet.melt <- rownames_to_column(own.diet, var = "Taxa")
 own.diet.melt <- melt(own.diet.melt, id.vars = "Taxa", variable.name = "UserName", value.name = "own.diet.corr")

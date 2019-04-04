@@ -1,4 +1,4 @@
-# make some interest plots to show the unique individualized relationships
+# make some plots to show the unique individualized relationships
 # Highlight these two relationships, for starters
 
 
@@ -48,7 +48,7 @@ myplot <- ggplot(data = plot, aes(x = bacteroides, y = darkveg)) +
   geom_point(aes(color = Subject), size = 2) +
   scale_color_manual(values = UserNameColors) +
   geom_smooth(method = "lm", se = F, color = "black", size = 0.5) +
-facet_grid(.~Subject, scales = "free") +
+  facet_wrap(.~Subject, scales = "free") +
   theme_classic() +
   xlab("Bacteroides sp. 1 1 6\n(CLR adjusted abundance)") +
   ylab("Vegetables: Darkgreen vegetables\n(dry weight, g)") +
@@ -87,7 +87,7 @@ myplot <- ggplot(data = plot, aes(x = `Bacteroides.oleiciplenus`, y = Pork)) +
   geom_point(aes(color = Subject), size = 2) +
   scale_color_manual(values = UserNameColors) +
   geom_smooth(method = "lm", se = F, color = "black", size = 0.5) +
-  facet_grid(.~Subject, scales = "free") +
+  facet_wrap(.~Subject, scales = "free") +
   theme_classic() +
   xlab("Bacteroides oleiciplenus\n(CLR adjusted abundance)") +
   ylab("Meats: Pork\n(dry weight, g)") +
@@ -127,7 +127,7 @@ myplot <- ggplot(data = plot, aes(x = `Roseburia.inulinicorans`, y = Cakes)) +
   geom_point(aes(color = Subject), size = 2) +
   scale_color_manual(values = UserNameColors) +
   geom_smooth(method = "lm", se = F, color = "black", size = 0.5) +
-  facet_grid(.~Subject, scales = "free") +
+  facet_wrap(.~Subject, scales = "free") +
   theme_classic() +
   xlab("Roseburia inulinivorans\n(CLR adjusted abundance)") +
   ylab("Grains: Cakes, cookies, bars, etc.\n(dry weight, g)") +

@@ -162,11 +162,11 @@ export$ID <- gsub("MCTs", "", export$ID)
 
 
 
-# write.table(export, file = "../../../output/TableS1/Table S1_decay.txt",
-#             sep = "\t",
-#             col.names = T,
-#             row.names = F,
-#             quote = F)
+write.table(export, file = "../../../output/TableS2/Table S2_decay.txt",
+            sep = "\t",
+            col.names = T,
+            row.names = F,
+            quote = F)
 
 
 # how many significant values in each person?
