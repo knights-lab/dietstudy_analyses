@@ -57,8 +57,6 @@ nutr_n <- sweep(nutr, 1, rowSums(nutr), "/")
 # make nutrition distance matrix (euclidean)
 nutr_dist <- dist(t(nutr_n))
 
-
-
 # identify soylent samples
 soylent <- map_sample[map_sample$UserName %in% c("MCTs11", "MCTs12"),]
 soylent <- as.character(soylent$X.SampleID)
@@ -67,7 +65,7 @@ soylent <- as.character(soylent$X.SampleID)
 
 source(file = "lib/colors/UserNameColors.R")
 
-tax_all <- read.delim("data/microbiome/processed_tax/taxonomy_clr_s.txt", row = 1)
+tax_all <- read.delim("data/microbiome/processed_sample/taxonomy_clr_s.txt", row = 1)
 
 # drop soylent 
 tax_all_ns <- tax_all[, !colnames(tax_all) %in% soylent]
@@ -94,6 +92,7 @@ mytest <- adonis(tax_all_dist~tax_all_pcoa$UserName, permutations = 999)
 plot_p <- mytest$aov.tab$`Pr(>F)`[1]
 
 mytest
+
 
 #### MAKE 2C ######
 
@@ -188,7 +187,7 @@ pval <- signif(pro_test$signif, 1)
 plot <- rbind(beta_pro, trans_pro)
 
 food_micro <- ggplot(plot) +
-  geom_point(size = 3, alpha=0.75, aes(x = Axis.1, y = Axis.2, color = type)) +
+  geom_point(size = 2, alpha=0.75, aes(x = Axis.1, y = Axis.2, color = type)) +
   scale_color_manual(values = c("#5a2071", "#5f86b7")) +
     theme_classic() +
     geom_line(aes(x= Axis.1, y=Axis.2, group=UserName), col = "darkgrey", alpha = 0.6) +
@@ -212,6 +211,18 @@ food_micro_leg <- get_legend(food_micro)
 
 food_micro + theme(legend.position = "none")
 
+
+## check for gender diff in average microbiome
+
+map_username_sub <- map_username[map_username$UserName %in% rownames(pcoa_t),]
+gentest <- adonis(tax_dist~map_username_sub$Gender, permutations = 999)
+gen_p <- gentest$aov.tab$`Pr(>F)`[1]
+
+gentest
+
+## same for foods
+foodtest <- adonis(food_dist~map_username_sub$Gender, permutations = 999)
+foodtest
 
 #### MAKE 2F #####
 # make pcoas 
@@ -239,7 +250,7 @@ pval <- signif(pro_test$signif, 1)
 plot <- rbind(beta_pro, trans_pro)
 
 nutr_micro <- ggplot(plot) +
-  geom_point(size = 3, alpha=0.75, aes(x = Axis.1, y = Axis.2, color = type)) +
+  geom_point(size = 2, alpha=0.75, aes(x = Axis.1, y = Axis.2, color = type)) +
   scale_color_manual(values = c("#5f86b7", "#2bbaa7")) +
     theme_classic() +
     geom_line(aes(x= Axis.1, y=Axis.2, group=UserName), col = "darkgrey", alpha = 0.6) +
@@ -308,7 +319,7 @@ pval <- signif(pro_test$signif)
 plot <- rbind(beta_pro, trans_pro)
 
 grain_micro <- ggplot(plot) +
-  geom_point(size = 3, alpha=0.75, aes(x = Axis.1, y = Axis.2, color = type)) +
+  geom_point(size = 2, alpha=0.75, aes(x = Axis.1, y = Axis.2, color = type)) +
   scale_color_manual(values = c("#fe9700", "#5f86b7")) +
     theme_classic() +
     geom_line(aes(x= Axis.1, y=Axis.2, group=UserName), col = "darkgrey", alpha = 0.6) +
@@ -364,7 +375,7 @@ pval <- signif(pro_test$signif, 3)
 plot <- rbind(beta_pro, trans_pro)
 
 fruit_micro <- ggplot(plot) +
-    geom_point(size = 3, alpha=0.75, aes(x = Axis.1, y = Axis.2, color = type)) +
+    geom_point(size = 2, alpha=0.75, aes(x = Axis.1, y = Axis.2, color = type)) +
   scale_color_manual(values = c("#CBD13E", "#5f86b7")) +
     theme_classic() +
     geom_line(aes(x= Axis.1, y=Axis.2, group=UserName), col = "darkgrey", alpha = 0.6) +

@@ -276,7 +276,7 @@ species <- keepspecies
       # now predict using the model for residuals trained on normal diet
       # but pass in scrambled diet features 
       pred.scramble.resid <- predict(scrambe.modelA, dtA.feats)
-      
+      #pred.scramble.resid <- predict(scrambe.modelA)
       # determine the correlation
       scramble.diet <- cor(pred.tomorrow - pred.scramble.resid, actual.tomorrow)
       

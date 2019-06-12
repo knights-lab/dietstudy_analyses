@@ -327,12 +327,13 @@ for (n in names(mb.pcoa.decay)) {
   pval <- pro_test$signif
   
   plot <- rbind(beta_pro, trans_pro)
+  plot$StudyDay <- rep(1:dim(beta_pro)[1],2)
   
   indiv_prodecay[[n]] <- ggplot(plot) +
-    geom_point(size = 3, alpha=0.75, aes(x = Axis.1, y = Axis.2, color = type)) +
+    geom_point(size = 2, alpha=0.75, aes(y = Axis.1, x = StudyDay, color = type)) +
     scale_color_manual(values = c("#5a2071", "#5f86b7")) +
     theme_bw() +
-    geom_line(aes(x= Axis.1, y=Axis.2, group=UserName), col = "darkgrey", alpha = 0.6) +
+    geom_line(aes(y= Axis.1, x=StudyDay, group=UserName), col = "darkgrey", alpha = 0.6) +
     theme(panel.background = element_blank(),
           panel.grid.major = element_blank(),
           panel.grid.minor = element_blank(),
@@ -398,18 +399,18 @@ plot_melt <- melt(plot_new)
 plot_melt <- na.omit(plot_melt)
 
 # Make scatterplot of best v. 1 day, ordered by best
-ggplot(plot_melt, aes(x = UserName, y = log(value), group = variable)) + 
+ggplot(plot_melt, aes(x = UserName, y = log10(value), group = variable)) + 
   geom_point(aes(color = variable), size = 3) +
   geom_point(shape = 1, size =3, color = "black") +
   scale_color_manual(values = c("#64baaa", "#5f86b7"), labels=c("1 day","2 day")) +
-  geom_hline(yintercept = log(0.05), linetype = 2, color = "darkgrey") +
+  geom_hline(yintercept = log10(0.05), linetype = 2, color = "darkgrey") +
   theme_bw() +
   theme(axis.text.x = element_text(size = 4),
         legend.position = c(0.88,0.13),
         legend.title = element_blank())+
   xlab(label = "Subject") +
   ylab(label = "log(Monte Carlo p-value)") +
-  annotate("text", label = "p = 0.05", size = 3, x = 3, y = log(0.04)) +
+  annotate("text", label = "p = 0.05", size = 3, x = 3, y = log10(0.04)) +
   scale_x_discrete(labels = gsub("MCTs", "", plot_melt$UserName))
 
 
@@ -426,19 +427,19 @@ plot2_melt <- melt(plot2_new)
 plot2_melt <- na.omit(plot2_melt)
 
 # Make scatterplot of best v. 1 day, ordered by best
-ggplot(plot2_melt, aes(x = UserName, y = log(value), group = variable)) + 
+ggplot(plot2_melt, aes(x = UserName, y = log10(value), group = variable)) + 
   geom_point(aes(color = variable), size = 3) +
   geom_point(shape = 1, size =3, color = "black") +
   scale_color_manual(values = c("#64baaa", "#7b3294"), labels=c("1 day","3 day")) +
   #scale_color_manual(values = brewer.pal(5, "Dark2")) +
-  geom_hline(yintercept = log(0.05), linetype = 2, color = "darkgrey") +
+  geom_hline(yintercept = log10(0.05), linetype = 2, color = "darkgrey") +
   theme_bw() +
   theme(axis.text.x = element_text(size = 4),
         legend.position = c(0.88,0.13),
         legend.title = element_blank())+
   xlab(label = "Subject") +
   ylab(label = "log(Monte Carlo p-value)") +
-  annotate("text", label = "p = 0.05", size = 3, x = 3, y = log(0.04)) +
+  annotate("text", label = "p = 0.05", size = 3, x = 3, y = log10(0.04)) +
   scale_x_discrete(labels = gsub("MCTs", "", plot2_melt$UserName))
 
 
@@ -458,23 +459,23 @@ source("../../../lib/colors/UserNameColors.R")
 
 names(UserNameColors)<- gsub("MCTs", "", names(UserNameColors))
 
-ggplot(plot_melt, aes(x = variable, y = -log(value))) +
+ggplot(plot_melt, aes(x = variable, y = -log10(value))) +
   geom_boxplot(outlier.shape = NA) + 
   scale_x_discrete(labels = c("1", "2", "3", "4", "5", "All with\ndecaying\ninfluence")) +
   geom_jitter(shape = 21, size = 3, fill = "light grey", alpha = 0.9) +
-  geom_hline(yintercept = -log(0.05), linetype = 2, color = "darkgrey") +
+  geom_hline(yintercept = -log10(0.05), linetype = 2, color = "darkgrey") +
   theme_classic() +
   xlab(label = "Number of days combined") +
   ylab(label = "Monte-carlo p-value")
 
 plot_melt$UserName <- gsub("MCTs", "", plot_melt$UserName)
 
-myplot <- ggplot(plot_melt, aes(x = variable, y = -log(value))) +
+myplot <- ggplot(plot_melt, aes(x = variable, y = -log10(value))) +
   scale_x_discrete(labels = c("1", "2", "3", "4", "5", "All with\ndecaying\ninfluence")) +
   geom_line(aes(group = UserName), color = "grey", alpha = 0.5) +
   geom_jitter(aes(color = UserName), size = 3, alpha = 0.7, width = 0.1) +
   scale_color_manual(values = UserNameColors) +
-  geom_hline(yintercept = -log(0.05), linetype = 2, color = "darkgrey") +
+  geom_hline(yintercept = -log10(0.05), linetype = 2, color = "darkgrey") +
   geom_boxplot(outlier.shape = NA, fill = NA) + 
   theme_classic() +
   theme(legend.title = element_blank(),

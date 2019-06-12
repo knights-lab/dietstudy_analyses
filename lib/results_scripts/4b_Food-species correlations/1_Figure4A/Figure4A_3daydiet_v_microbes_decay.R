@@ -8,7 +8,7 @@ load(file = "../../../data/food_v_microbes_per_person_decay.RData")
 
 # write out a file showing all the significant correlations from each person
 #sigs <- lapply(datlist, function(x) subset(x, fdr_pval <= 0.9))
-sigs <- lapply(datlist, function(x) subset(x, fdr_pval <= 0.2))
+sigs <- lapply(datlist, function(x) subset(x, fdr_pval <= 0.1))
 allsigs <- do.call("rbind", sigs)
 
 # make a column with L1
@@ -88,7 +88,7 @@ length(table(allsigs$ID))
 names(UserNameColors) <- gsub("MCTs", "", names(UserNameColors))
 
 require(ggplot2)
-myplot <- ggplot(data = allsigs, aes(x = Correlation, y = Family, size = -log(fdr_pval), color = ID)) +
+myplot <- ggplot(data = allsigs, aes(x = Correlation, y = Family, size = -log10(fdr_pval), color = ID)) +
   geom_point(alpha = 0.8) +
   #geom_point(alpha = 0.8, color = "darkgrey", pch = 21) +
   facet_grid(FoodL1~bin, scales = "free", space = "free_y")+
@@ -145,7 +145,7 @@ for (i in strip_both) {
 }
 #grid.draw(g)
 
-#ggsave("../../../output/Figure4/Figure4A_3daydietpersonalizedcor_decay.pdf",g, device = "pdf", width = 5, height = 9.5, dpi = 500)
+ggsave("../../../output/Figure4/Figure4A_3daydietpersonalizedcor_decay.pdf",g, device = "pdf", width = 5, height = 9.5, dpi = 500)
 
 
 
@@ -162,11 +162,11 @@ export$ID <- gsub("MCTs", "", export$ID)
 
 
 
-write.table(export, file = "../../../output/TableS2/Table S2_decay.txt",
-            sep = "\t",
-            col.names = T,
-            row.names = F,
-            quote = F)
+# write.table(export, file = "../../../output/TableS2/Table S2_decay.txt",
+#             sep = "\t",
+#             col.names = T,
+#             row.names = F,
+#             quote = F)
 
 
 # how many significant values in each person?

@@ -44,14 +44,14 @@ plot$ID <- substr(rownames(plot), 8, length(rownames(plot)))
 
 require(ggplot2)
 
-myplot <- ggplot(data = plot, aes(x = bacteroides, y = darkveg)) + 
+myplot <- ggplot(data = plot, aes(y = bacteroides, x = darkveg)) + 
   geom_point(aes(color = Subject), size = 2) +
   scale_color_manual(values = UserNameColors) +
   geom_smooth(method = "lm", se = F, color = "black", size = 0.5) +
   facet_wrap(.~Subject, scales = "free") +
   theme_classic() +
-  xlab("Bacteroides sp. 1 1 6\n(CLR adjusted abundance)") +
-  ylab("Vegetables: Darkgreen vegetables\n(dry weight, g)") +
+  ylab("Bacteroides sp. 1 1 6\n(CLR adjusted abundance)") +
+  xlab("Vegetables: Darkgreen vegetables\n(dry weight, g)") +
   theme(axis.title = element_text(size = 6),
         axis.text = element_text(size = 3), 
         legend.position = "none",
@@ -83,14 +83,14 @@ plot$ID <- substr(rownames(plot), 8, length(rownames(plot)))
 
 require(ggplot2)
 
-myplot <- ggplot(data = plot, aes(x = `Bacteroides.oleiciplenus`, y = Pork)) + 
+myplot <- ggplot(data = plot, aes(y = `Bacteroides.oleiciplenus`, x = Pork)) + 
   geom_point(aes(color = Subject), size = 2) +
   scale_color_manual(values = UserNameColors) +
   geom_smooth(method = "lm", se = F, color = "black", size = 0.5) +
   facet_wrap(.~Subject, scales = "free") +
   theme_classic() +
-  xlab("Bacteroides oleiciplenus\n(CLR adjusted abundance)") +
-  ylab("Meats: Pork\n(dry weight, g)") +
+  ylab("Bacteroides oleiciplenus\n(CLR adjusted abundance)") +
+  xlab("Meats: Pork\n(dry weight, g)") +
   theme(axis.title = element_text(size = 6),
         axis.text = element_text(size = 3), 
         legend.position = "none",
@@ -123,14 +123,14 @@ plot$ID <- substr(rownames(plot), 8, length(rownames(plot)))
 
 require(ggplot2)
 
-myplot <- ggplot(data = plot, aes(x = `Roseburia.inulinicorans`, y = Cakes)) + 
+myplot <- ggplot(data = plot, aes(y = `Roseburia.inulinicorans`, x = Cakes)) + 
   geom_point(aes(color = Subject), size = 2) +
   scale_color_manual(values = UserNameColors) +
   geom_smooth(method = "lm", se = F, color = "black", size = 0.5) +
   facet_wrap(.~Subject, scales = "free") +
   theme_classic() +
-  xlab("Roseburia inulinivorans\n(CLR adjusted abundance)") +
-  ylab("Grains: Cakes, cookies, bars, etc.\n(dry weight, g)") +
+  ylab("Roseburia inulinivorans\n(CLR adjusted abundance)") +
+  xlab("Grains: Cakes, cookies, bars, etc.\n(dry weight, g)") +
   theme(axis.title = element_text(size = 6),
         axis.text = element_text(size = 3), 
         legend.position = "none",
